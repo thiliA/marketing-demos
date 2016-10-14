@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><serviceGroup name="HelloWorld" hashValue="259ee41d13fc97e44a0008247f7ec7b0" successfullyAdded="true">
+    <service name="HelloService" serviceDocumentation="HelloService" exposedAllTransports="true" serviceDeployedTime="1476353133273" successfullyAdded="true">
+        <operation name="greet">
+            <module name="addressing" version="4.2.0" type="engagedModules"/>
+        </operation>
+        <bindings>
+            <binding name="HelloServiceSoap12Binding">
+                <operation name="greet"/>
+            </binding>
+            <binding name="HelloServiceSoap11Binding">
+                <operation name="greet"/>
+            </binding>
+            <binding name="HelloServiceHttpBinding">
+                <operation name="greet"/>
+            </binding>
+        </bindings>
+        <policies/>
+        <module name="addressing" version="4.2.0" type="engagedModules"/>
+        <parameter locked="true" name="ServiceClass">org.wso2.appserver.sample.helloworld.HelloService</parameter>
+    </service>
+</serviceGroup>

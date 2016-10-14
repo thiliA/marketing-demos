@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eventBuilder name="InitialLoadEventBuilder" statistics="disable"
+    trace="disable" xmlns="http://wso2.org/carbon/eventbuilder">
+    <from eventAdaptorName="InitialLoadInputEventAdaptor" eventAdaptorType="websocket-local">
+        <property name="topic">initialloadinputwebsocket</property>
+    </from>
+    <mapping customMapping="enable" type="json">
+        <property>
+            <from jsonPath="condition"/>
+            <to name="condition" type="int"/>
+        </property>
+    </mapping>
+    <to streamName="initialLoadEventStream" version="1.0.0"/>
+</eventBuilder>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<executionPlan name="TrafficlevelCategorizingExecutionPlan"
+  statistics="disable" trace="disable" xmlns="http://wso2.org/carbon/eventprocessor">
+  <description/>
+  <siddhiConfiguration>
+    <property name="siddhi.persistence.snapshot.time.interval.minutes">0</property>
+    <property name="siddhi.enable.distributed.processing">false</property>
+  </siddhiConfiguration>
+  <importedStreams>
+    <stream as="locationsStream" name="locationsStream" version="1.0.0"/>
+  </importedStreams>
+  <queryExpressions><![CDATA[//categorise avoid, worst, closed as Very High
+from locationsStream[isMatch("^[a][a-z]+",trafficLevel) or isMatch("^[w][a-z]+",trafficLevel) or isMatch("^[c][a-z]*s+][a-z]*",trafficLevel)]
+select time,location1,location2,location3,location4, "Very high" as level
+insert into feed;
+
+//categorise  heavy, high, huge as High
+from locationsStream[isMatch("^[h][a-z]+",trafficLevel)]
+select time,location1,location2,location3,location4, "High" as level
+insert into feed;
+
+//categorise slow , moving, low, small as Low
+from locationsStream[isMatch("^[s][a-z]+",trafficLevel) or isMatch("^[m][a-z]+",trafficLevel) or isMatch("^[l][a-z]+",trafficLevel)]
+select time,location1,location2,location3,location4, "Low" as level
+insert into feed;
+
+// categorise no , wasn't , clear as No
+from locationsStream[isMatch("^[n][a-z]+",trafficLevel) or isMatch("^[c]l[a-z]*r$",trafficLevel) or isMatch("[a-z]s+n+",trafficLevel)]
+select time,location1,location2,location3,location4, "No" as level
+insert into feed;
+
+from locationsStream[not (isMatch('^[n][a-z]+',trafficLevel) or isMatch('^[c][a-z]*r+',trafficLevel) or isMatch('^[s][a-z]+',trafficLevel) or isMatch('^[m][a-z]+',trafficLevel) or isMatch('^[l][a-z]+',trafficLevel) or isMatch('^[a][a-z]+',trafficLevel) or isMatch('^[w][a-z]+',trafficLevel) or isMatch('^[c][a-z]*s+][a-z]*',trafficLevel) or isMatch('^[h][a-z]+',trafficLevel) or isMatch("^[n][a-z]+",trafficLevel) or isMatch("^[c]l[a-z]*r$",trafficLevel) or isMatch("[a-z]s+n+",trafficLevel) )]
+select time,location1,location2,location3,location4, "Regular" as level
+insert into feed;
+]]></queryExpressions>
+  <exportedStreams>
+    <stream name="feed" valueOf="feed" version="1.0.0"/>
+  </exportedStreams>
+</executionPlan>

@@ -1,0 +1,9 @@
+[2014-11-10 14:53:03,276]  WARN -  Failed Administrator login attempt 'admin[-1234]' at [2014-11-10 14:53:03,274+0530] 
+[2014-11-10 15:04:35,086]  WARN -  Failed Administrator login attempt 'admin[-1234]' at [2014-11-10 15:04:35,084+0530] 
+[2014-11-10 15:04:49,914]  INFO -  'admin@carbon.super [-1234]' logged in at [2014-11-10 15:04:49,913+0530] 
+[2014-11-10 15:25:26,725]  INFO -  'admin@carbon.super [-1234]' logged in at [2014-11-10 15:25:26,724+0530] 
+[2014-11-10 16:57:08,993] ERROR -  Illegal access attempt at [2014-11-10 16:57:08,0993] from IP address null while trying to authenticate access to service EventProcessorAdminService 
+[2014-11-10 17:09:06,098] ERROR -  Illegal access attempt at [2014-11-10 17:09:06,0097] from IP address null while trying to authenticate access to service EventProcessorAdminService 
+[2014-11-10 17:10:54,557]  INFO -  'admin@carbon.super [-1234]' logged in at [2014-11-10 17:10:54,556+0530] 
+[2014-11-10 21:25:45,566]  WARN -  Failed Administrator login attempt 'admin[-1234]' at [2014-11-10 21:25:45,565+0530] 
+[2014-11-10 21:25:58,139]  INFO -  'admin@carbon.super [-1234]' logged in at [2014-11-10 21:25:58,138+0530] 

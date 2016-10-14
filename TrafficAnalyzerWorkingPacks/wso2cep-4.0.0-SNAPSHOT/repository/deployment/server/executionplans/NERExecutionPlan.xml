@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<executionPlan name="NERExecutionPlan" statistics="disable"
+  trace="disable" xmlns="http://wso2.org/carbon/eventprocessor">
+  <description>This execution plan extracts locations and traffic levels from tweet text</description>
+  <siddhiConfiguration>
+    <property name="siddhi.persistence.snapshot.time.interval.minutes">0</property>
+    <property name="siddhi.enable.distributed.processing">false</property>
+  </siddhiConfiguration>
+  <importedStreams>
+    <stream as="classifiedStream" name="classifiedStream" version="1.0.0"/>
+  </importedStreams>
+  <queryExpressions><![CDATA[from classifiedStream#transform.nlp:getEntities(convertedText,4,true,"/home/thilini/Downloads/en-location.bin")
+select * insert into templocationStream;
+
+from classifiedStream#transform.nlp:getEntities(convertedText,1,false,"/home/thilini/Downloads/en-trafficlevel.bin")
+select * insert into temptrafficlevelStream;
+
+from S1=classifiedStream, S2=temptrafficlevelStream, S3=templocationStream
+select S1.createdAt as time, S2.nameElement1 as trafficLevel, S3.nameElement1 as location1, S3.nameElement2 as location2, S3.nameElement3 as location3, S3.nameElement4 as location4
+insert into locationsStream;]]></queryExpressions>
+  <exportedStreams>
+    <stream name="locationsStream" valueOf="locationsStream" version="1.0.0"/>
+  </exportedStreams>
+</executionPlan>

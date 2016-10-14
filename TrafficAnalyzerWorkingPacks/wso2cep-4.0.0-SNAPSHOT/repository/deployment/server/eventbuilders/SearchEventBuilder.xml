@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eventBuilder name="SearchEventBuilder" statistics="disable"
+    trace="disable" xmlns="http://wso2.org/carbon/eventbuilder">
+    <from eventAdaptorName="SearchInputEventAdaptor" eventAdaptorType="websocket-local">
+        <property name="topic">searchinputwebsocket</property>
+    </from>
+    <mapping customMapping="enable" type="json">
+        <property>
+            <from jsonPath="latitude"/>
+            <to name="latitude" type="double"/>
+        </property>
+        <property>
+            <from jsonPath="longitude"/>
+            <to name="longitude" type="double"/>
+        </property>
+    </mapping>
+    <to streamName="SearchEventStream" version="1.0.0"/>
+</eventBuilder>

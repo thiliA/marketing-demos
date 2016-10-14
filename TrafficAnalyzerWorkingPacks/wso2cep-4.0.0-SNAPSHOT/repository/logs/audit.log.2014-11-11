@@ -1,0 +1,22 @@
+[2014-11-11 09:30:04,221]  INFO -  'admin@carbon.super [-1234]' logged in at [2014-11-11 09:30:04,220+0530] 
+[2014-11-11 10:18:37,348]  INFO -  'admin@carbon.super [-1234]' logged in at [2014-11-11 10:18:37,347+0530] 
+[2014-11-11 10:32:26,121]  INFO -  'admin@carbon.super [-1234]' logged in at [2014-11-11 10:32:26,120+0530] 
+[2014-11-11 11:34:46,172] ERROR -  Illegal access attempt at [2014-11-11 11:34:46,0172] from IP address null while trying to authenticate access to service EventProcessorAdminService 
+[2014-11-11 14:12:13,809] ERROR -  Illegal access attempt at [2014-11-11 14:12:13,0808] from IP address null while trying to authenticate access to service EventProcessorAdminService 
+[2014-11-11 14:12:21,044] ERROR -  Illegal access attempt at [2014-11-11 14:12:21,0043] from IP address null while trying to authenticate access to service EventProcessorAdminService 
+[2014-11-11 14:16:48,575]  INFO -  'admin@carbon.super [-1234]' logged in at [2014-11-11 14:16:48,575+0530] 
+[2014-11-11 14:20:25,947] ERROR -  Illegal access attempt at [2014-11-11 14:20:25,0947] from IP address null while trying to authenticate access to service EventProcessorAdminService 
+[2014-11-11 14:20:59,017] ERROR -  Illegal access attempt at [2014-11-11 14:20:59,0016] from IP address null while trying to authenticate access to service EventProcessorAdminService 
+[2014-11-11 14:21:39,317]  INFO -  'admin@carbon.super [-1234]' logged in at [2014-11-11 14:21:39,317+0530] 
+[2014-11-11 14:40:05,385]  INFO -  'admin@carbon.super [-1234]' logged in at [2014-11-11 14:40:05,385+0530] 
+[2014-11-11 15:41:58,943] ERROR -  Illegal access attempt at [2014-11-11 15:41:58,0942] from IP address null while trying to authenticate access to service EventProcessorAdminService 
+[2014-11-11 15:42:04,761]  INFO -  'admin@carbon.super [-1234]' logged in at [2014-11-11 15:42:04,760+0530] 
+[2014-11-11 16:58:21,599]  INFO -  'admin@carbon.super [-1234]' logged in at [2014-11-11 16:58:21,599+0530] 
+[2014-11-11 17:17:51,479]  INFO -  'admin@carbon.super [-1234]' logged in at [2014-11-11 17:17:51,478+0530] 
+[2014-11-11 17:24:03,437]  INFO -  'admin@carbon.super [-1234]' logged in at [2014-11-11 17:24:03,437+0530] 
+[2014-11-11 17:52:12,007]  INFO -  'admin@carbon.super [-1234]' logged in at [2014-11-11 17:52:12,006+0530] 
+[2014-11-11 18:05:47,311]  INFO -  'admin@carbon.super [-1234]' logged in at [2014-11-11 18:05:47,310+0530] 
+[2014-11-11 18:07:27,972]  INFO -  'admin@carbon.super [-1234]' logged in at [2014-11-11 18:07:27,970+0530] 
+[2014-11-11 18:08:50,583]  INFO -  'admin@carbon.super [-1234]' logged in at [2014-11-11 18:08:50,580+0530] 
+[2014-11-11 18:38:40,104]  INFO -  'admin@carbon.super [-1234]' logged in at [2014-11-11 18:38:40,103+0530] 
+[2014-11-11 19:32:30,409]  INFO -  'admin@carbon.super [-1234]' logged in at [2014-11-11 19:32:30,408+0530] 

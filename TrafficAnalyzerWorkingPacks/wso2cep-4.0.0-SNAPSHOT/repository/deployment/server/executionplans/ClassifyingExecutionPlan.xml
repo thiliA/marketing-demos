@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<executionPlan name="ClassifyingExecutionPlan" statistics="disable"
+  trace="disable" xmlns="http://wso2.org/carbon/eventprocessor">
+  <description>This execution plan classifies traffic feed from tweet text</description>
+  <siddhiConfiguration>
+    <property name="siddhi.persistence.snapshot.time.interval.minutes">0</property>
+    <property name="siddhi.enable.distributed.processing">false</property>
+  </siddhiConfiguration>
+  <importedStreams>
+    <stream as="preprocessedStream" name="preprocessedStream" version="1.0.0"/>
+  </importedStreams>
+  <queryExpressions><![CDATA[from preprocessedStream
+select nlp:getCategory(convertedText,"/home/thilini/Downloads/en-doccat.bin") as category,convertedText,createdAt
+insert into tempStream;
+
+from tempStream[isMatch('Feed',category)]
+select convertedText, createdAt
+insert into classifiedStream;
+                    ]]></queryExpressions>
+  <exportedStreams>
+    <stream name="classifiedStream" valueOf="classifiedStream" version="1.0.0"/>
+  </exportedStreams>
+</executionPlan>

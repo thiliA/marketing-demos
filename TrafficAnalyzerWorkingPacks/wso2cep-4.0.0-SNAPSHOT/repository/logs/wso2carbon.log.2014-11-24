@@ -1,0 +1,490 @@
+TID: [-1234] [CEP] [2014-11-24 13:46:23,208]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Starting WSO2 Carbon... 
+TID: [-1234] [CEP] [2014-11-24 13:46:23,235]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Operating System : Linux 3.13.0-24-generic, amd64 
+TID: [-1234] [CEP] [2014-11-24 13:46:23,235]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Java Home        : /usr/local/java/jdk1.7.0_03/jre 
+TID: [-1234] [CEP] [2014-11-24 13:46:23,235]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Java Version     : 1.7.0_03 
+TID: [-1234] [CEP] [2014-11-24 13:46:23,236]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Java VM          : Java HotSpot(TM) 64-Bit Server VM 22.1-b02,Oracle Corporation 
+TID: [-1234] [CEP] [2014-11-24 13:46:23,236]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Carbon Home      : /home/cdathuraliya/TrafficAnalyzerBundle/wso2cep-4.0.0-SNAPSHOT 
+TID: [-1234] [CEP] [2014-11-24 13:46:23,236]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Java Temp Dir    : /home/cdathuraliya/TrafficAnalyzerBundle/wso2cep-4.0.0-SNAPSHOT/tmp 
+TID: [-1234] [CEP] [2014-11-24 13:46:23,236]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  User             : cdathuraliya, en-US, Asia/Colombo 
+TID: [-1234] [CEP] [2014-11-24 13:46:23,550]  WARN {org.wso2.carbon.core.bootup.validator.util.ValidationResultPrinter} -  Carbon is configured to use the default keystore (wso2carbon.jks). To maximize security when deploying to a production environment, configure a new keystore with a unique password in the production server profile. 
+TID: [-1] [CEP] [2014-11-24 13:46:23,942]  INFO {org.wso2.carbon.databridge.agent.thrift.AgentHolder} -  Agent created ! 
+TID: [-1] [CEP] [2014-11-24 13:46:24,057]  INFO {org.wso2.carbon.databridge.agent.thrift.internal.AgentDS} -  Successfully deployed Agent Client 
+TID: [-1] [CEP] [2014-11-24 13:46:24,119]  INFO {org.wso2.carbon.event.input.adaptor.kafka.internal.ds.ConsumerKafkaServiceDS} -  Successfully deployed the KafkaConsumer input event adaptor service 
+TID: [-1] [CEP] [2014-11-24 13:46:24,217]  INFO {org.wso2.carbon.event.output.adaptor.kafka.internal.ds.KafkaOutputEventAdaptorServiceDS} -  Successfully deployed the Kafka output event adaptor service 
+TID: [-1234] [CEP] [2014-11-24 13:46:28,372]  INFO {org.wso2.carbon.identity.user.store.remote.internal.CarbonRemoteUserStoreDSComponent} -  Carbon Remote User Store activated successfully. 
+TID: [-1234] [CEP] [2014-11-24 13:46:28,653]  WARN {org.wso2.carbon.registry.core.config.RegistryConfigurationProcessor} -  Could not find the handler class org.wso2.jaggery.scxml.registry.handlers.JaggeryExecutorHandler. This handler will not be registered. All handler and filter classes should be in the class path of the Registry. 
+TID: [-1234] [CEP] [2014-11-24 13:46:28,742]  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} -  Configured Registry in 87ms 
+TID: [-1234] [CEP] [2014-11-24 13:46:28,956]  INFO {org.wso2.carbon.registry.core.internal.RegistryCoreServiceComponent} -  Registry Mode    : READ-WRITE 
+TID: [-1234] [CEP] [2014-11-24 13:46:32,443]  INFO {org.wso2.carbon.databridge.core.internal.DataBridgeDS} -  Successfully deployed Agent Server  
+TID: [-1234] [CEP] [2014-11-24 13:46:32,451]  INFO {org.wso2.carbon.event.stream.manager.core.internal.util.EventStreamConfigurationHelper} -  The stream-manager-config.xml can not found  
+TID: [-1234] [CEP] [2014-11-24 13:46:32,556]  INFO {org.wso2.carbon.event.processor.core.internal.ha.server.HAManagementServer} -  CEP HA Management Thrift Server started on 10.100.4.126:11224 
+TID: [-1234] [CEP] [2014-11-24 13:46:33,489]  INFO {org.wso2.carbon.user.core.internal.UserStoreMgtDSComponent} -  Carbon UserStoreMgtDSComponent activated successfully. 
+TID: [-1] [CEP] [2014-11-24 13:46:44,863]  INFO {org.apache.catalina.startup.TaglibUriRule} -  Nov 24, 2014 1:46:44 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://tiles.apache.org/tags-tiles is already defined
+ 
+TID: [-1234] [CEP] [2014-11-24 13:46:45,534]  INFO {org.apache.axis2.deployment.ClusterBuilder} -  Clustering has been disabled 
+TID: [-1234] [CEP] [2014-11-24 13:46:45,534]  INFO {org.apache.axis2.deployment.ClusterBuilder} -  Clustering has been disabled 
+TID: [-1234] [CEP] [2014-11-24 13:46:45,869]  INFO {org.wso2.carbon.identity.user.store.configuration.deployer.UserStoreConfigurationDeployer} -  User Store Configuration Deployer initiated. 
+TID: [-1234] [CEP] [2014-11-24 13:46:45,911]  INFO {org.apache.axis2.transport.tcp.TCPTransportSender} -  TCP Sender started 
+TID: [-1234] [CEP] [2014-11-24 13:46:45,911]  INFO {org.apache.axis2.transport.tcp.TCPTransportSender} -  TCP Sender started 
+TID: [-1234] [CEP] [2014-11-24 13:46:47,096]  INFO {org.apache.axis2.deployment.ModuleDeployer} -  Deploying module: addressing-1.6.1-wso2v11-20141003.221230-650 - file:/home/cdathuraliya/TrafficAnalyzerBundle/wso2cep-4.0.0-SNAPSHOT/repository/deployment/client/modules/addressing-1.6.1-wso2v11-20141003.221230-650.mar 
+TID: [-1234] [CEP] [2014-11-24 13:46:47,096]  INFO {org.apache.axis2.deployment.ModuleDeployer} -  Deploying module: addressing-1.6.1-wso2v11-20141003.221230-650 - file:/home/cdathuraliya/TrafficAnalyzerBundle/wso2cep-4.0.0-SNAPSHOT/repository/deployment/client/modules/addressing-1.6.1-wso2v11-20141003.221230-650.mar 
+TID: [-1234] [CEP] [2014-11-24 13:46:47,102]  INFO {org.apache.axis2.deployment.ModuleDeployer} -  Deploying module: rampart-1.6.1-wso2v11 - file:/home/cdathuraliya/TrafficAnalyzerBundle/wso2cep-4.0.0-SNAPSHOT/repository/deployment/client/modules/rampart-1.6.1-wso2v11.mar 
+TID: [-1234] [CEP] [2014-11-24 13:46:47,102]  INFO {org.apache.axis2.deployment.ModuleDeployer} -  Deploying module: rampart-1.6.1-wso2v11 - file:/home/cdathuraliya/TrafficAnalyzerBundle/wso2cep-4.0.0-SNAPSHOT/repository/deployment/client/modules/rampart-1.6.1-wso2v11.mar 
+TID: [-1234] [CEP] [2014-11-24 13:46:47,107]  INFO {org.apache.axis2.transport.mail.MailTransportSender} -  MAILTO Sender started 
+TID: [-1234] [CEP] [2014-11-24 13:46:47,107]  INFO {org.apache.axis2.transport.mail.MailTransportSender} -  MAILTO Sender started 
+TID: [-1234] [CEP] [2014-11-24 13:46:47,114]  INFO {org.apache.axis2.transport.tcp.TCPTransportSender} -  TCP Sender started 
+TID: [-1234] [CEP] [2014-11-24 13:46:47,114]  INFO {org.apache.axis2.transport.tcp.TCPTransportSender} -  TCP Sender started 
+TID: [-1234] [CEP] [2014-11-24 13:46:47,922]  INFO {org.wso2.carbon.core.deployment.DeploymentInterceptor} -  Deploying Axis2 service: EventSimulatorAdminService {super-tenant} 
+TID: [-1234] [CEP] [2014-11-24 13:46:47,922]  INFO {org.apache.axis2.deployment.DeploymentEngine} -  Deploying Web service: org.wso2.carbon.event.simulator.admin-2.0.0.SNAPSHOT -  
+TID: [-1234] [CEP] [2014-11-24 13:46:47,922]  INFO {org.apache.axis2.deployment.DeploymentEngine} -  Deploying Web service: org.wso2.carbon.event.simulator.admin-2.0.0.SNAPSHOT -  
+TID: [-1234] [CEP] [2014-11-24 13:46:49,664]  INFO {org.apache.axis2.deployment.DeploymentEngine} -  Deploying Web service: org.wso2.carbon.tryit-4.3.0.SNAPSHOT -  
+TID: [-1234] [CEP] [2014-11-24 13:46:49,664]  INFO {org.apache.axis2.deployment.DeploymentEngine} -  Deploying Web service: org.wso2.carbon.tryit-4.3.0.SNAPSHOT -  
+TID: [-1234] [CEP] [2014-11-24 13:46:50,027]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Repository       : /home/cdathuraliya/TrafficAnalyzerBundle/wso2cep-4.0.0-SNAPSHOT/repository/deployment/server/ 
+TID: [-1] [CEP] [2014-11-24 13:46:50,035]  INFO {org.wso2.carbon.event.input.adaptor.file.internal.ds.FileEventAdaptorServiceHolder} -  File input event adaptor waiting for dependent configurations to load 
+TID: [-1] [CEP] [2014-11-24 13:46:50,036]  INFO {org.wso2.carbon.event.input.adaptor.kafka.internal.ds.KafkaEventAdaptorServiceHolder} -  Kafka input event adaptor waiting for dependent configurations to load 
+TID: [-1234] [CEP] [2014-11-24 13:46:50,217]  INFO {org.wso2.carbon.core.internal.permission.update.PermissionUpdater} -  Permission cache updated for tenant -1234 
+TID: [-1234] [CEP] [2014-11-24 13:46:50,518]  INFO {org.wso2.carbon.databridge.receiver.thrift.ThriftDataReceiver} -  Thrift Server started at 10.100.4.126 
+TID: [-1234] [CEP] [2014-11-24 13:46:50,528]  INFO {org.wso2.carbon.databridge.receiver.thrift.ThriftDataReceiver} -  Thrift SSL port : 7711 
+TID: [-1234] [CEP] [2014-11-24 13:46:50,533]  INFO {org.wso2.carbon.databridge.receiver.thrift.ThriftDataReceiver} -  Thrift port : 7611 
+TID: [-1] [CEP] [2014-11-24 13:46:50,540]  INFO {org.wso2.carbon.event.input.adaptor.email.internal.ds.EmailEventAdaptorServiceDS} -  Email input event adaptor waiting for dependent configurations to load 
+TID: [-1] [CEP] [2014-11-24 13:46:50,555]  INFO {org.wso2.carbon.event.input.adaptor.jms.internal.ds.JMSEventAdaptorServiceHolder} -  JMS input event adaptor waiting for dependent configurations to load 
+TID: [-1] [CEP] [2014-11-24 13:46:50,575]  INFO {org.wso2.carbon.event.input.adaptor.mqtt.internal.ds.MQTTEventAdaptorServiceValueHolder} -  MQTT input event adaptor waiting for dependent configurations to load 
+TID: [-1234] [CEP] [2014-11-24 13:46:50,698]  INFO {org.wso2.carbon.identity.core.internal.IdentityCoreServiceComponent} -  Identity Database schema initialization check was skipped since 'setup' variable was not given during startup 
+TID: [-1234] [CEP] [2014-11-24 13:46:50,777]  INFO {org.wso2.carbon.core.transports.http.HttpsTransportListener} -  HTTPS port       : 9443 
+TID: [-1234] [CEP] [2014-11-24 13:46:50,778]  INFO {org.wso2.carbon.core.transports.http.HttpTransportListener} -  HTTP port        : 9763 
+TID: [-1234] [CEP] [2014-11-24 13:46:52,341]  INFO {org.wso2.carbon.event.stream.manager.core.internal.stream.EventJunction} -  Producer added to the junction. Stream:classifiedStream:1.0.0 
+TID: [-1234] [CEP] [2014-11-24 13:46:52,347]  INFO {org.wso2.carbon.event.stream.manager.core.internal.stream.EventJunction} -  Consumer added to the junction. Stream:preprocessedStream:1.0.0 
+TID: [-1234] [CEP] [2014-11-24 13:46:52,349]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} -  Execution plan is deployed successfully and in active state  : ClassifyingExecutionPlan 
+TID: [-1234] [CEP] [2014-11-24 13:46:52,370]  INFO {org.wso2.carbon.event.output.adaptor.manager.core.OutputEventAdaptorDeployer} -  Output Event Adaptor successfully deployed and in active state : DefaultLoggerOutputAdaptor 
+TID: [-1234] [CEP] [2014-11-24 13:46:52,376]  INFO {org.wso2.carbon.event.input.adaptor.manager.core.InputEventAdaptorDeployer} -  Input Event Adaptor deployed successfully and in active state : DefaultWSO2EventInputAdaptor 
+TID: [-1234] [CEP] [2014-11-24 13:46:52,394]  INFO {org.wso2.carbon.event.formatter.core.EventFormatterDeployer} -  Event Formatter deployment held back and in inactive state : EmailEventFormatter.xml, waiting for dependency : emailAdapter 
+TID: [-1234] [CEP] [2014-11-24 13:46:52,516]  INFO {org.wso2.carbon.event.stream.manager.core.internal.stream.EventJunction} -  Producer added to the junction. Stream:geocodeOutStream:1.0.0 
+TID: [-1234] [CEP] [2014-11-24 13:46:52,522]  INFO {org.wso2.carbon.event.stream.manager.core.internal.stream.EventJunction} -  Consumer added to the junction. Stream:transformedStream:1.0.0 
+TID: [-1234] [CEP] [2014-11-24 13:46:52,523]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} -  Execution plan is deployed successfully and in active state  : GeocodingExecutionPlan 
+TID: [-1234] [CEP] [2014-11-24 13:46:52,556]  INFO {org.wso2.carbon.event.builder.core.EventBuilderDeployer} -  Event builder deployment held back and in inactive state :InitialLoadEventBuilder, Waiting for Input Event Adaptor dependency :InitialLoadInputEventAdaptor 
+TID: [-1234] [CEP] [2014-11-24 13:46:52,563]  INFO {org.wso2.carbon.event.formatter.core.EventFormatterDeployer} -  Event Formatter deployment held back and in inactive state : InitialLoadEventFormatter.xml, waiting for dependency : InitialLoadOutputEventAdaptor 
+TID: [-1234] [CEP] [2014-11-24 13:46:52,571]  INFO {org.wso2.carbon.event.input.adaptor.manager.core.InputEventAdaptorDeployer} -  Input Event Adaptor deployed successfully and in active state : InitialLoadInputEventAdaptor 
+TID: [-1234] [CEP] [2014-11-24 13:46:52,573]  INFO {org.wso2.carbon.event.builder.core.EventBuilderDeployer} -  Event Builder undeployed successfully : InitialLoadEventBuilder.xml 
+TID: [-1234] [CEP] [2014-11-24 13:46:52,666]  INFO {org.wso2.carbon.event.stream.manager.core.internal.stream.EventJunction} -  Producer added to the junction. Stream:initialLoadEventStream:1.0.0 
+TID: [-1234] [CEP] [2014-11-24 13:46:52,667]  INFO {org.wso2.carbon.event.builder.core.EventBuilderDeployer} -  Event Builder deployed successfully and in active state : InitialLoadEventBuilder 
+TID: [-1234] [CEP] [2014-11-24 13:46:52,670]  INFO {org.wso2.carbon.event.output.adaptor.manager.core.OutputEventAdaptorDeployer} -  Output Event Adaptor successfully deployed and in active state : InitialLoadOutputEventAdaptor 
+TID: [-1234] [CEP] [2014-11-24 13:46:52,672]  INFO {org.wso2.carbon.event.formatter.core.EventFormatterDeployer} -  Event Formatter undeployed successfully : InitialLoadEventFormatter.xml 
+TID: [-1234] [CEP] [2014-11-24 13:46:52,706]  INFO {org.wso2.carbon.event.stream.manager.core.internal.stream.EventJunction} -  Consumer added to the junction. Stream:initialUiFeedStream:1.0.0 
+TID: [-1234] [CEP] [2014-11-24 13:46:52,706]  INFO {org.wso2.carbon.event.formatter.core.EventFormatterDeployer} -  Event Formatter configuration successfully deployed and in active state : InitialLoadEventFormatter 
+TID: [-1234] [CEP] [2014-11-24 13:46:52,829]  INFO {org.wso2.carbon.event.stream.manager.core.internal.stream.EventJunction} -  Producer added to the junction. Stream:initialUiFeedStream:1.0.0 
+TID: [-1234] [CEP] [2014-11-24 13:46:52,835]  INFO {org.wso2.carbon.event.stream.manager.core.internal.stream.EventJunction} -  Consumer added to the junction. Stream:uiFeedStream:1.0.0 
+TID: [-1234] [CEP] [2014-11-24 13:46:52,835]  INFO {org.wso2.carbon.event.stream.manager.core.internal.stream.EventJunction} -  Consumer added to the junction. Stream:initialLoadEventStream:1.0.0 
+TID: [-1234] [CEP] [2014-11-24 13:46:52,836]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} -  Execution plan is deployed successfully and in active state  : InitialLoadingExecutionPlan 
+TID: [-1234] [CEP] [2014-11-24 13:46:53,801]  INFO {org.wso2.carbon.event.stream.manager.core.internal.stream.EventJunction} -  Producer added to the junction. Stream:locationsStream:1.0.0 
+TID: [-1234] [CEP] [2014-11-24 13:46:53,802]  INFO {org.wso2.carbon.event.stream.manager.core.internal.stream.EventJunction} -  Consumer added to the junction. Stream:classifiedStream:1.0.0 
+TID: [-1234] [CEP] [2014-11-24 13:46:53,802]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} -  Execution plan is deployed successfully and in active state  : NERExecutionPlan 
+TID: [-1234] [CEP] [2014-11-24 13:46:53,865]  INFO {org.wso2.carbon.event.stream.manager.core.internal.stream.EventJunction} -  Producer added to the junction. Stream:preprocessedStream:1.0.0 
+TID: [-1234] [CEP] [2014-11-24 13:46:53,870]  INFO {org.wso2.carbon.event.stream.manager.core.internal.stream.EventJunction} -  Consumer added to the junction. Stream:twitter_input_stream:1.0.0 
+TID: [-1234] [CEP] [2014-11-24 13:46:53,870]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} -  Execution plan is deployed successfully and in active state  : PreprocessingExecutionPlan 
+TID: [-1234] [CEP] [2014-11-24 13:46:54,037]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/STRATOS_ROOT].File[/home/cdathuraliya/TrafficAnalyzerBundle/wso2cep-4.0.0-SNAPSHOT/repository/deployment/server/webapps/STRATOS_ROOT] 
+TID: [-1234] [CEP] [2014-11-24 13:46:54,049]  INFO {org.wso2.carbon.event.builder.core.EventBuilderDeployer} -  Event builder deployment held back and in inactive state :SearchEventBuilder, Waiting for Input Event Adaptor dependency :SearchInputEventAdaptor 
+TID: [-1234] [CEP] [2014-11-24 13:46:54,051]  INFO {org.wso2.carbon.event.formatter.core.EventFormatterDeployer} -  Event Formatter deployment held back and in inactive state : SearchEventFormatter.xml, waiting for dependency : SearchOutputEventAdapter 
+TID: [-1234] [CEP] [2014-11-24 13:46:54,065]  INFO {org.wso2.carbon.event.input.adaptor.manager.core.InputEventAdaptorDeployer} -  Input Event Adaptor deployed successfully and in active state : SearchInputEventAdaptor 
+TID: [-1234] [CEP] [2014-11-24 13:46:54,066]  INFO {org.wso2.carbon.event.builder.core.EventBuilderDeployer} -  Event Builder undeployed successfully : SearchEventBuilder.xml 
+TID: [-1234] [CEP] [2014-11-24 13:46:54,103]  INFO {org.wso2.carbon.event.stream.manager.core.internal.stream.EventJunction} -  Producer added to the junction. Stream:SearchEventStream:1.0.0 
+TID: [-1234] [CEP] [2014-11-24 13:46:54,103]  INFO {org.wso2.carbon.event.builder.core.EventBuilderDeployer} -  Event Builder deployed successfully and in active state : SearchEventBuilder 
+TID: [-1234] [CEP] [2014-11-24 13:46:54,121]  INFO {org.wso2.carbon.event.output.adaptor.manager.core.OutputEventAdaptorDeployer} -  Output Event Adaptor successfully deployed and in active state : SearchOutputEventAdapter 
+TID: [-1234] [CEP] [2014-11-24 13:46:54,121]  INFO {org.wso2.carbon.event.formatter.core.EventFormatterDeployer} -  Event Formatter undeployed successfully : SearchEventFormatter.xml 
+TID: [-1234] [CEP] [2014-11-24 13:46:54,158]  INFO {org.wso2.carbon.event.stream.manager.core.internal.stream.EventJunction} -  Consumer added to the junction. Stream:searchResult:1.0.0 
+TID: [-1234] [CEP] [2014-11-24 13:46:54,159]  INFO {org.wso2.carbon.event.formatter.core.EventFormatterDeployer} -  Event Formatter configuration successfully deployed and in active state : SearchEventFormatter 
+TID: [-1234] [CEP] [2014-11-24 13:46:54,240]  INFO {org.wso2.carbon.event.stream.manager.core.internal.stream.EventJunction} -  Producer added to the junction. Stream:searchResult:1.0.0 
+TID: [-1234] [CEP] [2014-11-24 13:46:54,241]  INFO {org.wso2.carbon.event.stream.manager.core.internal.stream.EventJunction} -  Consumer added to the junction. Stream:SearchEventStream:1.0.0 
+TID: [-1234] [CEP] [2014-11-24 13:46:54,241]  INFO {org.wso2.carbon.event.stream.manager.core.internal.stream.EventJunction} -  Consumer added to the junction. Stream:uiFeedStream:1.0.0 
+TID: [-1234] [CEP] [2014-11-24 13:46:54,241]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} -  Execution plan is deployed successfully and in active state  : SearchingExecutionPlan 
+TID: [-1234] [CEP] [2014-11-24 13:46:54,808]  INFO {org.wso2.carbon.event.stream.manager.core.internal.stream.EventJunction} -  Producer added to the junction. Stream:subscribeStream:1.0.0 
+TID: [-1234] [CEP] [2014-11-24 13:46:54,808]  INFO {org.wso2.carbon.event.stream.manager.core.internal.stream.EventJunction} -  Consumer added to the junction. Stream:uiFeedStream:1.0.0 
+TID: [-1234] [CEP] [2014-11-24 13:46:54,808]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} -  Execution plan is deployed successfully and in active state  : SubscribingExecutionPlan 
+TID: [-1234] [CEP] [2014-11-24 13:46:54,833]  INFO {org.wso2.carbon.event.output.adaptor.manager.core.OutputEventAdaptorDeployer} -  Output Event Adaptor successfully deployed and in active state : TestOutputAdapter 
+TID: [-1234] [CEP] [2014-11-24 13:46:56,455]  INFO {org.wso2.carbon.event.stream.manager.core.internal.stream.EventJunction} -  Producer added to the junction. Stream:feed:1.0.0 
+TID: [-1234] [CEP] [2014-11-24 13:46:56,455]  INFO {org.wso2.carbon.event.stream.manager.core.internal.stream.EventJunction} -  Consumer added to the junction. Stream:locationsStream:1.0.0 
+TID: [-1234] [CEP] [2014-11-24 13:46:56,456]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} -  Execution plan is deployed successfully and in active state  : TrafficlevelCategorizingExecutionPlan 
+TID: [-1234] [CEP] [2014-11-24 13:46:56,508]  INFO {org.wso2.carbon.event.stream.manager.core.internal.stream.EventJunction} -  Producer added to the junction. Stream:transformedStream:1.0.0 
+TID: [-1234] [CEP] [2014-11-24 13:46:56,508]  INFO {org.wso2.carbon.event.stream.manager.core.internal.stream.EventJunction} -  Consumer added to the junction. Stream:feed:1.0.0 
+TID: [-1234] [CEP] [2014-11-24 13:46:56,508]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} -  Execution plan is deployed successfully and in active state  : TransformingExecutionPlan 
+TID: [-1234] [CEP] [2014-11-24 13:46:56,522]  INFO {org.wso2.carbon.event.formatter.core.EventFormatterDeployer} -  Event Formatter deployment held back and in inactive state : UIEventFormatter.xml, waiting for dependency : UIOutputEventAdaptor 
+TID: [-1234] [CEP] [2014-11-24 13:46:56,524]  INFO {org.wso2.carbon.event.output.adaptor.manager.core.OutputEventAdaptorDeployer} -  Output Event Adaptor successfully deployed and in active state : UIOutputEventAdaptor 
+TID: [-1234] [CEP] [2014-11-24 13:46:56,524]  INFO {org.wso2.carbon.event.formatter.core.EventFormatterDeployer} -  Event Formatter undeployed successfully : UIEventFormatter.xml 
+TID: [-1234] [CEP] [2014-11-24 13:46:56,530]  INFO {org.wso2.carbon.event.stream.manager.core.internal.stream.EventJunction} -  Consumer added to the junction. Stream:uiFeedStream:1.0.0 
+TID: [-1234] [CEP] [2014-11-24 13:46:56,530]  INFO {org.wso2.carbon.event.formatter.core.EventFormatterDeployer} -  Event Formatter configuration successfully deployed and in active state : UIEventFormatter 
+TID: [-1234] [CEP] [2014-11-24 13:46:56,545]  INFO {org.wso2.carbon.event.stream.manager.core.internal.stream.EventJunction} -  Consumer added to the junction. Stream:classifiedStream:1.0.0 
+TID: [-1234] [CEP] [2014-11-24 13:46:56,546]  INFO {org.wso2.carbon.event.formatter.core.EventFormatterDeployer} -  Event Formatter configuration successfully deployed and in active state : classifiedTestFormatter 
+TID: [-1234] [CEP] [2014-11-24 13:46:56,547]  INFO {org.wso2.carbon.event.output.adaptor.manager.core.OutputEventAdaptorDeployer} -  Output Event Adaptor successfully deployed and in active state : emailAdapter 
+TID: [-1234] [CEP] [2014-11-24 13:46:56,548]  INFO {org.wso2.carbon.event.formatter.core.EventFormatterDeployer} -  Event Formatter undeployed successfully : EmailEventFormatter.xml 
+TID: [-1234] [CEP] [2014-11-24 13:46:56,556]  INFO {org.wso2.carbon.event.stream.manager.core.internal.stream.EventJunction} -  Consumer added to the junction. Stream:subscribeStream:1.0.0 
+TID: [-1234] [CEP] [2014-11-24 13:46:56,556]  INFO {org.wso2.carbon.event.formatter.core.EventFormatterDeployer} -  Event Formatter configuration successfully deployed and in active state : EmailEventFormatter 
+TID: [-1234] [CEP] [2014-11-24 13:46:56,573]  INFO {org.wso2.carbon.event.stream.manager.core.internal.stream.EventJunction} -  Consumer added to the junction. Stream:initialUiFeedStream:1.0.0 
+TID: [-1234] [CEP] [2014-11-24 13:46:56,573]  INFO {org.wso2.carbon.event.formatter.core.EventFormatterDeployer} -  Event Formatter configuration successfully deployed and in active state : initialLoadTestFormatter 
+TID: [-1234] [CEP] [2014-11-24 13:46:56,703]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/inputwebsocket].File[/home/cdathuraliya/TrafficAnalyzerBundle/wso2cep-4.0.0-SNAPSHOT/repository/deployment/server/webapps/inputwebsocket.war] 
+TID: [-1234] [CEP] [2014-11-24 13:46:56,711]  INFO {org.wso2.carbon.event.builder.core.EventBuilderDeployer} -  Event builder deployment held back and in inactive state :live_tweet_event_builder, Waiting for Input Event Adaptor dependency :twitter_input_adaptor 
+TID: [-1234] [CEP] [2014-11-24 13:46:56,725]  INFO {org.wso2.carbon.event.stream.manager.core.internal.stream.EventJunction} -  Consumer added to the junction. Stream:locationsStream:1.0.0 
+TID: [-1234] [CEP] [2014-11-24 13:46:56,726]  INFO {org.wso2.carbon.event.formatter.core.EventFormatterDeployer} -  Event Formatter configuration successfully deployed and in active state : locationsTestFormatter 
+TID: [-1234] [CEP] [2014-11-24 13:46:56,740]  INFO {org.wso2.carbon.event.builder.core.EventBuilderDeployer} -  Event builder deployment held back and in inactive state :off_tweet_event_builder, Waiting for Input Event Adaptor dependency :twitter_input_adaptor 
+TID: [-1234] [CEP] [2014-11-24 13:46:56,810]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/outputwebsocket].File[/home/cdathuraliya/TrafficAnalyzerBundle/wso2cep-4.0.0-SNAPSHOT/repository/deployment/server/webapps/outputwebsocket.war] 
+TID: [-1234] [CEP] [2014-11-24 13:46:56,824]  INFO {org.wso2.carbon.event.stream.manager.core.internal.stream.EventJunction} -  Consumer added to the junction. Stream:SearchEventStream:1.0.0 
+TID: [-1234] [CEP] [2014-11-24 13:46:56,825]  INFO {org.wso2.carbon.event.formatter.core.EventFormatterDeployer} -  Event Formatter configuration successfully deployed and in active state : searchInputTestFormatter 
+TID: [-1234] [CEP] [2014-11-24 13:46:56,829]  INFO {org.wso2.carbon.event.stream.manager.core.internal.stream.EventJunction} -  Consumer added to the junction. Stream:SearchEventStream:1.0.0 
+TID: [-1234] [CEP] [2014-11-24 13:46:56,829]  INFO {org.wso2.carbon.event.formatter.core.EventFormatterDeployer} -  Event Formatter configuration successfully deployed and in active state : searchInputWebsocketFormatter 
+TID: [-1234] [CEP] [2014-11-24 13:46:56,834]  INFO {org.wso2.carbon.event.stream.manager.core.internal.stream.EventJunction} -  Consumer added to the junction. Stream:searchResult:1.0.0 
+TID: [-1234] [CEP] [2014-11-24 13:46:56,834]  INFO {org.wso2.carbon.event.formatter.core.EventFormatterDeployer} -  Event Formatter configuration successfully deployed and in active state : searchTestFormatter 
+TID: [-1234] [CEP] [2014-11-24 13:47:03,063]  INFO {org.apache.shindig.gadgets.features.FeatureRegistry} -  Nov 24, 2014 1:47:03 PM org.apache.shindig.gadgets.features.FeatureRegistry register
+INFO: Resources from res:features/features.txt are loading.
+ 
+TID: [-1234] [CEP] [2014-11-24 13:47:03,094]  INFO {org.apache.shindig.common.xml.XmlUtil} -  Nov 24, 2014 1:47:03 PM org.apache.shindig.common.xml.XmlUtil static block
+INFO: The XML processor being used does not support secure parsing.
+ 
+TID: [-1234] [CEP] [2014-11-24 13:47:03,097]  INFO {org.apache.shindig.common.xml.XmlUtil} -  Nov 24, 2014 1:47:03 PM org.apache.shindig.common.xml.XmlUtil static block
+INFO: Document builders are being reused.
+ 
+TID: [-1234] [CEP] [2014-11-24 13:47:03,904]  INFO {org.apache.shindig.gadgets.features.FeatureRegistry} -  Nov 24, 2014 1:47:03 PM org.apache.shindig.gadgets.features.FeatureRegistry register
+INFO: Resources from res:features-extras/features.txt are loading.
+ 
+TID: [-1234] [CEP] [2014-11-24 13:47:07,304]  INFO {org.apache.shindig.config.JsonContainerConfigLoader} -  Nov 24, 2014 1:47:07 PM org.apache.shindig.config.JsonContainerConfigLoader loadContainers
+INFO: Resources from containers/default/container.js are loading.
+ 
+TID: [-1234] [CEP] [2014-11-24 13:47:07,304]  INFO {org.apache.shindig.config.JsonContainerConfigLoader} -  Nov 24, 2014 1:47:07 PM org.apache.shindig.config.JsonContainerConfigLoader loadResources
+INFO: Container configuration containers/default/container.js is being read.
+ 
+TID: [-1234] [CEP] [2014-11-24 13:47:07,417]  WARN {org.apache.shindig.auth.BasicSecurityTokenCodec} -  Nov 24, 2014 1:47:07 PM org.apache.shindig.auth.BasicSecurityTokenCodec containersChanged
+WARNING: Token TTL for container "default" was 0 and will be ignored.
+ 
+TID: [-1234] [CEP] [2014-11-24 13:47:07,417]  WARN {org.apache.shindig.auth.BasicSecurityTokenCodec} -  Nov 24, 2014 1:47:07 PM org.apache.shindig.auth.BasicSecurityTokenCodec containersChanged
+WARNING: Token TTL for container "accel" was 0 and will be ignored.
+ 
+TID: [-1234] [CEP] [2014-11-24 13:47:07,709]  INFO {org.apache.shindig.gadgets.oauth2.logger.FilteredLogger} -  Nov 24, 2014 1:47:07 PM org.apache.shindig.gadgets.oauth2.logger.FilteredLogger log
+INFO: Using random key for OAuth2 client-side state encryption
+ 
+TID: [-1234] [CEP] [2014-11-24 13:47:07,709]  INFO {org.apache.shindig.gadgets.oauth2.logger.FilteredLogger} -  Nov 24, 2014 1:47:07 PM org.apache.shindig.gadgets.oauth2.logger.FilteredLogger log
+INFO: OAuth2CrypterProvider constructor
+ 
+TID: [-1234] [CEP] [2014-11-24 13:47:07,718]  INFO {org.apache.shindig.gadgets.oauth.OAuthModule$OAuthCrypterProvider} -  Nov 24, 2014 1:47:07 PM org.apache.shindig.gadgets.oauth.OAuthModule$OAuthCrypterProvider <init>
+INFO: Using random key for OAuth client-side state encryption
+ 
+TID: [-1234] [CEP] [2014-11-24 13:47:07,718]  INFO {org.apache.shindig.gadgets.oauth.OAuthModule} -  Nov 24, 2014 1:47:07 PM org.apache.shindig.gadgets.oauth.OAuthModule OAuthCrypterProvider constructor
+INFO: A random key for OAuth client-side state encryption is being used.
+ 
+TID: [-1234] [CEP] [2014-11-24 13:47:07,720]  WARN {org.apache.shindig.gadgets.oauth.OAuthModule} -  Nov 24, 2014 1:47:07 PM org.apache.shindig.gadgets.oauth.OAuthModule loadDefaultKey
+WARNING: The OAuth signing key did not load correctly. To create a key: 
+ 1. Run the following command: 
+ openssl req -newkey rsa:1024 -days 365 -nodes -x509 -keyout testkey.pem \
+ -out testkey.pem -subj /CN=mytestkey
+ openssl pkcs8 -in testkey.pem -out oauthkey.pem -topk8 -nocrypt -outform PEM
+
+. 2. Edit the shindig.properties file by adding these lines: 
+shindig.signing.key-file =<path-to-oauthkey.pem>
+ shindig.signing.key-name =mykey
+.
+ 
+TID: [-1234] [CEP] [2014-11-24 13:47:07,881]  INFO {org.apache.shiro.config.IniSecurityManagerFactory} -  Realms have been explicitly set on the SecurityManager instance - auto-setting of realms will not occur. 
+TID: [-1234] [CEP] [2014-11-24 13:47:07,881]  INFO {org.apache.shiro.config.IniSecurityManagerFactory} -  Realms have been explicitly set on the SecurityManager instance - auto-setting of realms will not occur. 
+TID: [-1234] [CEP] [2014-11-24 13:47:07,883]  INFO {org.apache.shiro.realm.AuthorizingRealm} -  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained. 
+TID: [-1234] [CEP] [2014-11-24 13:47:07,883]  INFO {org.apache.shiro.realm.AuthorizingRealm} -  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained. 
+TID: [-1234] [CEP] [2014-11-24 13:47:07,903]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/shindig].File[/home/cdathuraliya/TrafficAnalyzerBundle/wso2cep-4.0.0-SNAPSHOT/repository/deployment/server/webapps/shindig] 
+TID: [-1234] [CEP] [2014-11-24 13:47:07,917]  INFO {org.wso2.carbon.event.stream.manager.core.internal.stream.EventJunction} -  Consumer added to the junction. Stream:transformedStream:1.0.0 
+TID: [-1234] [CEP] [2014-11-24 13:47:07,918]  INFO {org.wso2.carbon.event.formatter.core.EventFormatterDeployer} -  Event Formatter configuration successfully deployed and in active state : transformedTestFormatter 
+TID: [-1234] [CEP] [2014-11-24 13:47:07,932]  INFO {org.wso2.carbon.event.input.adaptor.manager.core.InputEventAdaptorDeployer} -  Input Event Adaptor deployment held back and in inactive state : twitter_input_adaptor, waiting for input event adaptor type dependency http 
+TID: [-1234] [CEP] [2014-11-24 13:47:07,977]  INFO {org.wso2.carbon.event.stream.manager.core.internal.stream.EventJunction} -  Producer added to the junction. Stream:uiFeedStream:1.0.0 
+TID: [-1234] [CEP] [2014-11-24 13:47:07,977]  INFO {org.wso2.carbon.event.stream.manager.core.internal.stream.EventJunction} -  Producer added to the junction. Stream:initialLoadEventStream:1.0.0 
+TID: [-1234] [CEP] [2014-11-24 13:47:07,977]  INFO {org.wso2.carbon.event.stream.manager.core.internal.stream.EventJunction} -  Consumer added to the junction. Stream:geocodeOutStream:1.0.0 
+TID: [-1234] [CEP] [2014-11-24 13:47:07,978]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} -  Execution plan is deployed successfully and in active state  : uiFeedExecutionPlan 
+TID: [-1234] [CEP] [2014-11-24 13:47:07,992]  INFO {org.wso2.carbon.event.stream.manager.core.internal.stream.EventJunction} -  Consumer added to the junction. Stream:uiFeedStream:1.0.0 
+TID: [-1234] [CEP] [2014-11-24 13:47:07,992]  INFO {org.wso2.carbon.event.formatter.core.EventFormatterDeployer} -  Event Formatter configuration successfully deployed and in active state : uiTestFormatter 
+TID: [-1234] [CEP] [2014-11-24 13:47:08,034]  INFO {org.apache.tomcat.util.net.NioSelectorPool} -  Nov 24, 2014 1:47:08 PM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+ 
+TID: [-1234] [CEP] [2014-11-24 13:47:08,082]  INFO {org.apache.tomcat.util.net.NioSelectorPool} -  Nov 24, 2014 1:47:08 PM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+ 
+TID: [-1234] [CEP] [2014-11-24 13:47:08,227]  INFO {org.wso2.carbon.core.init.JMXServerManager} -  JMX Service URL  : service:jmx:rmi://localhost:11111/jndi/rmi://localhost:9999/jmxrmi 
+TID: [-1234] [CEP] [2014-11-24 13:47:08,228]  INFO {org.wso2.carbon.core.internal.StartupFinalizerServiceComponent} -  Server           :  WSO2 Complex Event Processor-4.0.0 
+TID: [-1234] [CEP] [2014-11-24 13:47:08,228]  INFO {org.wso2.carbon.core.internal.StartupFinalizerServiceComponent} -  WSO2 Carbon started in 56 sec 
+TID: [-1234] [CEP] [2014-11-24 13:47:11,071]  INFO {org.wso2.carbon.ui.internal.CarbonUIServiceComponent} -  Mgt Console URL  : https://10.100.4.126:9443/carbon/ 
+TID: [-1234] [CEP] [2014-11-24 13:47:11,098]  INFO {org.wso2.carbon.event.input.adaptor.manager.core.InputEventAdaptorDeployer} -  Input Event Adaptor undeployed successfully : twitter_input_adaptor.xml 
+TID: [-1234] [CEP] [2014-11-24 13:47:11,100]  INFO {org.wso2.carbon.event.input.adaptor.manager.core.InputEventAdaptorDeployer} -  Input Event Adaptor deployed successfully and in active state : twitter_input_adaptor 
+TID: [-1234] [CEP] [2014-11-24 13:47:11,100]  INFO {org.wso2.carbon.event.builder.core.EventBuilderDeployer} -  Event Builder undeployed successfully : live_tweet_event_builder.xml 
+TID: [-1234] [CEP] [2014-11-24 13:47:11,110]  INFO {org.wso2.carbon.event.stream.manager.core.internal.stream.EventJunction} -  Producer added to the junction. Stream:twitter_input_stream:1.0.0 
+TID: [-1234] [CEP] [2014-11-24 13:47:11,111]  INFO {org.wso2.carbon.event.builder.core.EventBuilderDeployer} -  Event Builder deployed successfully and in active state : live_tweet_event_builder 
+TID: [-1234] [CEP] [2014-11-24 13:47:11,111]  INFO {org.wso2.carbon.event.builder.core.EventBuilderDeployer} -  Event Builder undeployed successfully : off_tweet_event_builder.xml 
+TID: [-1234] [CEP] [2014-11-24 13:47:11,117]  INFO {org.wso2.carbon.event.stream.manager.core.internal.stream.EventJunction} -  Producer added to the junction. Stream:twitter_input_stream:1.0.0 
+TID: [-1234] [CEP] [2014-11-24 13:47:11,117]  INFO {org.wso2.carbon.event.builder.core.EventBuilderDeployer} -  Event Builder deployed successfully and in active state : off_tweet_event_builder 
+TID: [-1] [CEP] [2014-11-24 13:47:30,037]  INFO {org.wso2.carbon.event.input.adaptor.file.FileEventAdaptorType} -  File input event adaptor loading listeners  
+TID: [-1] [CEP] [2014-11-24 13:47:30,038]  INFO {org.wso2.carbon.event.input.adaptor.kafka.KafkaEventAdaptorType} -  Kafka input event adaptor loading listeners  
+TID: [-1] [CEP] [2014-11-24 13:47:30,541]  INFO {org.wso2.carbon.event.input.adaptor.email.EmailEventAdaptorType} -  Email input event adaptor loading listeners  
+TID: [-1] [CEP] [2014-11-24 13:47:30,556]  INFO {org.wso2.carbon.event.input.adaptor.jms.JMSEventAdaptorType} -  JMS input event adaptor loading listeners  
+TID: [-1] [CEP] [2014-11-24 13:47:30,576]  INFO {org.wso2.carbon.event.input.adaptor.mqtt.MQTTEventAdaptorType} -  MQTT input event adaptor loading listeners  
+TID: [-1234] [CEP] [2014-11-24 13:47:44,701]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} -  'admin@carbon.super [-1234]' logged in at [2014-11-24 13:47:44,701+0530] 
+TID: [-1234] [CEP] [2014-11-24 13:49:24,607]  INFO {org.wso2.carbon.core.services.authentication.AuthenticationAdmin} -  'admin@carbon.super [-1234]' logged out at [2014-11-24 13:49:24,0606] 
+TID: [-1234] [CEP] [2014-11-24 13:55:37,288]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Shutdown hook triggered.... 
+TID: [-1234] [CEP] [2014-11-24 13:55:37,289]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Gracefully shutting down WSO2 Complex Event Processor... 
+TID: [-1234] [CEP] [2014-11-24 13:55:37,290]  INFO {org.wso2.carbon.core.ServerManagement} -  Starting to switch to maintenance mode... 
+TID: [-1234] [CEP] [2014-11-24 13:55:37,290]  INFO {org.wso2.carbon.core.ServerManagement} -  Stopped all transport listeners 
+TID: [-1234] [CEP] [2014-11-24 13:55:37,290]  INFO {org.wso2.carbon.core.ServerManagement} -  Waiting for request service completion... 
+TID: [-1234] [CEP] [2014-11-24 13:55:37,296]  INFO {org.wso2.carbon.core.ServerManagement} -  All requests have been served. 
+TID: [-1234] [CEP] [2014-11-24 13:55:37,296]  INFO {org.wso2.carbon.core.ServerManagement} -  Waiting for deployment completion... 
+TID: [-1234] [CEP] [2014-11-24 13:55:37,359]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} -  Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/shindig] 
+TID: [-1234] [CEP] [2014-11-24 13:55:37,369]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} -  Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/STRATOS_ROOT] 
+TID: [-1234] [CEP] [2014-11-24 13:55:37,379]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} -  Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/outputwebsocket] 
+TID: [-1234] [CEP] [2014-11-24 13:55:37,390]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} -  Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/inputwebsocket] 
+TID: [-1234] [CEP] [2014-11-24 13:55:37,391]  INFO {org.wso2.carbon.core.ServerManagement} -  All deployment tasks have been completed. 
+TID: [-1234] [CEP] [2014-11-24 13:55:37,421]  INFO {org.wso2.carbon.core.ServerManagement} -  Waiting for server task completion... 
+TID: [-1234] [CEP] [2014-11-24 13:55:37,421]  INFO {org.wso2.carbon.core.ServerManagement} -  All server tasks have been completed. 
+TID: [-1234] [CEP] [2014-11-24 13:55:37,422]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Shutting down WSO2 Complex Event Processor... 
+TID: [-1234] [CEP] [2014-11-24 13:55:37,422]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Shutting down OSGi framework... 
+TID: [-1234] [CEP] [2014-11-24 13:55:37,451]  INFO {org.wso2.carbon.databridge.receiver.thrift.internal.ThriftDataReceiverDS} -  Thrift server shutting down... 
+TID: [-1234] [CEP] [2014-11-24 13:55:37,479]  INFO {org.apache.cassandra.service.CassandraDaemon} -  Cassandra shutting down... 
+TID: [-1234] [CEP] [2014-11-24 13:55:37,479]  INFO {org.apache.cassandra.service.CassandraDaemon} -  Cassandra shutting down... 
+TID: [-1234] [CEP] [2014-11-24 13:55:39,545]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Stopping CarbonServerManager... 
+TID: [-1234] [CEP] [2014-11-24 13:55:39,548]  INFO {org.apache.axis2.transport.tcp.TCPTransportSender} -  TCP Sender Shutdown 
+TID: [-1234] [CEP] [2014-11-24 13:55:39,548]  INFO {org.apache.axis2.transport.tcp.TCPTransportSender} -  TCP Sender Shutdown 
+TID: [-1234] [CEP] [2014-11-24 13:55:39,817]  INFO {org.wso2.carbon.tomcat.ext.internal.CarbonTomcatServiceComponent} -  Stopping the carbon web-app registered under : / 
+TID: [-1234] [CEP] [2014-11-24 13:55:41,000]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Shutdown complete 
+TID: [-1234] [CEP] [2014-11-24 13:55:41,000]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Halting JVM 
+TID: [-1234] [CEP] [2014-11-24 14:00:46,072]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Starting WSO2 Carbon... 
+TID: [-1234] [CEP] [2014-11-24 14:00:46,120]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Operating System : Linux 3.13.0-24-generic, amd64 
+TID: [-1234] [CEP] [2014-11-24 14:00:46,121]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Java Home        : /usr/local/java/jdk1.7.0_03/jre 
+TID: [-1234] [CEP] [2014-11-24 14:00:46,121]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Java Version     : 1.7.0_03 
+TID: [-1234] [CEP] [2014-11-24 14:00:46,121]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Java VM          : Java HotSpot(TM) 64-Bit Server VM 22.1-b02,Oracle Corporation 
+TID: [-1234] [CEP] [2014-11-24 14:00:46,121]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Carbon Home      : /home/cdathuraliya/TrafficAnalyzerBundle/wso2cep-4.0.0-SNAPSHOT 
+TID: [-1234] [CEP] [2014-11-24 14:00:46,121]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Java Temp Dir    : /home/cdathuraliya/TrafficAnalyzerBundle/wso2cep-4.0.0-SNAPSHOT/tmp 
+TID: [-1234] [CEP] [2014-11-24 14:00:46,121]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  User             : cdathuraliya, en-US, Asia/Colombo 
+TID: [-1234] [CEP] [2014-11-24 14:00:46,273]  WARN {org.wso2.carbon.core.bootup.validator.util.ValidationResultPrinter} -  Carbon is configured to use the default keystore (wso2carbon.jks). To maximize security when deploying to a production environment, configure a new keystore with a unique password in the production server profile. 
+TID: [-1] [CEP] [2014-11-24 14:00:46,372]  INFO {org.wso2.carbon.databridge.agent.thrift.AgentHolder} -  Agent created ! 
+TID: [-1] [CEP] [2014-11-24 14:00:46,398]  INFO {org.wso2.carbon.databridge.agent.thrift.internal.AgentDS} -  Successfully deployed Agent Client 
+TID: [-1] [CEP] [2014-11-24 14:00:46,463]  INFO {org.wso2.carbon.event.input.adaptor.kafka.internal.ds.ConsumerKafkaServiceDS} -  Successfully deployed the KafkaConsumer input event adaptor service 
+TID: [-1] [CEP] [2014-11-24 14:00:46,536]  INFO {org.wso2.carbon.event.output.adaptor.kafka.internal.ds.KafkaOutputEventAdaptorServiceDS} -  Successfully deployed the Kafka output event adaptor service 
+TID: [-1234] [CEP] [2014-11-24 14:00:49,147]  INFO {org.wso2.carbon.identity.user.store.remote.internal.CarbonRemoteUserStoreDSComponent} -  Carbon Remote User Store activated successfully. 
+TID: [-1234] [CEP] [2014-11-24 14:00:49,409]  WARN {org.wso2.carbon.registry.core.config.RegistryConfigurationProcessor} -  Could not find the handler class org.wso2.jaggery.scxml.registry.handlers.JaggeryExecutorHandler. This handler will not be registered. All handler and filter classes should be in the class path of the Registry. 
+TID: [-1234] [CEP] [2014-11-24 14:00:49,516]  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} -  Configured Registry in 102ms 
+TID: [-1234] [CEP] [2014-11-24 14:00:49,692]  INFO {org.wso2.carbon.registry.core.internal.RegistryCoreServiceComponent} -  Registry Mode    : READ-WRITE 
+TID: [-1234] [CEP] [2014-11-24 14:00:51,024]  INFO {org.wso2.carbon.databridge.core.internal.DataBridgeDS} -  Successfully deployed Agent Server  
+TID: [-1234] [CEP] [2014-11-24 14:00:51,033]  INFO {org.wso2.carbon.event.stream.manager.core.internal.util.EventStreamConfigurationHelper} -  The stream-manager-config.xml can not found  
+TID: [-1234] [CEP] [2014-11-24 14:00:51,210]  INFO {org.wso2.carbon.event.processor.core.internal.ha.server.HAManagementServer} -  CEP HA Management Thrift Server started on 10.100.4.126:11224 
+TID: [-1234] [CEP] [2014-11-24 14:00:51,603]  INFO {org.wso2.carbon.user.core.internal.UserStoreMgtDSComponent} -  Carbon UserStoreMgtDSComponent activated successfully. 
+TID: [-1] [CEP] [2014-11-24 14:01:04,425]  INFO {org.apache.catalina.startup.TaglibUriRule} -  Nov 24, 2014 2:01:04 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://tiles.apache.org/tags-tiles is already defined
+ 
+TID: [-1234] [CEP] [2014-11-24 14:01:05,043]  INFO {org.apache.axis2.deployment.ClusterBuilder} -  Clustering has been disabled 
+TID: [-1234] [CEP] [2014-11-24 14:01:05,043]  INFO {org.apache.axis2.deployment.ClusterBuilder} -  Clustering has been disabled 
+TID: [-1234] [CEP] [2014-11-24 14:01:05,309]  INFO {org.wso2.carbon.identity.user.store.configuration.deployer.UserStoreConfigurationDeployer} -  User Store Configuration Deployer initiated. 
+TID: [-1234] [CEP] [2014-11-24 14:01:05,360]  INFO {org.apache.axis2.transport.tcp.TCPTransportSender} -  TCP Sender started 
+TID: [-1234] [CEP] [2014-11-24 14:01:05,360]  INFO {org.apache.axis2.transport.tcp.TCPTransportSender} -  TCP Sender started 
+TID: [-1234] [CEP] [2014-11-24 14:01:05,726]  INFO {org.apache.axis2.deployment.ModuleDeployer} -  Deploying module: addressing-1.6.1-wso2v11-20141003.221230-650 - file:/home/cdathuraliya/TrafficAnalyzerBundle/wso2cep-4.0.0-SNAPSHOT/repository/deployment/client/modules/addressing-1.6.1-wso2v11-20141003.221230-650.mar 
+TID: [-1234] [CEP] [2014-11-24 14:01:05,726]  INFO {org.apache.axis2.deployment.ModuleDeployer} -  Deploying module: addressing-1.6.1-wso2v11-20141003.221230-650 - file:/home/cdathuraliya/TrafficAnalyzerBundle/wso2cep-4.0.0-SNAPSHOT/repository/deployment/client/modules/addressing-1.6.1-wso2v11-20141003.221230-650.mar 
+TID: [-1234] [CEP] [2014-11-24 14:01:05,731]  INFO {org.apache.axis2.deployment.ModuleDeployer} -  Deploying module: rampart-1.6.1-wso2v11 - file:/home/cdathuraliya/TrafficAnalyzerBundle/wso2cep-4.0.0-SNAPSHOT/repository/deployment/client/modules/rampart-1.6.1-wso2v11.mar 
+TID: [-1234] [CEP] [2014-11-24 14:01:05,731]  INFO {org.apache.axis2.deployment.ModuleDeployer} -  Deploying module: rampart-1.6.1-wso2v11 - file:/home/cdathuraliya/TrafficAnalyzerBundle/wso2cep-4.0.0-SNAPSHOT/repository/deployment/client/modules/rampart-1.6.1-wso2v11.mar 
+TID: [-1234] [CEP] [2014-11-24 14:01:05,735]  INFO {org.apache.axis2.transport.mail.MailTransportSender} -  MAILTO Sender started 
+TID: [-1234] [CEP] [2014-11-24 14:01:05,735]  INFO {org.apache.axis2.transport.mail.MailTransportSender} -  MAILTO Sender started 
+TID: [-1234] [CEP] [2014-11-24 14:01:05,745]  INFO {org.apache.axis2.transport.tcp.TCPTransportSender} -  TCP Sender started 
+TID: [-1234] [CEP] [2014-11-24 14:01:05,745]  INFO {org.apache.axis2.transport.tcp.TCPTransportSender} -  TCP Sender started 
+TID: [-1234] [CEP] [2014-11-24 14:01:06,561]  INFO {org.wso2.carbon.core.deployment.DeploymentInterceptor} -  Deploying Axis2 service: EventSimulatorAdminService {super-tenant} 
+TID: [-1234] [CEP] [2014-11-24 14:01:06,562]  INFO {org.apache.axis2.deployment.DeploymentEngine} -  Deploying Web service: org.wso2.carbon.event.simulator.admin-2.0.0.SNAPSHOT -  
+TID: [-1234] [CEP] [2014-11-24 14:01:06,562]  INFO {org.apache.axis2.deployment.DeploymentEngine} -  Deploying Web service: org.wso2.carbon.event.simulator.admin-2.0.0.SNAPSHOT -  
+TID: [-1234] [CEP] [2014-11-24 14:01:07,929]  INFO {org.apache.axis2.deployment.DeploymentEngine} -  Deploying Web service: org.wso2.carbon.tryit-4.3.0.SNAPSHOT -  
+TID: [-1234] [CEP] [2014-11-24 14:01:07,929]  INFO {org.apache.axis2.deployment.DeploymentEngine} -  Deploying Web service: org.wso2.carbon.tryit-4.3.0.SNAPSHOT -  
+TID: [-1234] [CEP] [2014-11-24 14:01:08,452]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Repository       : /home/cdathuraliya/TrafficAnalyzerBundle/wso2cep-4.0.0-SNAPSHOT/repository/deployment/server/ 
+TID: [-1] [CEP] [2014-11-24 14:01:08,457]  INFO {org.wso2.carbon.event.input.adaptor.file.internal.ds.FileEventAdaptorServiceHolder} -  File input event adaptor waiting for dependent configurations to load 
+TID: [-1] [CEP] [2014-11-24 14:01:08,458]  INFO {org.wso2.carbon.event.input.adaptor.kafka.internal.ds.KafkaEventAdaptorServiceHolder} -  Kafka input event adaptor waiting for dependent configurations to load 
+TID: [-1234] [CEP] [2014-11-24 14:01:08,643]  INFO {org.wso2.carbon.core.internal.permission.update.PermissionUpdater} -  Permission cache updated for tenant -1234 
+TID: [-1234] [CEP] [2014-11-24 14:01:08,839]  INFO {org.wso2.carbon.databridge.receiver.thrift.ThriftDataReceiver} -  Thrift Server started at 10.100.4.126 
+TID: [-1234] [CEP] [2014-11-24 14:01:08,850]  INFO {org.wso2.carbon.databridge.receiver.thrift.ThriftDataReceiver} -  Thrift SSL port : 7711 
+TID: [-1234] [CEP] [2014-11-24 14:01:08,860]  INFO {org.wso2.carbon.databridge.receiver.thrift.ThriftDataReceiver} -  Thrift port : 7611 
+TID: [-1] [CEP] [2014-11-24 14:01:08,988]  INFO {org.wso2.carbon.event.input.adaptor.email.internal.ds.EmailEventAdaptorServiceDS} -  Email input event adaptor waiting for dependent configurations to load 
+TID: [-1] [CEP] [2014-11-24 14:01:09,005]  INFO {org.wso2.carbon.event.input.adaptor.jms.internal.ds.JMSEventAdaptorServiceHolder} -  JMS input event adaptor waiting for dependent configurations to load 
+TID: [-1] [CEP] [2014-11-24 14:01:09,047]  INFO {org.wso2.carbon.event.input.adaptor.mqtt.internal.ds.MQTTEventAdaptorServiceValueHolder} -  MQTT input event adaptor waiting for dependent configurations to load 
+TID: [-1234] [CEP] [2014-11-24 14:01:09,187]  INFO {org.wso2.carbon.identity.core.internal.IdentityCoreServiceComponent} -  Identity Database schema initialization check was skipped since 'setup' variable was not given during startup 
+TID: [-1234] [CEP] [2014-11-24 14:01:09,265]  INFO {org.wso2.carbon.core.transports.http.HttpsTransportListener} -  HTTPS port       : 9443 
+TID: [-1234] [CEP] [2014-11-24 14:01:09,265]  INFO {org.wso2.carbon.core.transports.http.HttpTransportListener} -  HTTP port        : 9763 
+TID: [-1234] [CEP] [2014-11-24 14:01:09,658]  INFO {org.wso2.carbon.event.stream.manager.core.internal.stream.EventJunction} -  Producer added to the junction. Stream:classifiedStream:1.0.0 
+TID: [-1234] [CEP] [2014-11-24 14:01:09,661]  INFO {org.wso2.carbon.event.stream.manager.core.internal.stream.EventJunction} -  Consumer added to the junction. Stream:preprocessedStream:1.0.0 
+TID: [-1234] [CEP] [2014-11-24 14:01:09,662]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} -  Execution plan is deployed successfully and in active state  : ClassifyingExecutionPlan 
+TID: [-1234] [CEP] [2014-11-24 14:01:09,666]  INFO {org.wso2.carbon.event.output.adaptor.manager.core.OutputEventAdaptorDeployer} -  Output Event Adaptor successfully deployed and in active state : DefaultLoggerOutputAdaptor 
+TID: [-1234] [CEP] [2014-11-24 14:01:09,672]  INFO {org.wso2.carbon.event.input.adaptor.manager.core.InputEventAdaptorDeployer} -  Input Event Adaptor deployed successfully and in active state : DefaultWSO2EventInputAdaptor 
+TID: [-1234] [CEP] [2014-11-24 14:01:09,678]  INFO {org.wso2.carbon.event.formatter.core.EventFormatterDeployer} -  Event Formatter deployment held back and in inactive state : EmailEventFormatter.xml, waiting for dependency : emailAdapter 
+TID: [-1234] [CEP] [2014-11-24 14:01:09,728]  INFO {org.wso2.carbon.event.stream.manager.core.internal.stream.EventJunction} -  Producer added to the junction. Stream:geocodeOutStream:1.0.0 
+TID: [-1234] [CEP] [2014-11-24 14:01:09,733]  INFO {org.wso2.carbon.event.stream.manager.core.internal.stream.EventJunction} -  Consumer added to the junction. Stream:transformedStream:1.0.0 
+TID: [-1234] [CEP] [2014-11-24 14:01:09,734]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} -  Execution plan is deployed successfully and in active state  : GeocodingExecutionPlan 
+TID: [-1234] [CEP] [2014-11-24 14:01:09,744]  INFO {org.wso2.carbon.event.builder.core.EventBuilderDeployer} -  Event builder deployment held back and in inactive state :InitialLoadEventBuilder, Waiting for Input Event Adaptor dependency :InitialLoadInputEventAdaptor 
+TID: [-1234] [CEP] [2014-11-24 14:01:09,746]  INFO {org.wso2.carbon.event.formatter.core.EventFormatterDeployer} -  Event Formatter deployment held back and in inactive state : InitialLoadEventFormatter.xml, waiting for dependency : InitialLoadOutputEventAdaptor 
+TID: [-1234] [CEP] [2014-11-24 14:01:09,748]  INFO {org.wso2.carbon.event.input.adaptor.manager.core.InputEventAdaptorDeployer} -  Input Event Adaptor deployed successfully and in active state : InitialLoadInputEventAdaptor 
+TID: [-1234] [CEP] [2014-11-24 14:01:09,751]  INFO {org.wso2.carbon.event.builder.core.EventBuilderDeployer} -  Event Builder undeployed successfully : InitialLoadEventBuilder.xml 
+TID: [-1234] [CEP] [2014-11-24 14:01:09,804]  INFO {org.wso2.carbon.event.stream.manager.core.internal.stream.EventJunction} -  Producer added to the junction. Stream:initialLoadEventStream:1.0.0 
+TID: [-1234] [CEP] [2014-11-24 14:01:09,804]  INFO {org.wso2.carbon.event.builder.core.EventBuilderDeployer} -  Event Builder deployed successfully and in active state : InitialLoadEventBuilder 
+TID: [-1234] [CEP] [2014-11-24 14:01:09,806]  INFO {org.wso2.carbon.event.output.adaptor.manager.core.OutputEventAdaptorDeployer} -  Output Event Adaptor successfully deployed and in active state : InitialLoadOutputEventAdaptor 
+TID: [-1234] [CEP] [2014-11-24 14:01:09,809]  INFO {org.wso2.carbon.event.formatter.core.EventFormatterDeployer} -  Event Formatter undeployed successfully : InitialLoadEventFormatter.xml 
+TID: [-1234] [CEP] [2014-11-24 14:01:09,833]  INFO {org.wso2.carbon.event.stream.manager.core.internal.stream.EventJunction} -  Consumer added to the junction. Stream:initialUiFeedStream:1.0.0 
+TID: [-1234] [CEP] [2014-11-24 14:01:09,834]  INFO {org.wso2.carbon.event.formatter.core.EventFormatterDeployer} -  Event Formatter configuration successfully deployed and in active state : InitialLoadEventFormatter 
+TID: [-1234] [CEP] [2014-11-24 14:01:09,916]  INFO {org.wso2.carbon.event.stream.manager.core.internal.stream.EventJunction} -  Producer added to the junction. Stream:initialUiFeedStream:1.0.0 
+TID: [-1234] [CEP] [2014-11-24 14:01:09,922]  INFO {org.wso2.carbon.event.stream.manager.core.internal.stream.EventJunction} -  Consumer added to the junction. Stream:uiFeedStream:1.0.0 
+TID: [-1234] [CEP] [2014-11-24 14:01:09,922]  INFO {org.wso2.carbon.event.stream.manager.core.internal.stream.EventJunction} -  Consumer added to the junction. Stream:initialLoadEventStream:1.0.0 
+TID: [-1234] [CEP] [2014-11-24 14:01:09,923]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} -  Execution plan is deployed successfully and in active state  : InitialLoadingExecutionPlan 
+TID: [-1234] [CEP] [2014-11-24 14:01:10,791]  INFO {org.wso2.carbon.event.stream.manager.core.internal.stream.EventJunction} -  Producer added to the junction. Stream:locationsStream:1.0.0 
+TID: [-1234] [CEP] [2014-11-24 14:01:10,791]  INFO {org.wso2.carbon.event.stream.manager.core.internal.stream.EventJunction} -  Consumer added to the junction. Stream:classifiedStream:1.0.0 
+TID: [-1234] [CEP] [2014-11-24 14:01:10,791]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} -  Execution plan is deployed successfully and in active state  : NERExecutionPlan 
+TID: [-1234] [CEP] [2014-11-24 14:01:10,814]  INFO {org.wso2.carbon.event.stream.manager.core.internal.stream.EventJunction} -  Producer added to the junction. Stream:preprocessedStream:1.0.0 
+TID: [-1234] [CEP] [2014-11-24 14:01:10,818]  INFO {org.wso2.carbon.event.stream.manager.core.internal.stream.EventJunction} -  Consumer added to the junction. Stream:twitter_input_stream:1.0.0 
+TID: [-1234] [CEP] [2014-11-24 14:01:10,819]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} -  Execution plan is deployed successfully and in active state  : PreprocessingExecutionPlan 
+TID: [-1234] [CEP] [2014-11-24 14:01:10,983]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/STRATOS_ROOT].File[/home/cdathuraliya/TrafficAnalyzerBundle/wso2cep-4.0.0-SNAPSHOT/repository/deployment/server/webapps/STRATOS_ROOT] 
+TID: [-1234] [CEP] [2014-11-24 14:01:10,990]  INFO {org.wso2.carbon.event.builder.core.EventBuilderDeployer} -  Event builder deployment held back and in inactive state :SearchEventBuilder, Waiting for Input Event Adaptor dependency :SearchInputEventAdaptor 
+TID: [-1234] [CEP] [2014-11-24 14:01:10,993]  INFO {org.wso2.carbon.event.formatter.core.EventFormatterDeployer} -  Event Formatter deployment held back and in inactive state : SearchEventFormatter.xml, waiting for dependency : SearchOutputEventAdapter 
+TID: [-1234] [CEP] [2014-11-24 14:01:10,999]  INFO {org.wso2.carbon.event.input.adaptor.manager.core.InputEventAdaptorDeployer} -  Input Event Adaptor deployed successfully and in active state : SearchInputEventAdaptor 
+TID: [-1234] [CEP] [2014-11-24 14:01:11,000]  INFO {org.wso2.carbon.event.builder.core.EventBuilderDeployer} -  Event Builder undeployed successfully : SearchEventBuilder.xml 
+TID: [-1234] [CEP] [2014-11-24 14:01:11,037]  INFO {org.wso2.carbon.event.stream.manager.core.internal.stream.EventJunction} -  Producer added to the junction. Stream:SearchEventStream:1.0.0 
+TID: [-1234] [CEP] [2014-11-24 14:01:11,037]  INFO {org.wso2.carbon.event.builder.core.EventBuilderDeployer} -  Event Builder deployed successfully and in active state : SearchEventBuilder 
+TID: [-1234] [CEP] [2014-11-24 14:01:11,039]  INFO {org.wso2.carbon.event.output.adaptor.manager.core.OutputEventAdaptorDeployer} -  Output Event Adaptor successfully deployed and in active state : SearchOutputEventAdapter 
+TID: [-1234] [CEP] [2014-11-24 14:01:11,039]  INFO {org.wso2.carbon.event.formatter.core.EventFormatterDeployer} -  Event Formatter undeployed successfully : SearchEventFormatter.xml 
+TID: [-1234] [CEP] [2014-11-24 14:01:11,058]  INFO {org.wso2.carbon.event.stream.manager.core.internal.stream.EventJunction} -  Consumer added to the junction. Stream:searchResult:1.0.0 
+TID: [-1234] [CEP] [2014-11-24 14:01:11,058]  INFO {org.wso2.carbon.event.formatter.core.EventFormatterDeployer} -  Event Formatter configuration successfully deployed and in active state : SearchEventFormatter 
+TID: [-1234] [CEP] [2014-11-24 14:01:11,163]  INFO {org.wso2.carbon.event.stream.manager.core.internal.stream.EventJunction} -  Producer added to the junction. Stream:searchResult:1.0.0 
+TID: [-1234] [CEP] [2014-11-24 14:01:11,163]  INFO {org.wso2.carbon.event.stream.manager.core.internal.stream.EventJunction} -  Consumer added to the junction. Stream:SearchEventStream:1.0.0 
+TID: [-1234] [CEP] [2014-11-24 14:01:11,164]  INFO {org.wso2.carbon.event.stream.manager.core.internal.stream.EventJunction} -  Consumer added to the junction. Stream:uiFeedStream:1.0.0 
+TID: [-1234] [CEP] [2014-11-24 14:01:11,164]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} -  Execution plan is deployed successfully and in active state  : SearchingExecutionPlan 
+TID: [-1234] [CEP] [2014-11-24 14:01:11,606]  INFO {org.wso2.carbon.event.stream.manager.core.internal.stream.EventJunction} -  Producer added to the junction. Stream:subscribeStream:1.0.0 
+TID: [-1234] [CEP] [2014-11-24 14:01:11,606]  INFO {org.wso2.carbon.event.stream.manager.core.internal.stream.EventJunction} -  Consumer added to the junction. Stream:uiFeedStream:1.0.0 
+TID: [-1234] [CEP] [2014-11-24 14:01:11,607]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} -  Execution plan is deployed successfully and in active state  : SubscribingExecutionPlan 
+TID: [-1234] [CEP] [2014-11-24 14:01:11,609]  INFO {org.wso2.carbon.event.output.adaptor.manager.core.OutputEventAdaptorDeployer} -  Output Event Adaptor successfully deployed and in active state : TestOutputAdapter 
+TID: [-1234] [CEP] [2014-11-24 14:01:13,470]  INFO {org.wso2.carbon.event.stream.manager.core.internal.stream.EventJunction} -  Producer added to the junction. Stream:feed:1.0.0 
+TID: [-1234] [CEP] [2014-11-24 14:01:13,470]  INFO {org.wso2.carbon.event.stream.manager.core.internal.stream.EventJunction} -  Consumer added to the junction. Stream:locationsStream:1.0.0 
+TID: [-1234] [CEP] [2014-11-24 14:01:13,470]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} -  Execution plan is deployed successfully and in active state  : TrafficlevelCategorizingExecutionPlan 
+TID: [-1234] [CEP] [2014-11-24 14:01:13,496]  INFO {org.wso2.carbon.event.stream.manager.core.internal.stream.EventJunction} -  Producer added to the junction. Stream:transformedStream:1.0.0 
+TID: [-1234] [CEP] [2014-11-24 14:01:13,497]  INFO {org.wso2.carbon.event.stream.manager.core.internal.stream.EventJunction} -  Consumer added to the junction. Stream:feed:1.0.0 
+TID: [-1234] [CEP] [2014-11-24 14:01:13,497]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} -  Execution plan is deployed successfully and in active state  : TransformingExecutionPlan 
+TID: [-1234] [CEP] [2014-11-24 14:01:13,498]  INFO {org.wso2.carbon.event.formatter.core.EventFormatterDeployer} -  Event Formatter deployment held back and in inactive state : UIEventFormatter.xml, waiting for dependency : UIOutputEventAdaptor 
+TID: [-1234] [CEP] [2014-11-24 14:01:13,499]  INFO {org.wso2.carbon.event.output.adaptor.manager.core.OutputEventAdaptorDeployer} -  Output Event Adaptor successfully deployed and in active state : UIOutputEventAdaptor 
+TID: [-1234] [CEP] [2014-11-24 14:01:13,499]  INFO {org.wso2.carbon.event.formatter.core.EventFormatterDeployer} -  Event Formatter undeployed successfully : UIEventFormatter.xml 
+TID: [-1234] [CEP] [2014-11-24 14:01:13,503]  INFO {org.wso2.carbon.event.stream.manager.core.internal.stream.EventJunction} -  Consumer added to the junction. Stream:uiFeedStream:1.0.0 
+TID: [-1234] [CEP] [2014-11-24 14:01:13,504]  INFO {org.wso2.carbon.event.formatter.core.EventFormatterDeployer} -  Event Formatter configuration successfully deployed and in active state : UIEventFormatter 
+TID: [-1234] [CEP] [2014-11-24 14:01:13,511]  INFO {org.wso2.carbon.event.stream.manager.core.internal.stream.EventJunction} -  Consumer added to the junction. Stream:classifiedStream:1.0.0 
+TID: [-1234] [CEP] [2014-11-24 14:01:13,511]  INFO {org.wso2.carbon.event.formatter.core.EventFormatterDeployer} -  Event Formatter configuration successfully deployed and in active state : classifiedTestFormatter 
+TID: [-1234] [CEP] [2014-11-24 14:01:13,512]  INFO {org.wso2.carbon.event.output.adaptor.manager.core.OutputEventAdaptorDeployer} -  Output Event Adaptor successfully deployed and in active state : emailAdapter 
+TID: [-1234] [CEP] [2014-11-24 14:01:13,512]  INFO {org.wso2.carbon.event.formatter.core.EventFormatterDeployer} -  Event Formatter undeployed successfully : EmailEventFormatter.xml 
+TID: [-1234] [CEP] [2014-11-24 14:01:13,518]  INFO {org.wso2.carbon.event.stream.manager.core.internal.stream.EventJunction} -  Consumer added to the junction. Stream:subscribeStream:1.0.0 
+TID: [-1234] [CEP] [2014-11-24 14:01:13,518]  INFO {org.wso2.carbon.event.formatter.core.EventFormatterDeployer} -  Event Formatter configuration successfully deployed and in active state : EmailEventFormatter 
+TID: [-1234] [CEP] [2014-11-24 14:01:13,523]  INFO {org.wso2.carbon.event.stream.manager.core.internal.stream.EventJunction} -  Consumer added to the junction. Stream:initialUiFeedStream:1.0.0 
+TID: [-1234] [CEP] [2014-11-24 14:01:13,523]  INFO {org.wso2.carbon.event.formatter.core.EventFormatterDeployer} -  Event Formatter configuration successfully deployed and in active state : initialLoadTestFormatter 
+TID: [-1234] [CEP] [2014-11-24 14:01:13,617]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/inputwebsocket].File[/home/cdathuraliya/TrafficAnalyzerBundle/wso2cep-4.0.0-SNAPSHOT/repository/deployment/server/webapps/inputwebsocket.war] 
+TID: [-1234] [CEP] [2014-11-24 14:01:13,620]  INFO {org.wso2.carbon.event.builder.core.EventBuilderDeployer} -  Event builder deployment held back and in inactive state :live_tweet_event_builder, Waiting for Input Event Adaptor dependency :twitter_input_adaptor 
+TID: [-1234] [CEP] [2014-11-24 14:01:13,626]  INFO {org.wso2.carbon.event.stream.manager.core.internal.stream.EventJunction} -  Consumer added to the junction. Stream:locationsStream:1.0.0 
+TID: [-1234] [CEP] [2014-11-24 14:01:13,627]  INFO {org.wso2.carbon.event.formatter.core.EventFormatterDeployer} -  Event Formatter configuration successfully deployed and in active state : locationsTestFormatter 
+TID: [-1234] [CEP] [2014-11-24 14:01:13,629]  INFO {org.wso2.carbon.event.builder.core.EventBuilderDeployer} -  Event builder deployment held back and in inactive state :off_tweet_event_builder, Waiting for Input Event Adaptor dependency :twitter_input_adaptor 
+TID: [-1234] [CEP] [2014-11-24 14:01:13,686]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/outputwebsocket].File[/home/cdathuraliya/TrafficAnalyzerBundle/wso2cep-4.0.0-SNAPSHOT/repository/deployment/server/webapps/outputwebsocket.war] 
+TID: [-1234] [CEP] [2014-11-24 14:01:13,691]  INFO {org.wso2.carbon.event.stream.manager.core.internal.stream.EventJunction} -  Consumer added to the junction. Stream:SearchEventStream:1.0.0 
+TID: [-1234] [CEP] [2014-11-24 14:01:13,692]  INFO {org.wso2.carbon.event.formatter.core.EventFormatterDeployer} -  Event Formatter configuration successfully deployed and in active state : searchInputTestFormatter 
+TID: [-1234] [CEP] [2014-11-24 14:01:13,697]  INFO {org.wso2.carbon.event.stream.manager.core.internal.stream.EventJunction} -  Consumer added to the junction. Stream:SearchEventStream:1.0.0 
+TID: [-1234] [CEP] [2014-11-24 14:01:13,697]  INFO {org.wso2.carbon.event.formatter.core.EventFormatterDeployer} -  Event Formatter configuration successfully deployed and in active state : searchInputWebsocketFormatter 
+TID: [-1234] [CEP] [2014-11-24 14:01:13,704]  INFO {org.wso2.carbon.event.stream.manager.core.internal.stream.EventJunction} -  Consumer added to the junction. Stream:searchResult:1.0.0 
+TID: [-1234] [CEP] [2014-11-24 14:01:13,704]  INFO {org.wso2.carbon.event.formatter.core.EventFormatterDeployer} -  Event Formatter configuration successfully deployed and in active state : searchTestFormatter 
+TID: [-1234] [CEP] [2014-11-24 14:01:19,491]  INFO {org.apache.shindig.gadgets.features.FeatureRegistry} -  Nov 24, 2014 2:01:19 PM org.apache.shindig.gadgets.features.FeatureRegistry register
+INFO: Resources from res:features/features.txt are loading.
+ 
+TID: [-1234] [CEP] [2014-11-24 14:01:19,511]  INFO {org.apache.shindig.common.xml.XmlUtil} -  Nov 24, 2014 2:01:19 PM org.apache.shindig.common.xml.XmlUtil static block
+INFO: The XML processor being used does not support secure parsing.
+ 
+TID: [-1234] [CEP] [2014-11-24 14:01:19,514]  INFO {org.apache.shindig.common.xml.XmlUtil} -  Nov 24, 2014 2:01:19 PM org.apache.shindig.common.xml.XmlUtil static block
+INFO: Document builders are being reused.
+ 
+TID: [-1234] [CEP] [2014-11-24 14:01:19,997]  INFO {org.apache.shindig.gadgets.features.FeatureRegistry} -  Nov 24, 2014 2:01:19 PM org.apache.shindig.gadgets.features.FeatureRegistry register
+INFO: Resources from res:features-extras/features.txt are loading.
+ 
+TID: [-1234] [CEP] [2014-11-24 14:01:21,874]  INFO {org.apache.shindig.config.JsonContainerConfigLoader} -  Nov 24, 2014 2:01:21 PM org.apache.shindig.config.JsonContainerConfigLoader loadContainers
+INFO: Resources from containers/default/container.js are loading.
+ 
+TID: [-1234] [CEP] [2014-11-24 14:01:21,874]  INFO {org.apache.shindig.config.JsonContainerConfigLoader} -  Nov 24, 2014 2:01:21 PM org.apache.shindig.config.JsonContainerConfigLoader loadResources
+INFO: Container configuration containers/default/container.js is being read.
+ 
+TID: [-1234] [CEP] [2014-11-24 14:01:21,959]  WARN {org.apache.shindig.auth.BasicSecurityTokenCodec} -  Nov 24, 2014 2:01:21 PM org.apache.shindig.auth.BasicSecurityTokenCodec containersChanged
+WARNING: Token TTL for container "default" was 0 and will be ignored.
+ 
+TID: [-1234] [CEP] [2014-11-24 14:01:21,960]  WARN {org.apache.shindig.auth.BasicSecurityTokenCodec} -  Nov 24, 2014 2:01:21 PM org.apache.shindig.auth.BasicSecurityTokenCodec containersChanged
+WARNING: Token TTL for container "accel" was 0 and will be ignored.
+ 
+TID: [-1234] [CEP] [2014-11-24 14:01:22,222]  INFO {org.apache.shindig.gadgets.oauth2.logger.FilteredLogger} -  Nov 24, 2014 2:01:22 PM org.apache.shindig.gadgets.oauth2.logger.FilteredLogger log
+INFO: Using random key for OAuth2 client-side state encryption
+ 
+TID: [-1234] [CEP] [2014-11-24 14:01:22,222]  INFO {org.apache.shindig.gadgets.oauth2.logger.FilteredLogger} -  Nov 24, 2014 2:01:22 PM org.apache.shindig.gadgets.oauth2.logger.FilteredLogger log
+INFO: OAuth2CrypterProvider constructor
+ 
+TID: [-1234] [CEP] [2014-11-24 14:01:22,231]  INFO {org.apache.shindig.gadgets.oauth.OAuthModule$OAuthCrypterProvider} -  Nov 24, 2014 2:01:22 PM org.apache.shindig.gadgets.oauth.OAuthModule$OAuthCrypterProvider <init>
+INFO: Using random key for OAuth client-side state encryption
+ 
+TID: [-1234] [CEP] [2014-11-24 14:01:22,231]  INFO {org.apache.shindig.gadgets.oauth.OAuthModule} -  Nov 24, 2014 2:01:22 PM org.apache.shindig.gadgets.oauth.OAuthModule OAuthCrypterProvider constructor
+INFO: A random key for OAuth client-side state encryption is being used.
+ 
+TID: [-1234] [CEP] [2014-11-24 14:01:22,233]  WARN {org.apache.shindig.gadgets.oauth.OAuthModule} -  Nov 24, 2014 2:01:22 PM org.apache.shindig.gadgets.oauth.OAuthModule loadDefaultKey
+WARNING: The OAuth signing key did not load correctly. To create a key: 
+ 1. Run the following command: 
+ openssl req -newkey rsa:1024 -days 365 -nodes -x509 -keyout testkey.pem \
+ -out testkey.pem -subj /CN=mytestkey
+ openssl pkcs8 -in testkey.pem -out oauthkey.pem -topk8 -nocrypt -outform PEM
+
+. 2. Edit the shindig.properties file by adding these lines: 
+shindig.signing.key-file =<path-to-oauthkey.pem>
+ shindig.signing.key-name =mykey
+.
+ 
+TID: [-1234] [CEP] [2014-11-24 14:01:22,436]  INFO {org.apache.shiro.config.IniSecurityManagerFactory} -  Realms have been explicitly set on the SecurityManager instance - auto-setting of realms will not occur. 
+TID: [-1234] [CEP] [2014-11-24 14:01:22,436]  INFO {org.apache.shiro.config.IniSecurityManagerFactory} -  Realms have been explicitly set on the SecurityManager instance - auto-setting of realms will not occur. 
+TID: [-1234] [CEP] [2014-11-24 14:01:22,437]  INFO {org.apache.shiro.realm.AuthorizingRealm} -  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained. 
+TID: [-1234] [CEP] [2014-11-24 14:01:22,437]  INFO {org.apache.shiro.realm.AuthorizingRealm} -  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained. 
+TID: [-1234] [CEP] [2014-11-24 14:01:22,447]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/shindig].File[/home/cdathuraliya/TrafficAnalyzerBundle/wso2cep-4.0.0-SNAPSHOT/repository/deployment/server/webapps/shindig] 
+TID: [-1234] [CEP] [2014-11-24 14:01:22,459]  INFO {org.wso2.carbon.event.stream.manager.core.internal.stream.EventJunction} -  Consumer added to the junction. Stream:transformedStream:1.0.0 
+TID: [-1234] [CEP] [2014-11-24 14:01:22,460]  INFO {org.wso2.carbon.event.formatter.core.EventFormatterDeployer} -  Event Formatter configuration successfully deployed and in active state : transformedTestFormatter 
+TID: [-1234] [CEP] [2014-11-24 14:01:22,461]  INFO {org.wso2.carbon.event.input.adaptor.manager.core.InputEventAdaptorDeployer} -  Input Event Adaptor deployment held back and in inactive state : twitter_input_adaptor, waiting for input event adaptor type dependency http 
+TID: [-1234] [CEP] [2014-11-24 14:01:22,515]  INFO {org.wso2.carbon.event.stream.manager.core.internal.stream.EventJunction} -  Producer added to the junction. Stream:uiFeedStream:1.0.0 
+TID: [-1234] [CEP] [2014-11-24 14:01:22,516]  INFO {org.wso2.carbon.event.stream.manager.core.internal.stream.EventJunction} -  Producer added to the junction. Stream:initialLoadEventStream:1.0.0 
+TID: [-1234] [CEP] [2014-11-24 14:01:22,516]  INFO {org.wso2.carbon.event.stream.manager.core.internal.stream.EventJunction} -  Consumer added to the junction. Stream:geocodeOutStream:1.0.0 
+TID: [-1234] [CEP] [2014-11-24 14:01:22,516]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} -  Execution plan is deployed successfully and in active state  : uiFeedExecutionPlan 
+TID: [-1234] [CEP] [2014-11-24 14:01:22,528]  INFO {org.wso2.carbon.event.stream.manager.core.internal.stream.EventJunction} -  Consumer added to the junction. Stream:uiFeedStream:1.0.0 
+TID: [-1234] [CEP] [2014-11-24 14:01:22,528]  INFO {org.wso2.carbon.event.formatter.core.EventFormatterDeployer} -  Event Formatter configuration successfully deployed and in active state : uiTestFormatter 
+TID: [-1234] [CEP] [2014-11-24 14:01:22,550]  INFO {org.apache.tomcat.util.net.NioSelectorPool} -  Nov 24, 2014 2:01:22 PM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+ 
+TID: [-1234] [CEP] [2014-11-24 14:01:22,615]  INFO {org.apache.tomcat.util.net.NioSelectorPool} -  Nov 24, 2014 2:01:22 PM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+ 
+TID: [-1234] [CEP] [2014-11-24 14:01:22,689]  INFO {org.wso2.carbon.core.init.JMXServerManager} -  JMX Service URL  : service:jmx:rmi://localhost:11111/jndi/rmi://localhost:9999/jmxrmi 
+TID: [-1234] [CEP] [2014-11-24 14:01:22,689]  INFO {org.wso2.carbon.core.internal.StartupFinalizerServiceComponent} -  Server           :  WSO2 Complex Event Processor-4.0.0 
+TID: [-1234] [CEP] [2014-11-24 14:01:22,690]  INFO {org.wso2.carbon.core.internal.StartupFinalizerServiceComponent} -  WSO2 Carbon started in 40 sec 
+TID: [-1234] [CEP] [2014-11-24 14:01:24,351]  INFO {org.wso2.carbon.ui.internal.CarbonUIServiceComponent} -  Mgt Console URL  : https://10.100.4.126:9443/carbon/ 
+TID: [-1234] [CEP] [2014-11-24 14:01:24,378]  INFO {org.wso2.carbon.event.input.adaptor.manager.core.InputEventAdaptorDeployer} -  Input Event Adaptor undeployed successfully : twitter_input_adaptor.xml 
+TID: [-1234] [CEP] [2014-11-24 14:01:24,380]  INFO {org.wso2.carbon.event.input.adaptor.manager.core.InputEventAdaptorDeployer} -  Input Event Adaptor deployed successfully and in active state : twitter_input_adaptor 
+TID: [-1234] [CEP] [2014-11-24 14:01:24,380]  INFO {org.wso2.carbon.event.builder.core.EventBuilderDeployer} -  Event Builder undeployed successfully : live_tweet_event_builder.xml 
+TID: [-1234] [CEP] [2014-11-24 14:01:24,401]  INFO {org.wso2.carbon.event.stream.manager.core.internal.stream.EventJunction} -  Producer added to the junction. Stream:twitter_input_stream:1.0.0 
+TID: [-1234] [CEP] [2014-11-24 14:01:24,402]  INFO {org.wso2.carbon.event.builder.core.EventBuilderDeployer} -  Event Builder deployed successfully and in active state : live_tweet_event_builder 
+TID: [-1234] [CEP] [2014-11-24 14:01:24,402]  INFO {org.wso2.carbon.event.builder.core.EventBuilderDeployer} -  Event Builder undeployed successfully : off_tweet_event_builder.xml 
+TID: [-1234] [CEP] [2014-11-24 14:01:24,416]  INFO {org.wso2.carbon.event.stream.manager.core.internal.stream.EventJunction} -  Producer added to the junction. Stream:twitter_input_stream:1.0.0 
+TID: [-1234] [CEP] [2014-11-24 14:01:24,417]  INFO {org.wso2.carbon.event.builder.core.EventBuilderDeployer} -  Event Builder deployed successfully and in active state : off_tweet_event_builder 
+TID: [-1] [CEP] [2014-11-24 14:01:48,459]  INFO {org.wso2.carbon.event.input.adaptor.file.FileEventAdaptorType} -  File input event adaptor loading listeners  
+TID: [-1] [CEP] [2014-11-24 14:01:48,464]  INFO {org.wso2.carbon.event.input.adaptor.kafka.KafkaEventAdaptorType} -  Kafka input event adaptor loading listeners  
+TID: [-1] [CEP] [2014-11-24 14:01:48,997]  INFO {org.wso2.carbon.event.input.adaptor.email.EmailEventAdaptorType} -  Email input event adaptor loading listeners  
+TID: [-1] [CEP] [2014-11-24 14:01:49,006]  INFO {org.wso2.carbon.event.input.adaptor.jms.JMSEventAdaptorType} -  JMS input event adaptor loading listeners  
+TID: [-1] [CEP] [2014-11-24 14:01:49,055]  INFO {org.wso2.carbon.event.input.adaptor.mqtt.MQTTEventAdaptorType} -  MQTT input event adaptor loading listeners  
+TID: [-1234] [CEP] [2014-11-24 14:06:30,711]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Shutdown hook triggered.... 
+TID: [-1234] [CEP] [2014-11-24 14:06:30,712]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Gracefully shutting down WSO2 Complex Event Processor... 
+TID: [-1234] [CEP] [2014-11-24 14:06:30,718]  INFO {org.wso2.carbon.core.ServerManagement} -  Starting to switch to maintenance mode... 
+TID: [-1234] [CEP] [2014-11-24 14:06:30,719]  INFO {org.wso2.carbon.core.ServerManagement} -  Stopped all transport listeners 
+TID: [-1234] [CEP] [2014-11-24 14:06:30,719]  INFO {org.wso2.carbon.core.ServerManagement} -  Waiting for request service completion... 
+TID: [-1234] [CEP] [2014-11-24 14:06:30,722]  INFO {org.wso2.carbon.core.ServerManagement} -  All requests have been served. 
+TID: [-1234] [CEP] [2014-11-24 14:06:30,722]  INFO {org.wso2.carbon.core.ServerManagement} -  Waiting for deployment completion... 
+TID: [-1234] [CEP] [2014-11-24 14:06:30,763]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} -  Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/shindig] 
+TID: [-1234] [CEP] [2014-11-24 14:06:30,770]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} -  Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/STRATOS_ROOT] 
+TID: [-1234] [CEP] [2014-11-24 14:06:30,778]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} -  Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/outputwebsocket] 
+TID: [-1234] [CEP] [2014-11-24 14:06:30,784]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} -  Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/inputwebsocket] 
+TID: [-1234] [CEP] [2014-11-24 14:06:30,784]  INFO {org.wso2.carbon.core.ServerManagement} -  All deployment tasks have been completed. 
+TID: [-1234] [CEP] [2014-11-24 14:06:30,785]  INFO {org.wso2.carbon.core.ServerManagement} -  Waiting for server task completion... 
+TID: [-1234] [CEP] [2014-11-24 14:06:30,785]  INFO {org.wso2.carbon.core.ServerManagement} -  All server tasks have been completed. 
+TID: [-1234] [CEP] [2014-11-24 14:06:30,785]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Shutting down WSO2 Complex Event Processor... 
+TID: [-1234] [CEP] [2014-11-24 14:06:30,786]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Shutting down OSGi framework... 
+TID: [-1234] [CEP] [2014-11-24 14:06:30,820]  INFO {org.wso2.carbon.databridge.receiver.thrift.internal.ThriftDataReceiverDS} -  Thrift server shutting down... 
+TID: [-1234] [CEP] [2014-11-24 14:06:30,868]  INFO {org.apache.cassandra.service.CassandraDaemon} -  Cassandra shutting down... 
+TID: [-1234] [CEP] [2014-11-24 14:06:30,868]  INFO {org.apache.cassandra.service.CassandraDaemon} -  Cassandra shutting down... 
+TID: [-1234] [CEP] [2014-11-24 14:06:32,957]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Stopping CarbonServerManager... 
+TID: [-1234] [CEP] [2014-11-24 14:06:32,961]  INFO {org.apache.axis2.transport.tcp.TCPTransportSender} -  TCP Sender Shutdown 
+TID: [-1234] [CEP] [2014-11-24 14:06:32,961]  INFO {org.apache.axis2.transport.tcp.TCPTransportSender} -  TCP Sender Shutdown 
+TID: [-1234] [CEP] [2014-11-24 14:06:33,155]  INFO {org.wso2.carbon.tomcat.ext.internal.CarbonTomcatServiceComponent} -  Stopping the carbon web-app registered under : / 
+TID: [-1234] [CEP] [2014-11-24 14:06:34,215]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Shutdown complete 
+TID: [-1234] [CEP] [2014-11-24 14:06:34,216]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Halting JVM 

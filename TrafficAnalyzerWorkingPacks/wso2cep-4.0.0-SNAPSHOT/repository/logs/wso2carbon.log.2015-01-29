@@ -1,0 +1,758 @@
+TID: [-1234] [CEP] [2015-01-29 15:08:16,232]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Starting WSO2 Carbon... 
+TID: [-1234] [CEP] [2015-01-29 15:08:16,327]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Operating System : Linux 3.13.0-24-generic, amd64 
+TID: [-1234] [CEP] [2015-01-29 15:08:16,328]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Java Home        : /usr/local/java/jdk1.7.0_03/jre 
+TID: [-1234] [CEP] [2015-01-29 15:08:16,328]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Java Version     : 1.7.0_03 
+TID: [-1234] [CEP] [2015-01-29 15:08:16,328]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Java VM          : Java HotSpot(TM) 64-Bit Server VM 22.1-b02,Oracle Corporation 
+TID: [-1234] [CEP] [2015-01-29 15:08:16,328]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Carbon Home      : /home/cdathuraliya/TrafficAnalyzerBundle/wso2cep-4.0.0-SNAPSHOT 
+TID: [-1234] [CEP] [2015-01-29 15:08:16,328]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  Java Temp Dir    : /home/cdathuraliya/TrafficAnalyzerBundle/wso2cep-4.0.0-SNAPSHOT/tmp 
+TID: [-1234] [CEP] [2015-01-29 15:08:16,329]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} -  User             : cdathuraliya, en-US, Asia/Colombo 
+TID: [-1234] [CEP] [2015-01-29 15:08:16,778]  WARN {org.wso2.carbon.core.bootup.validator.util.ValidationResultPrinter} -  Carbon is configured to use the default keystore (wso2carbon.jks). To maximize security when deploying to a production environment, configure a new keystore with a unique password in the production server profile. 
+TID: [-1] [CEP] [2015-01-29 15:08:16,986]  INFO {org.wso2.carbon.databridge.agent.thrift.AgentHolder} -  Agent created ! 
+TID: [-1] [CEP] [2015-01-29 15:08:17,182]  INFO {org.wso2.carbon.databridge.agent.thrift.internal.AgentDS} -  Successfully deployed Agent Client 
+TID: [-1] [CEP] [2015-01-29 15:08:17,256]  INFO {org.wso2.carbon.event.input.adaptor.kafka.internal.ds.ConsumerKafkaServiceDS} -  Successfully deployed the KafkaConsumer input event adaptor service 
+TID: [-1] [CEP] [2015-01-29 15:08:17,390]  INFO {org.wso2.carbon.event.output.adaptor.kafka.internal.ds.KafkaOutputEventAdaptorServiceDS} -  Successfully deployed the Kafka output event adaptor service 
+TID: [-1234] [CEP] [2015-01-29 15:08:22,830]  INFO {org.wso2.carbon.identity.user.store.remote.internal.CarbonRemoteUserStoreDSComponent} -  Carbon Remote User Store activated successfully. 
+TID: [-1234] [CEP] [2015-01-29 15:08:23,024]  WARN {org.wso2.carbon.registry.core.config.RegistryConfigurationProcessor} -  Could not find the handler class org.wso2.jaggery.scxml.registry.handlers.JaggeryExecutorHandler. This handler will not be registered. All handler and filter classes should be in the class path of the Registry. 
+TID: [-1234] [CEP] [2015-01-29 15:08:23,209]  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} -  Configured Registry in 180ms 
+TID: [-1234] [CEP] [2015-01-29 15:08:23,420]  INFO {org.wso2.carbon.registry.core.internal.RegistryCoreServiceComponent} -  Registry Mode    : READ-WRITE 
+TID: [-1234] [CEP] [2015-01-29 15:08:27,118]  INFO {org.wso2.carbon.databridge.core.internal.DataBridgeDS} -  Successfully deployed Agent Server  
+TID: [-1234] [CEP] [2015-01-29 15:08:27,134]  INFO {org.wso2.carbon.event.stream.manager.core.internal.util.EventStreamConfigurationHelper} -  The stream-manager-config.xml can not found  
+TID: [-1234] [CEP] [2015-01-29 15:08:27,474]  INFO {org.wso2.carbon.event.processor.core.internal.ha.server.HAManagementServer} -  CEP HA Management Thrift Server started on 10.100.4.126:11224 
+TID: [-1234] [CEP] [2015-01-29 15:08:28,701]  INFO {org.wso2.carbon.user.core.internal.UserStoreMgtDSComponent} -  Carbon UserStoreMgtDSComponent activated successfully. 
+TID: [-1] [CEP] [2015-01-29 15:08:42,088]  INFO {org.apache.catalina.startup.TaglibUriRule} -  Jan 29, 2015 3:08:42 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://tiles.apache.org/tags-tiles is already defined
+ 
+TID: [-1234] [CEP] [2015-01-29 15:08:42,796]  INFO {org.apache.axis2.deployment.ClusterBuilder} -  Clustering has been disabled 
+TID: [-1234] [CEP] [2015-01-29 15:08:42,796]  INFO {org.apache.axis2.deployment.ClusterBuilder} -  Clustering has been disabled 
+TID: [-1234] [CEP] [2015-01-29 15:08:43,080]  INFO {org.wso2.carbon.identity.user.store.configuration.deployer.UserStoreConfigurationDeployer} -  User Store Configuration Deployer initiated. 
+TID: [-1234] [CEP] [2015-01-29 15:08:43,125]  INFO {org.apache.axis2.transport.tcp.TCPTransportSender} -  TCP Sender started 
+TID: [-1234] [CEP] [2015-01-29 15:08:43,125]  INFO {org.apache.axis2.transport.tcp.TCPTransportSender} -  TCP Sender started 
+TID: [-1234] [CEP] [2015-01-29 15:08:45,303]  INFO {org.apache.axis2.deployment.ModuleDeployer} -  Deploying module: addressing-1.6.1-wso2v11-20141003.221230-650 - file:/home/cdathuraliya/TrafficAnalyzerBundle/wso2cep-4.0.0-SNAPSHOT/repository/deployment/client/modules/addressing-1.6.1-wso2v11-20141003.221230-650.mar 
+TID: [-1234] [CEP] [2015-01-29 15:08:45,303]  INFO {org.apache.axis2.deployment.ModuleDeployer} -  Deploying module: addressing-1.6.1-wso2v11-20141003.221230-650 - file:/home/cdathuraliya/TrafficAnalyzerBundle/wso2cep-4.0.0-SNAPSHOT/repository/deployment/client/modules/addressing-1.6.1-wso2v11-20141003.221230-650.mar 
+TID: [-1234] [CEP] [2015-01-29 15:08:45,364]  INFO {org.apache.axis2.deployment.ModuleDeployer} -  Deploying module: rampart-1.6.1-wso2v11 - file:/home/cdathuraliya/TrafficAnalyzerBundle/wso2cep-4.0.0-SNAPSHOT/repository/deployment/client/modules/rampart-1.6.1-wso2v11.mar 
+TID: [-1234] [CEP] [2015-01-29 15:08:45,364]  INFO {org.apache.axis2.deployment.ModuleDeployer} -  Deploying module: rampart-1.6.1-wso2v11 - file:/home/cdathuraliya/TrafficAnalyzerBundle/wso2cep-4.0.0-SNAPSHOT/repository/deployment/client/modules/rampart-1.6.1-wso2v11.mar 
+TID: [-1234] [CEP] [2015-01-29 15:08:45,369]  INFO {org.apache.axis2.transport.mail.MailTransportSender} -  MAILTO Sender started 
+TID: [-1234] [CEP] [2015-01-29 15:08:45,369]  INFO {org.apache.axis2.transport.mail.MailTransportSender} -  MAILTO Sender started 
+TID: [-1234] [CEP] [2015-01-29 15:08:45,418]  INFO {org.apache.axis2.transport.tcp.TCPTransportSender} -  TCP Sender started 
+TID: [-1234] [CEP] [2015-01-29 15:08:45,418]  INFO {org.apache.axis2.transport.tcp.TCPTransportSender} -  TCP Sender started 
+TID: [-1234] [CEP] [2015-01-29 15:08:46,607]  INFO {org.wso2.carbon.core.deployment.DeploymentInterceptor} -  Deploying Axis2 service: EventSimulatorAdminService {super-tenant} 
+TID: [-1234] [CEP] [2015-01-29 15:08:46,607]  INFO {org.apache.axis2.deployment.DeploymentEngine} -  Deploying Web service: org.wso2.carbon.event.simulator.admin-2.0.0.SNAPSHOT -  
+TID: [-1234] [CEP] [2015-01-29 15:08:46,607]  INFO {org.apache.axis2.deployment.DeploymentEngine} -  Deploying Web service: org.wso2.carbon.event.simulator.admin-2.0.0.SNAPSHOT -  
+TID: [-1234] [CEP] [2015-01-29 15:08:48,224]  INFO {org.apache.axis2.deployment.DeploymentEngine} -  Deploying Web service: org.wso2.carbon.tryit-4.3.0.SNAPSHOT -  
+TID: [-1234] [CEP] [2015-01-29 15:08:48,224]  INFO {org.apache.axis2.deployment.DeploymentEngine} -  Deploying Web service: org.wso2.carbon.tryit-4.3.0.SNAPSHOT -  
+TID: [-1234] [CEP] [2015-01-29 15:08:48,885]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Repository       : /home/cdathuraliya/TrafficAnalyzerBundle/wso2cep-4.0.0-SNAPSHOT/repository/deployment/server/ 
+TID: [-1] [CEP] [2015-01-29 15:08:48,890]  INFO {org.wso2.carbon.event.input.adaptor.file.internal.ds.FileEventAdaptorServiceHolder} -  File input event adaptor waiting for dependent configurations to load 
+TID: [-1] [CEP] [2015-01-29 15:08:48,892]  INFO {org.wso2.carbon.event.input.adaptor.kafka.internal.ds.KafkaEventAdaptorServiceHolder} -  Kafka input event adaptor waiting for dependent configurations to load 
+TID: [-1234] [CEP] [2015-01-29 15:08:49,111]  INFO {org.wso2.carbon.core.internal.permission.update.PermissionUpdater} -  Permission cache updated for tenant -1234 
+TID: [-1234] [CEP] [2015-01-29 15:08:49,314]  INFO {org.wso2.carbon.databridge.receiver.thrift.ThriftDataReceiver} -  Thrift Server started at 10.100.4.126 
+TID: [-1234] [CEP] [2015-01-29 15:08:49,323]  INFO {org.wso2.carbon.databridge.receiver.thrift.ThriftDataReceiver} -  Thrift SSL port : 7711 
+TID: [-1234] [CEP] [2015-01-29 15:08:49,330]  INFO {org.wso2.carbon.databridge.receiver.thrift.ThriftDataReceiver} -  Thrift port : 7611 
+TID: [-1] [CEP] [2015-01-29 15:08:49,340]  INFO {org.wso2.carbon.event.input.adaptor.email.internal.ds.EmailEventAdaptorServiceDS} -  Email input event adaptor waiting for dependent configurations to load 
+TID: [-1] [CEP] [2015-01-29 15:08:49,370]  INFO {org.wso2.carbon.event.input.adaptor.jms.internal.ds.JMSEventAdaptorServiceHolder} -  JMS input event adaptor waiting for dependent configurations to load 
+TID: [-1] [CEP] [2015-01-29 15:08:49,398]  INFO {org.wso2.carbon.event.input.adaptor.mqtt.internal.ds.MQTTEventAdaptorServiceValueHolder} -  MQTT input event adaptor waiting for dependent configurations to load 
+TID: [-1234] [CEP] [2015-01-29 15:08:49,558]  INFO {org.wso2.carbon.identity.core.internal.IdentityCoreServiceComponent} -  Identity Database schema initialization check was skipped since 'setup' variable was not given during startup 
+TID: [-1234] [CEP] [2015-01-29 15:08:49,670]  INFO {org.wso2.carbon.core.transports.http.HttpsTransportListener} -  HTTPS port       : 9443 
+TID: [-1234] [CEP] [2015-01-29 15:08:49,670]  INFO {org.wso2.carbon.core.transports.http.HttpTransportListener} -  HTTP port        : 9763 
+TID: [-1234] [CEP] [2015-01-29 15:08:50,211]  INFO {org.wso2.carbon.event.stream.manager.core.internal.stream.EventJunction} -  Producer added to the junction. Stream:classifiedStream:1.0.0 
+TID: [-1234] [CEP] [2015-01-29 15:08:50,213]  INFO {org.wso2.carbon.event.stream.manager.core.internal.stream.EventJunction} -  Consumer added to the junction. Stream:preprocessedStream:1.0.0 
+TID: [-1234] [CEP] [2015-01-29 15:08:50,214]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} -  Execution plan is deployed successfully and in active state  : ClassifyingExecutionPlan 
+TID: [-1234] [CEP] [2015-01-29 15:08:50,262]  INFO {org.wso2.carbon.event.output.adaptor.manager.core.OutputEventAdaptorDeployer} -  Output Event Adaptor successfully deployed and in active state : DefaultLoggerOutputAdaptor 
+TID: [-1234] [CEP] [2015-01-29 15:08:50,287]  INFO {org.wso2.carbon.event.input.adaptor.manager.core.InputEventAdaptorDeployer} -  Input Event Adaptor deployed successfully and in active state : DefaultWSO2EventInputAdaptor 
+TID: [-1234] [CEP] [2015-01-29 15:08:50,305]  INFO {org.wso2.carbon.event.formatter.core.EventFormatterDeployer} -  Event Formatter deployment held back and in inactive state : EmailEventFormatter.xml, waiting for dependency : emailAdapter 
+TID: [-1234] [CEP] [2015-01-29 15:08:50,386]  INFO {org.wso2.carbon.event.stream.manager.core.internal.stream.EventJunction} -  Producer added to the junction. Stream:geocodeOutStream:1.0.0 
+TID: [-1234] [CEP] [2015-01-29 15:08:50,388]  INFO {org.wso2.carbon.event.stream.manager.core.internal.stream.EventJunction} -  Consumer added to the junction. Stream:transformedStream:1.0.0 
+TID: [-1234] [CEP] [2015-01-29 15:08:50,388]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} -  Execution plan is deployed successfully and in active state  : GeocodingExecutionPlan 
+TID: [-1234] [CEP] [2015-01-29 15:08:50,416]  INFO {org.wso2.carbon.event.builder.core.EventBuilderDeployer} -  Event builder deployment held back and in inactive state :InitialLoadEventBuilder, Waiting for Input Event Adaptor dependency :InitialLoadInputEventAdaptor 
+TID: [-1234] [CEP] [2015-01-29 15:08:50,423]  INFO {org.wso2.carbon.event.formatter.core.EventFormatterDeployer} -  Event Formatter deployment held back and in inactive state : InitialLoadEventFormatter.xml, waiting for dependency : InitialLoadOutputEventAdaptor 
+TID: [-1234] [CEP] [2015-01-29 15:08:50,430]  INFO {org.wso2.carbon.event.input.adaptor.manager.core.InputEventAdaptorDeployer} -  Input Event Adaptor deployed successfully and in active state : InitialLoadInputEventAdaptor 
+TID: [-1234] [CEP] [2015-01-29 15:08:50,433]  INFO {org.wso2.carbon.event.builder.core.EventBuilderDeployer} -  Event Builder undeployed successfully : InitialLoadEventBuilder.xml 
+TID: [-1234] [CEP] [2015-01-29 15:08:50,495]  INFO {org.wso2.carbon.event.stream.manager.core.internal.stream.EventJunction} -  Producer added to the junction. Stream:initialLoadEventStream:1.0.0 
+TID: [-1234] [CEP] [2015-01-29 15:08:50,496]  INFO {org.wso2.carbon.event.builder.core.EventBuilderDeployer} -  Event Builder deployed successfully and in active state : InitialLoadEventBuilder 
+TID: [-1234] [CEP] [2015-01-29 15:08:50,497]  INFO {org.wso2.carbon.event.output.adaptor.manager.core.OutputEventAdaptorDeployer} -  Output Event Adaptor successfully deployed and in active state : InitialLoadOutputEventAdaptor 
+TID: [-1234] [CEP] [2015-01-29 15:08:50,498]  INFO {org.wso2.carbon.event.formatter.core.EventFormatterDeployer} -  Event Formatter undeployed successfully : InitialLoadEventFormatter.xml 
+TID: [-1234] [CEP] [2015-01-29 15:08:50,529]  INFO {org.wso2.carbon.event.stream.manager.core.internal.stream.EventJunction} -  Consumer added to the junction. Stream:initialUiFeedStream:1.0.0 
+TID: [-1234] [CEP] [2015-01-29 15:08:50,530]  INFO {org.wso2.carbon.event.formatter.core.EventFormatterDeployer} -  Event Formatter configuration successfully deployed and in active state : InitialLoadEventFormatter 
+TID: [-1234] [CEP] [2015-01-29 15:08:50,618]  INFO {org.wso2.carbon.event.stream.manager.core.internal.stream.EventJunction} -  Producer added to the junction. Stream:initialUiFeedStream:1.0.0 
+TID: [-1234] [CEP] [2015-01-29 15:08:50,620]  INFO {org.wso2.carbon.event.stream.manager.core.internal.stream.EventJunction} -  Consumer added to the junction. Stream:uiFeedStream:1.0.0 
+TID: [-1234] [CEP] [2015-01-29 15:08:50,620]  INFO {org.wso2.carbon.event.stream.manager.core.internal.stream.EventJunction} -  Consumer added to the junction. Stream:initialLoadEventStream:1.0.0 
+TID: [-1234] [CEP] [2015-01-29 15:08:50,620]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} -  Execution plan is deployed successfully and in active state  : InitialLoadingExecutionPlan 
+TID: [-1234] [CEP] [2015-01-29 15:08:51,228]  INFO {org.wso2.carbon.event.stream.manager.core.internal.stream.EventJunction} -  Producer added to the junction. Stream:locationsStream:1.0.0 
+TID: [-1234] [CEP] [2015-01-29 15:08:51,228]  INFO {org.wso2.carbon.event.stream.manager.core.internal.stream.EventJunction} -  Consumer added to the junction. Stream:classifiedStream:1.0.0 
+TID: [-1234] [CEP] [2015-01-29 15:08:51,229]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} -  Execution plan is deployed successfully and in active state  : NERExecutionPlan 
+TID: [-1234] [CEP] [2015-01-29 15:08:51,322]  INFO {org.wso2.carbon.event.stream.manager.core.internal.stream.EventJunction} -  Producer added to the junction. Stream:preprocessedStream:1.0.0 
+TID: [-1234] [CEP] [2015-01-29 15:08:51,325]  INFO {org.wso2.carbon.event.stream.manager.core.internal.stream.EventJunction} -  Consumer added to the junction. Stream:twitter_input_stream:1.0.0 
+TID: [-1234] [CEP] [2015-01-29 15:08:51,325]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} -  Execution plan is deployed successfully and in active state  : PreprocessingExecutionPlan 
+TID: [-1234] [CEP] [2015-01-29 15:08:51,485]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/STRATOS_ROOT].File[/home/cdathuraliya/TrafficAnalyzerBundle/wso2cep-4.0.0-SNAPSHOT/repository/deployment/server/webapps/STRATOS_ROOT] 
+TID: [-1234] [CEP] [2015-01-29 15:08:51,498]  INFO {org.wso2.carbon.event.builder.core.EventBuilderDeployer} -  Event builder deployment held back and in inactive state :SearchEventBuilder, Waiting for Input Event Adaptor dependency :SearchInputEventAdaptor 
+TID: [-1234] [CEP] [2015-01-29 15:08:51,501]  INFO {org.wso2.carbon.event.formatter.core.EventFormatterDeployer} -  Event Formatter deployment held back and in inactive state : SearchEventFormatter.xml, waiting for dependency : SearchOutputEventAdapter 
+TID: [-1234] [CEP] [2015-01-29 15:08:51,513]  INFO {org.wso2.carbon.event.input.adaptor.manager.core.InputEventAdaptorDeployer} -  Input Event Adaptor deployed successfully and in active state : SearchInputEventAdaptor 
+TID: [-1234] [CEP] [2015-01-29 15:08:51,514]  INFO {org.wso2.carbon.event.builder.core.EventBuilderDeployer} -  Event Builder undeployed successfully : SearchEventBuilder.xml 
+TID: [-1234] [CEP] [2015-01-29 15:08:51,546]  INFO {org.wso2.carbon.event.stream.manager.core.internal.stream.EventJunction} -  Producer added to the junction. Stream:SearchEventStream:1.0.0 
+TID: [-1234] [CEP] [2015-01-29 15:08:51,547]  INFO {org.wso2.carbon.event.builder.core.EventBuilderDeployer} -  Event Builder deployed successfully and in active state : SearchEventBuilder 
+TID: [-1234] [CEP] [2015-01-29 15:08:51,548]  INFO {org.wso2.carbon.event.output.adaptor.manager.core.OutputEventAdaptorDeployer} -  Output Event Adaptor successfully deployed and in active state : SearchOutputEventAdapter 
+TID: [-1234] [CEP] [2015-01-29 15:08:51,548]  INFO {org.wso2.carbon.event.formatter.core.EventFormatterDeployer} -  Event Formatter undeployed successfully : SearchEventFormatter.xml 
+TID: [-1234] [CEP] [2015-01-29 15:08:51,560]  INFO {org.wso2.carbon.event.stream.manager.core.internal.stream.EventJunction} -  Consumer added to the junction. Stream:searchResult:1.0.0 
+TID: [-1234] [CEP] [2015-01-29 15:08:51,561]  INFO {org.wso2.carbon.event.formatter.core.EventFormatterDeployer} -  Event Formatter configuration successfully deployed and in active state : SearchEventFormatter 
+TID: [-1234] [CEP] [2015-01-29 15:08:51,644]  INFO {org.wso2.carbon.event.stream.manager.core.internal.stream.EventJunction} -  Producer added to the junction. Stream:searchResult:1.0.0 
+TID: [-1234] [CEP] [2015-01-29 15:08:51,645]  INFO {org.wso2.carbon.event.stream.manager.core.internal.stream.EventJunction} -  Consumer added to the junction. Stream:SearchEventStream:1.0.0 
+TID: [-1234] [CEP] [2015-01-29 15:08:51,645]  INFO {org.wso2.carbon.event.stream.manager.core.internal.stream.EventJunction} -  Consumer added to the junction. Stream:uiFeedStream:1.0.0 
+TID: [-1234] [CEP] [2015-01-29 15:08:51,645]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} -  Execution plan is deployed successfully and in active state  : SearchingExecutionPlan 
+TID: [-1234] [CEP] [2015-01-29 15:08:53,099]  INFO {org.wso2.carbon.event.stream.manager.core.internal.stream.EventJunction} -  Producer added to the junction. Stream:subscribeStream:1.0.0 
+TID: [-1234] [CEP] [2015-01-29 15:08:53,100]  INFO {org.wso2.carbon.event.stream.manager.core.internal.stream.EventJunction} -  Consumer added to the junction. Stream:uiFeedStream:1.0.0 
+TID: [-1234] [CEP] [2015-01-29 15:08:53,100]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} -  Execution plan is deployed successfully and in active state  : SubscribingExecutionPlan 
+TID: [-1234] [CEP] [2015-01-29 15:08:53,136]  INFO {org.wso2.carbon.event.output.adaptor.manager.core.OutputEventAdaptorDeployer} -  Output Event Adaptor successfully deployed and in active state : TestOutputAdapter 
+TID: [-1234] [CEP] [2015-01-29 15:08:54,957]  INFO {org.wso2.carbon.event.stream.manager.core.internal.stream.EventJunction} -  Producer added to the junction. Stream:feed:1.0.0 
+TID: [-1234] [CEP] [2015-01-29 15:08:54,958]  INFO {org.wso2.carbon.event.stream.manager.core.internal.stream.EventJunction} -  Consumer added to the junction. Stream:locationsStream:1.0.0 
+TID: [-1234] [CEP] [2015-01-29 15:08:54,958]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} -  Execution plan is deployed successfully and in active state  : TrafficlevelCategorizingExecutionPlan 
+TID: [-1234] [CEP] [2015-01-29 15:08:55,001]  INFO {org.wso2.carbon.event.stream.manager.core.internal.stream.EventJunction} -  Producer added to the junction. Stream:transformedStream:1.0.0 
+TID: [-1234] [CEP] [2015-01-29 15:08:55,002]  INFO {org.wso2.carbon.event.stream.manager.core.internal.stream.EventJunction} -  Consumer added to the junction. Stream:feed:1.0.0 
+TID: [-1234] [CEP] [2015-01-29 15:08:55,002]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} -  Execution plan is deployed successfully and in active state  : TransformingExecutionPlan 
+TID: [-1234] [CEP] [2015-01-29 15:08:55,014]  INFO {org.wso2.carbon.event.formatter.core.EventFormatterDeployer} -  Event Formatter deployment held back and in inactive state : UIEventFormatter.xml, waiting for dependency : UIOutputEventAdaptor 
+TID: [-1234] [CEP] [2015-01-29 15:08:55,016]  INFO {org.wso2.carbon.event.output.adaptor.manager.core.OutputEventAdaptorDeployer} -  Output Event Adaptor successfully deployed and in active state : UIOutputEventAdaptor 
+TID: [-1234] [CEP] [2015-01-29 15:08:55,016]  INFO {org.wso2.carbon.event.formatter.core.EventFormatterDeployer} -  Event Formatter undeployed successfully : UIEventFormatter.xml 
+TID: [-1234] [CEP] [2015-01-29 15:08:55,022]  INFO {org.wso2.carbon.event.stream.manager.core.internal.stream.EventJunction} -  Consumer added to the junction. Stream:uiFeedStream:1.0.0 
+TID: [-1234] [CEP] [2015-01-29 15:08:55,022]  INFO {org.wso2.carbon.event.formatter.core.EventFormatterDeployer} -  Event Formatter configuration successfully deployed and in active state : UIEventFormatter 
+TID: [-1234] [CEP] [2015-01-29 15:08:55,038]  INFO {org.wso2.carbon.event.stream.manager.core.internal.stream.EventJunction} -  Consumer added to the junction. Stream:classifiedStream:1.0.0 
+TID: [-1234] [CEP] [2015-01-29 15:08:55,038]  INFO {org.wso2.carbon.event.formatter.core.EventFormatterDeployer} -  Event Formatter configuration successfully deployed and in active state : classifiedTestFormatter 
+TID: [-1234] [CEP] [2015-01-29 15:08:55,047]  INFO {org.wso2.carbon.event.output.adaptor.manager.core.OutputEventAdaptorDeployer} -  Output Event Adaptor successfully deployed and in active state : emailAdapter 
+TID: [-1234] [CEP] [2015-01-29 15:08:55,047]  INFO {org.wso2.carbon.event.formatter.core.EventFormatterDeployer} -  Event Formatter undeployed successfully : EmailEventFormatter.xml 
+TID: [-1234] [CEP] [2015-01-29 15:08:55,054]  INFO {org.wso2.carbon.event.stream.manager.core.internal.stream.EventJunction} -  Consumer added to the junction. Stream:subscribeStream:1.0.0 
+TID: [-1234] [CEP] [2015-01-29 15:08:55,054]  INFO {org.wso2.carbon.event.formatter.core.EventFormatterDeployer} -  Event Formatter configuration successfully deployed and in active state : EmailEventFormatter 
+TID: [-1234] [CEP] [2015-01-29 15:08:55,068]  INFO {org.wso2.carbon.event.stream.manager.core.internal.stream.EventJunction} -  Consumer added to the junction. Stream:initialUiFeedStream:1.0.0 
+TID: [-1234] [CEP] [2015-01-29 15:08:55,068]  INFO {org.wso2.carbon.event.formatter.core.EventFormatterDeployer} -  Event Formatter configuration successfully deployed and in active state : initialLoadTestFormatter 
+TID: [-1234] [CEP] [2015-01-29 15:08:55,218]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/inputwebsocket].File[/home/cdathuraliya/TrafficAnalyzerBundle/wso2cep-4.0.0-SNAPSHOT/repository/deployment/server/webapps/inputwebsocket.war] 
+TID: [-1234] [CEP] [2015-01-29 15:08:55,282]  INFO {org.wso2.carbon.event.builder.core.EventBuilderDeployer} -  Event builder deployment held back and in inactive state :live_tweet_event_builder, Waiting for Input Event Adaptor dependency :twitter_input_adaptor 
+TID: [-1234] [CEP] [2015-01-29 15:08:55,326]  INFO {org.wso2.carbon.event.stream.manager.core.internal.stream.EventJunction} -  Consumer added to the junction. Stream:locationsStream:1.0.0 
+TID: [-1234] [CEP] [2015-01-29 15:08:55,326]  INFO {org.wso2.carbon.event.formatter.core.EventFormatterDeployer} -  Event Formatter configuration successfully deployed and in active state : locationsTestFormatter 
+TID: [-1234] [CEP] [2015-01-29 15:08:55,343]  INFO {org.wso2.carbon.event.builder.core.EventBuilderDeployer} -  Event builder deployment held back and in inactive state :off_tweet_event_builder, Waiting for Input Event Adaptor dependency :twitter_input_adaptor 
+TID: [-1234] [CEP] [2015-01-29 15:08:55,432]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/outputwebsocket].File[/home/cdathuraliya/TrafficAnalyzerBundle/wso2cep-4.0.0-SNAPSHOT/repository/deployment/server/webapps/outputwebsocket.war] 
+TID: [-1234] [CEP] [2015-01-29 15:08:55,450]  INFO {org.wso2.carbon.event.stream.manager.core.internal.stream.EventJunction} -  Consumer added to the junction. Stream:SearchEventStream:1.0.0 
+TID: [-1234] [CEP] [2015-01-29 15:08:55,450]  INFO {org.wso2.carbon.event.formatter.core.EventFormatterDeployer} -  Event Formatter configuration successfully deployed and in active state : searchInputTestFormatter 
+TID: [-1234] [CEP] [2015-01-29 15:08:55,458]  INFO {org.wso2.carbon.event.stream.manager.core.internal.stream.EventJunction} -  Consumer added to the junction. Stream:SearchEventStream:1.0.0 
+TID: [-1234] [CEP] [2015-01-29 15:08:55,458]  INFO {org.wso2.carbon.event.formatter.core.EventFormatterDeployer} -  Event Formatter configuration successfully deployed and in active state : searchInputWebsocketFormatter 
+TID: [-1234] [CEP] [2015-01-29 15:08:55,467]  INFO {org.wso2.carbon.event.stream.manager.core.internal.stream.EventJunction} -  Consumer added to the junction. Stream:searchResult:1.0.0 
+TID: [-1234] [CEP] [2015-01-29 15:08:55,468]  INFO {org.wso2.carbon.event.formatter.core.EventFormatterDeployer} -  Event Formatter configuration successfully deployed and in active state : searchTestFormatter 
+TID: [-1234] [CEP] [2015-01-29 15:09:01,207]  INFO {org.apache.shindig.gadgets.features.FeatureRegistry} -  Jan 29, 2015 3:09:01 PM org.apache.shindig.gadgets.features.FeatureRegistry register
+INFO: Resources from res:features/features.txt are loading.
+ 
+TID: [-1234] [CEP] [2015-01-29 15:09:01,242]  INFO {org.apache.shindig.common.xml.XmlUtil} -  Jan 29, 2015 3:09:01 PM org.apache.shindig.common.xml.XmlUtil static block
+INFO: The XML processor being used does not support secure parsing.
+ 
+TID: [-1234] [CEP] [2015-01-29 15:09:01,245]  INFO {org.apache.shindig.common.xml.XmlUtil} -  Jan 29, 2015 3:09:01 PM org.apache.shindig.common.xml.XmlUtil static block
+INFO: Document builders are being reused.
+ 
+TID: [-1234] [CEP] [2015-01-29 15:09:01,686]  INFO {org.apache.shindig.gadgets.features.FeatureRegistry} -  Jan 29, 2015 3:09:01 PM org.apache.shindig.gadgets.features.FeatureRegistry register
+INFO: Resources from res:features-extras/features.txt are loading.
+ 
+TID: [-1234] [CEP] [2015-01-29 15:09:12,445]  WARN {org.apache.shindig.gadgets.http.BasicHttpFetcher} -  Jan 29, 2015 3:09:12 PM org.apache.shindig.gadgets.http.BasicHttpFetcher slowResponseWarning
+WARNING: http://www.google.com/ig/lib/libanalytics.js is responding slowly. 10,242 ms elapsed.
+ 
+TID: [-1234] [CEP] [2015-01-29 15:09:13,269]  INFO {org.apache.shindig.config.JsonContainerConfigLoader} -  Jan 29, 2015 3:09:13 PM org.apache.shindig.config.JsonContainerConfigLoader loadContainers
+INFO: Resources from containers/default/container.js are loading.
+ 
+TID: [-1234] [CEP] [2015-01-29 15:09:13,270]  INFO {org.apache.shindig.config.JsonContainerConfigLoader} -  Jan 29, 2015 3:09:13 PM org.apache.shindig.config.JsonContainerConfigLoader loadResources
+INFO: Container configuration containers/default/container.js is being read.
+ 
+TID: [-1234] [CEP] [2015-01-29 15:09:13,361]  WARN {org.apache.shindig.auth.BasicSecurityTokenCodec} -  Jan 29, 2015 3:09:13 PM org.apache.shindig.auth.BasicSecurityTokenCodec containersChanged
+WARNING: Token TTL for container "default" was 0 and will be ignored.
+ 
+TID: [-1234] [CEP] [2015-01-29 15:09:13,362]  WARN {org.apache.shindig.auth.BasicSecurityTokenCodec} -  Jan 29, 2015 3:09:13 PM org.apache.shindig.auth.BasicSecurityTokenCodec containersChanged
+WARNING: Token TTL for container "accel" was 0 and will be ignored.
+ 
+TID: [-1234] [CEP] [2015-01-29 15:09:13,769]  INFO {org.apache.shindig.gadgets.oauth2.logger.FilteredLogger} -  Jan 29, 2015 3:09:13 PM org.apache.shindig.gadgets.oauth2.logger.FilteredLogger log
+INFO: Using random key for OAuth2 client-side state encryption
+ 
+TID: [-1234] [CEP] [2015-01-29 15:09:13,771]  INFO {org.apache.shindig.gadgets.oauth2.logger.FilteredLogger} -  Jan 29, 2015 3:09:13 PM org.apache.shindig.gadgets.oauth2.logger.FilteredLogger log
+INFO: OAuth2CrypterProvider constructor
+ 
+TID: [-1234] [CEP] [2015-01-29 15:09:13,789]  WARN {org.apache.shindig.gadgets.oauth.OAuthModule} -  Jan 29, 2015 3:09:13 PM org.apache.shindig.gadgets.oauth.OAuthModule loadDefaultKey
+WARNING: The OAuth signing key did not load correctly. To create a key: 
+ 1. Run the following command: 
+ openssl req -newkey rsa:1024 -days 365 -nodes -x509 -keyout testkey.pem \
+ -out testkey.pem -subj /CN=mytestkey
+ openssl pkcs8 -in testkey.pem -out oauthkey.pem -topk8 -nocrypt -outform PEM
+
+. 2. Edit the shindig.properties file by adding these lines: 
+shindig.signing.key-file =<path-to-oauthkey.pem>
+ shindig.signing.key-name =mykey
+.
+ 
+TID: [-1234] [CEP] [2015-01-29 15:09:13,793]  INFO {org.apache.shindig.gadgets.oauth.OAuthModule$OAuthCrypterProvider} -  Jan 29, 2015 3:09:13 PM org.apache.shindig.gadgets.oauth.OAuthModule$OAuthCrypterProvider <init>
+INFO: Using random key for OAuth client-side state encryption
+ 
+TID: [-1234] [CEP] [2015-01-29 15:09:13,794]  INFO {org.apache.shindig.gadgets.oauth.OAuthModule} -  Jan 29, 2015 3:09:13 PM org.apache.shindig.gadgets.oauth.OAuthModule OAuthCrypterProvider constructor
+INFO: A random key for OAuth client-side state encryption is being used.
+ 
+TID: [-1234] [CEP] [2015-01-29 15:09:14,046]  INFO {org.apache.shiro.config.IniSecurityManagerFactory} -  Realms have been explicitly set on the SecurityManager instance - auto-setting of realms will not occur. 
+TID: [-1234] [CEP] [2015-01-29 15:09:14,046]  INFO {org.apache.shiro.config.IniSecurityManagerFactory} -  Realms have been explicitly set on the SecurityManager instance - auto-setting of realms will not occur. 
+TID: [-1234] [CEP] [2015-01-29 15:09:14,048]  INFO {org.apache.shiro.realm.AuthorizingRealm} -  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained. 
+TID: [-1234] [CEP] [2015-01-29 15:09:14,048]  INFO {org.apache.shiro.realm.AuthorizingRealm} -  No cache or cacheManager properties have been set.  Authorization cache cannot be obtained. 
+TID: [-1234] [CEP] [2015-01-29 15:09:14,063]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} -  Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/shindig].File[/home/cdathuraliya/TrafficAnalyzerBundle/wso2cep-4.0.0-SNAPSHOT/repository/deployment/server/webapps/shindig] 
+TID: [-1234] [CEP] [2015-01-29 15:09:14,075]  INFO {org.wso2.carbon.event.stream.manager.core.internal.stream.EventJunction} -  Consumer added to the junction. Stream:transformedStream:1.0.0 
+TID: [-1234] [CEP] [2015-01-29 15:09:14,075]  INFO {org.wso2.carbon.event.formatter.core.EventFormatterDeployer} -  Event Formatter configuration successfully deployed and in active state : transformedTestFormatter 
+TID: [-1234] [CEP] [2015-01-29 15:09:14,092]  INFO {org.wso2.carbon.event.input.adaptor.manager.core.InputEventAdaptorDeployer} -  Input Event Adaptor deployment held back and in inactive state : twitter_input_adaptor, waiting for input event adaptor type dependency http 
+TID: [-1234] [CEP] [2015-01-29 15:09:14,133]  INFO {org.wso2.carbon.event.stream.manager.core.internal.stream.EventJunction} -  Producer added to the junction. Stream:uiFeedStream:1.0.0 
+TID: [-1234] [CEP] [2015-01-29 15:09:14,134]  INFO {org.wso2.carbon.event.stream.manager.core.internal.stream.EventJunction} -  Producer added to the junction. Stream:initialLoadEventStream:1.0.0 
+TID: [-1234] [CEP] [2015-01-29 15:09:14,134]  INFO {org.wso2.carbon.event.stream.manager.core.internal.stream.EventJunction} -  Consumer added to the junction. Stream:geocodeOutStream:1.0.0 
+TID: [-1234] [CEP] [2015-01-29 15:09:14,134]  INFO {org.wso2.carbon.event.processor.core.EventProcessorDeployer} -  Execution plan is deployed successfully and in active state  : uiFeedExecutionPlan 
+TID: [-1234] [CEP] [2015-01-29 15:09:14,144]  INFO {org.wso2.carbon.event.stream.manager.core.internal.stream.EventJunction} -  Consumer added to the junction. Stream:uiFeedStream:1.0.0 
+TID: [-1234] [CEP] [2015-01-29 15:09:14,144]  INFO {org.wso2.carbon.event.formatter.core.EventFormatterDeployer} -  Event Formatter configuration successfully deployed and in active state : uiTestFormatter 
+TID: [-1234] [CEP] [2015-01-29 15:09:14,163]  INFO {org.apache.tomcat.util.net.NioSelectorPool} -  Jan 29, 2015 3:09:14 PM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+ 
+TID: [-1234] [CEP] [2015-01-29 15:09:14,202]  INFO {org.apache.tomcat.util.net.NioSelectorPool} -  Jan 29, 2015 3:09:14 PM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+ 
+TID: [-1234] [CEP] [2015-01-29 15:09:14,270]  INFO {org.wso2.carbon.core.init.JMXServerManager} -  JMX Service URL  : service:jmx:rmi://localhost:11111/jndi/rmi://localhost:9999/jmxrmi 
+TID: [-1234] [CEP] [2015-01-29 15:09:14,271]  INFO {org.wso2.carbon.core.internal.StartupFinalizerServiceComponent} -  Server           :  WSO2 Complex Event Processor-4.0.0 
+TID: [-1234] [CEP] [2015-01-29 15:09:14,272]  INFO {org.wso2.carbon.core.internal.StartupFinalizerServiceComponent} -  WSO2 Carbon started in 70 sec 
+TID: [-1234] [CEP] [2015-01-29 15:09:17,189]  INFO {org.wso2.carbon.ui.internal.CarbonUIServiceComponent} -  Mgt Console URL  : https://10.100.4.126:9443/carbon/ 
+TID: [-1234] [CEP] [2015-01-29 15:09:17,221]  INFO {org.wso2.carbon.event.input.adaptor.manager.core.InputEventAdaptorDeployer} -  Input Event Adaptor undeployed successfully : twitter_input_adaptor.xml 
+TID: [-1234] [CEP] [2015-01-29 15:09:17,223]  INFO {org.wso2.carbon.event.input.adaptor.manager.core.InputEventAdaptorDeployer} -  Input Event Adaptor deployed successfully and in active state : twitter_input_adaptor 
+TID: [-1234] [CEP] [2015-01-29 15:09:17,223]  INFO {org.wso2.carbon.event.builder.core.EventBuilderDeployer} -  Event Builder undeployed successfully : live_tweet_event_builder.xml 
+TID: [-1234] [CEP] [2015-01-29 15:09:17,244]  INFO {org.wso2.carbon.event.stream.manager.core.internal.stream.EventJunction} -  Producer added to the junction. Stream:twitter_input_stream:1.0.0 
+TID: [-1234] [CEP] [2015-01-29 15:09:17,245]  INFO {org.wso2.carbon.event.builder.core.EventBuilderDeployer} -  Event Builder deployed successfully and in active state : live_tweet_event_builder 
+TID: [-1234] [CEP] [2015-01-29 15:09:17,245]  INFO {org.wso2.carbon.event.builder.core.EventBuilderDeployer} -  Event Builder undeployed successfully : off_tweet_event_builder.xml 
+TID: [-1234] [CEP] [2015-01-29 15:09:17,253]  INFO {org.wso2.carbon.event.stream.manager.core.internal.stream.EventJunction} -  Producer added to the junction. Stream:twitter_input_stream:1.0.0 
+TID: [-1234] [CEP] [2015-01-29 15:09:17,253]  INFO {org.wso2.carbon.event.builder.core.EventBuilderDeployer} -  Event Builder deployed successfully and in active state : off_tweet_event_builder 
+TID: [-1] [CEP] [2015-01-29 15:09:28,891]  INFO {org.wso2.carbon.event.input.adaptor.file.FileEventAdaptorType} -  File input event adaptor loading listeners  
+TID: [-1] [CEP] [2015-01-29 15:09:28,893]  INFO {org.wso2.carbon.event.input.adaptor.kafka.KafkaEventAdaptorType} -  Kafka input event adaptor loading listeners  
+TID: [-1] [CEP] [2015-01-29 15:09:29,346]  INFO {org.wso2.carbon.event.input.adaptor.email.EmailEventAdaptorType} -  Email input event adaptor loading listeners  
+TID: [-1] [CEP] [2015-01-29 15:09:29,379]  INFO {org.wso2.carbon.event.input.adaptor.jms.JMSEventAdaptorType} -  JMS input event adaptor loading listeners  
+TID: [-1] [CEP] [2015-01-29 15:09:29,399]  INFO {org.wso2.carbon.event.input.adaptor.mqtt.MQTTEventAdaptorType} -  MQTT input event adaptor loading listeners  
+TID: [-1] [CEP] [2015-01-29 15:12:18,945] ERROR {TopicSubscriptionEndpoint} -  Error occurred in session ID: 3, for request URI - /outputwebsocket/UIOutputEventAdaptor/feedwebsocket, java.util.concurrent.ExecutionException: java.io.IOException: Broken pipe 
+java.io.IOException: java.util.concurrent.ExecutionException: java.io.IOException: Broken pipe
+	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.startMessageBlock(WsRemoteEndpointImplBase.java:243)
+	at org.apache.tomcat.websocket.WsSession.sendCloseMessage(WsSession.java:483)
+	at org.apache.tomcat.websocket.WsSession.onClose(WsSession.java:440)
+	at org.apache.tomcat.websocket.WsFrameBase.processDataControl(WsFrameBase.java:324)
+	at org.apache.tomcat.websocket.WsFrameBase.processData(WsFrameBase.java:270)
+	at org.apache.tomcat.websocket.WsFrameBase.processInputBuffer(WsFrameBase.java:116)
+	at org.apache.tomcat.websocket.server.WsFrameServer.onDataAvailable(WsFrameServer.java:54)
+	at org.apache.tomcat.websocket.server.WsHttpUpgradeHandler$WsReadListener.onDataAvailable(WsHttpUpgradeHandler.java:194)
+	at org.apache.coyote.http11.upgrade.AbstractServletInputStream.onDataAvailable(AbstractServletInputStream.java:189)
+	at org.apache.coyote.http11.upgrade.AbstractProcessor.upgradeDispatch(AbstractProcessor.java:92)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:605)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1721)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: java.util.concurrent.ExecutionException: java.io.IOException: Broken pipe
+	at org.apache.tomcat.websocket.FutureToSendHandler.get(FutureToSendHandler.java:102)
+	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.startMessageBlock(WsRemoteEndpointImplBase.java:238)
+	... 15 more
+Caused by: java.io.IOException: Broken pipe
+	at sun.nio.ch.FileDispatcherImpl.write0(Native Method)
+	at sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:47)
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:89)
+	at sun.nio.ch.IOUtil.write(IOUtil.java:60)
+	at sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:450)
+	at org.apache.tomcat.util.net.NioChannel.write(NioChannel.java:123)
+	at org.apache.tomcat.util.net.NioSelectorPool.write(NioSelectorPool.java:185)
+	at org.apache.coyote.http11.upgrade.NioServletOutputStream.doWriteInternal(NioServletOutputStream.java:93)
+	at org.apache.coyote.http11.upgrade.NioServletOutputStream.doWrite(NioServletOutputStream.java:60)
+	at org.apache.coyote.http11.upgrade.AbstractServletOutputStream.writeInternal(AbstractServletOutputStream.java:125)
+	at org.apache.coyote.http11.upgrade.AbstractServletOutputStream.write(AbstractServletOutputStream.java:92)
+	at org.apache.tomcat.websocket.server.WsRemoteEndpointImplServer.onWritePossible(WsRemoteEndpointImplServer.java:94)
+	at org.apache.tomcat.websocket.server.WsRemoteEndpointImplServer.doWrite(WsRemoteEndpointImplServer.java:81)
+	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.writeMessagePart(WsRemoteEndpointImplBase.java:378)
+	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.startMessage(WsRemoteEndpointImplBase.java:279)
+	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.startMessageBlock(WsRemoteEndpointImplBase.java:233)
+	... 15 more
+TID: [-1] [CEP] [2015-01-29 15:12:18,951] ERROR {TenantDataReceiverEndpoint} -  Error occurred in session ID: 5, for request URI - /inputwebsocket/InitialLoadInputEventAdaptor/initialloadinputwebsocket, java.util.concurrent.ExecutionException: java.io.IOException: Broken pipe 
+java.io.IOException: java.util.concurrent.ExecutionException: java.io.IOException: Broken pipe
+	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.startMessageBlock(WsRemoteEndpointImplBase.java:243)
+	at org.apache.tomcat.websocket.WsSession.sendCloseMessage(WsSession.java:483)
+	at org.apache.tomcat.websocket.WsSession.onClose(WsSession.java:440)
+	at org.apache.tomcat.websocket.WsFrameBase.processDataControl(WsFrameBase.java:324)
+	at org.apache.tomcat.websocket.WsFrameBase.processData(WsFrameBase.java:270)
+	at org.apache.tomcat.websocket.WsFrameBase.processInputBuffer(WsFrameBase.java:116)
+	at org.apache.tomcat.websocket.server.WsFrameServer.onDataAvailable(WsFrameServer.java:54)
+	at org.apache.tomcat.websocket.server.WsHttpUpgradeHandler$WsReadListener.onDataAvailable(WsHttpUpgradeHandler.java:194)
+	at org.apache.coyote.http11.upgrade.AbstractServletInputStream.onDataAvailable(AbstractServletInputStream.java:189)
+	at org.apache.coyote.http11.upgrade.AbstractProcessor.upgradeDispatch(AbstractProcessor.java:92)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:605)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1721)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: java.util.concurrent.ExecutionException: java.io.IOException: Broken pipe
+	at org.apache.tomcat.websocket.FutureToSendHandler.get(FutureToSendHandler.java:102)
+	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.startMessageBlock(WsRemoteEndpointImplBase.java:238)
+	... 15 more
+Caused by: java.io.IOException: Broken pipe
+	at sun.nio.ch.FileDispatcherImpl.write0(Native Method)
+	at sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:47)
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:89)
+	at sun.nio.ch.IOUtil.write(IOUtil.java:60)
+	at sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:450)
+	at org.apache.tomcat.util.net.NioChannel.write(NioChannel.java:123)
+	at org.apache.tomcat.util.net.NioSelectorPool.write(NioSelectorPool.java:185)
+	at org.apache.coyote.http11.upgrade.NioServletOutputStream.doWriteInternal(NioServletOutputStream.java:93)
+	at org.apache.coyote.http11.upgrade.NioServletOutputStream.doWrite(NioServletOutputStream.java:60)
+	at org.apache.coyote.http11.upgrade.AbstractServletOutputStream.writeInternal(AbstractServletOutputStream.java:125)
+	at org.apache.coyote.http11.upgrade.AbstractServletOutputStream.write(AbstractServletOutputStream.java:92)
+	at org.apache.tomcat.websocket.server.WsRemoteEndpointImplServer.onWritePossible(WsRemoteEndpointImplServer.java:94)
+	at org.apache.tomcat.websocket.server.WsRemoteEndpointImplServer.doWrite(WsRemoteEndpointImplServer.java:81)
+	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.writeMessagePart(WsRemoteEndpointImplBase.java:378)
+	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.startMessage(WsRemoteEndpointImplBase.java:279)
+	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.startMessageBlock(WsRemoteEndpointImplBase.java:233)
+	... 15 more
+TID: [-1] [CEP] [2015-01-29 15:12:18,949] ERROR {TopicSubscriptionEndpoint} -  Error occurred in session ID: 4, for request URI - /outputwebsocket/InitialLoadOutputEventAdaptor/initialloadoutputwebsocket, java.util.concurrent.ExecutionException: java.io.IOException: Broken pipe 
+java.io.IOException: java.util.concurrent.ExecutionException: java.io.IOException: Broken pipe
+	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.startMessageBlock(WsRemoteEndpointImplBase.java:243)
+	at org.apache.tomcat.websocket.WsSession.sendCloseMessage(WsSession.java:483)
+	at org.apache.tomcat.websocket.WsSession.onClose(WsSession.java:440)
+	at org.apache.tomcat.websocket.WsFrameBase.processDataControl(WsFrameBase.java:324)
+	at org.apache.tomcat.websocket.WsFrameBase.processData(WsFrameBase.java:270)
+	at org.apache.tomcat.websocket.WsFrameBase.processInputBuffer(WsFrameBase.java:116)
+	at org.apache.tomcat.websocket.server.WsFrameServer.onDataAvailable(WsFrameServer.java:54)
+	at org.apache.tomcat.websocket.server.WsHttpUpgradeHandler$WsReadListener.onDataAvailable(WsHttpUpgradeHandler.java:194)
+	at org.apache.coyote.http11.upgrade.AbstractServletInputStream.onDataAvailable(AbstractServletInputStream.java:189)
+	at org.apache.coyote.http11.upgrade.AbstractProcessor.upgradeDispatch(AbstractProcessor.java:92)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:605)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1721)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: java.util.concurrent.ExecutionException: java.io.IOException: Broken pipe
+	at org.apache.tomcat.websocket.FutureToSendHandler.get(FutureToSendHandler.java:102)
+	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.startMessageBlock(WsRemoteEndpointImplBase.java:238)
+	... 15 more
+Caused by: java.io.IOException: Broken pipe
+	at sun.nio.ch.FileDispatcherImpl.write0(Native Method)
+	at sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:47)
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:89)
+	at sun.nio.ch.IOUtil.write(IOUtil.java:60)
+	at sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:450)
+	at org.apache.tomcat.util.net.NioChannel.write(NioChannel.java:123)
+	at org.apache.tomcat.util.net.NioSelectorPool.write(NioSelectorPool.java:185)
+	at org.apache.coyote.http11.upgrade.NioServletOutputStream.doWriteInternal(NioServletOutputStream.java:93)
+	at org.apache.coyote.http11.upgrade.NioServletOutputStream.doWrite(NioServletOutputStream.java:60)
+	at org.apache.coyote.http11.upgrade.AbstractServletOutputStream.writeInternal(AbstractServletOutputStream.java:125)
+	at org.apache.coyote.http11.upgrade.AbstractServletOutputStream.write(AbstractServletOutputStream.java:92)
+	at org.apache.tomcat.websocket.server.WsRemoteEndpointImplServer.onWritePossible(WsRemoteEndpointImplServer.java:94)
+	at org.apache.tomcat.websocket.server.WsRemoteEndpointImplServer.doWrite(WsRemoteEndpointImplServer.java:81)
+	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.writeMessagePart(WsRemoteEndpointImplBase.java:378)
+	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.startMessage(WsRemoteEndpointImplBase.java:279)
+	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.startMessageBlock(WsRemoteEndpointImplBase.java:233)
+	... 15 more
+TID: [-1] [CEP] [2015-01-29 15:16:57,483] ERROR {TopicSubscriptionEndpoint} -  Error occurred in session ID: 6, for request URI - /outputwebsocket/UIOutputEventAdaptor/feedwebsocket, java.util.concurrent.ExecutionException: java.io.IOException: Broken pipe 
+java.io.IOException: java.util.concurrent.ExecutionException: java.io.IOException: Broken pipe
+	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.startMessageBlock(WsRemoteEndpointImplBase.java:243)
+	at org.apache.tomcat.websocket.WsSession.sendCloseMessage(WsSession.java:483)
+	at org.apache.tomcat.websocket.WsSession.onClose(WsSession.java:440)
+	at org.apache.tomcat.websocket.WsFrameBase.processDataControl(WsFrameBase.java:324)
+	at org.apache.tomcat.websocket.WsFrameBase.processData(WsFrameBase.java:270)
+	at org.apache.tomcat.websocket.WsFrameBase.processInputBuffer(WsFrameBase.java:116)
+	at org.apache.tomcat.websocket.server.WsFrameServer.onDataAvailable(WsFrameServer.java:54)
+	at org.apache.tomcat.websocket.server.WsHttpUpgradeHandler$WsReadListener.onDataAvailable(WsHttpUpgradeHandler.java:194)
+	at org.apache.coyote.http11.upgrade.AbstractServletInputStream.onDataAvailable(AbstractServletInputStream.java:189)
+	at org.apache.coyote.http11.upgrade.AbstractProcessor.upgradeDispatch(AbstractProcessor.java:92)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:605)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1721)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: java.util.concurrent.ExecutionException: java.io.IOException: Broken pipe
+	at org.apache.tomcat.websocket.FutureToSendHandler.get(FutureToSendHandler.java:102)
+	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.startMessageBlock(WsRemoteEndpointImplBase.java:238)
+	... 15 more
+Caused by: java.io.IOException: Broken pipe
+	at sun.nio.ch.FileDispatcherImpl.write0(Native Method)
+	at sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:47)
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:89)
+	at sun.nio.ch.IOUtil.write(IOUtil.java:60)
+	at sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:450)
+	at org.apache.tomcat.util.net.NioChannel.write(NioChannel.java:123)
+	at org.apache.tomcat.util.net.NioSelectorPool.write(NioSelectorPool.java:185)
+	at org.apache.coyote.http11.upgrade.NioServletOutputStream.doWriteInternal(NioServletOutputStream.java:93)
+	at org.apache.coyote.http11.upgrade.NioServletOutputStream.doWrite(NioServletOutputStream.java:60)
+	at org.apache.coyote.http11.upgrade.AbstractServletOutputStream.writeInternal(AbstractServletOutputStream.java:125)
+	at org.apache.coyote.http11.upgrade.AbstractServletOutputStream.write(AbstractServletOutputStream.java:92)
+	at org.apache.tomcat.websocket.server.WsRemoteEndpointImplServer.onWritePossible(WsRemoteEndpointImplServer.java:94)
+	at org.apache.tomcat.websocket.server.WsRemoteEndpointImplServer.doWrite(WsRemoteEndpointImplServer.java:81)
+	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.writeMessagePart(WsRemoteEndpointImplBase.java:378)
+	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.startMessage(WsRemoteEndpointImplBase.java:279)
+	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.startMessageBlock(WsRemoteEndpointImplBase.java:233)
+	... 15 more
+TID: [-1] [CEP] [2015-01-29 15:16:57,485] ERROR {TenantDataReceiverEndpoint} -  Error occurred in session ID: 8, for request URI - /inputwebsocket/InitialLoadInputEventAdaptor/initialloadinputwebsocket, java.util.concurrent.ExecutionException: java.io.IOException: Broken pipe 
+java.io.IOException: java.util.concurrent.ExecutionException: java.io.IOException: Broken pipe
+	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.startMessageBlock(WsRemoteEndpointImplBase.java:243)
+	at org.apache.tomcat.websocket.WsSession.sendCloseMessage(WsSession.java:483)
+	at org.apache.tomcat.websocket.WsSession.onClose(WsSession.java:440)
+	at org.apache.tomcat.websocket.WsFrameBase.processDataControl(WsFrameBase.java:324)
+	at org.apache.tomcat.websocket.WsFrameBase.processData(WsFrameBase.java:270)
+	at org.apache.tomcat.websocket.WsFrameBase.processInputBuffer(WsFrameBase.java:116)
+	at org.apache.tomcat.websocket.server.WsFrameServer.onDataAvailable(WsFrameServer.java:54)
+	at org.apache.tomcat.websocket.server.WsHttpUpgradeHandler$WsReadListener.onDataAvailable(WsHttpUpgradeHandler.java:194)
+	at org.apache.coyote.http11.upgrade.AbstractServletInputStream.onDataAvailable(AbstractServletInputStream.java:189)
+	at org.apache.coyote.http11.upgrade.AbstractProcessor.upgradeDispatch(AbstractProcessor.java:92)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:605)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1721)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: java.util.concurrent.ExecutionException: java.io.IOException: Broken pipe
+	at org.apache.tomcat.websocket.FutureToSendHandler.get(FutureToSendHandler.java:102)
+	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.startMessageBlock(WsRemoteEndpointImplBase.java:238)
+	... 15 more
+Caused by: java.io.IOException: Broken pipe
+	at sun.nio.ch.FileDispatcherImpl.write0(Native Method)
+	at sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:47)
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:89)
+	at sun.nio.ch.IOUtil.write(IOUtil.java:60)
+	at sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:450)
+	at org.apache.tomcat.util.net.NioChannel.write(NioChannel.java:123)
+	at org.apache.tomcat.util.net.NioSelectorPool.write(NioSelectorPool.java:185)
+	at org.apache.coyote.http11.upgrade.NioServletOutputStream.doWriteInternal(NioServletOutputStream.java:93)
+	at org.apache.coyote.http11.upgrade.NioServletOutputStream.doWrite(NioServletOutputStream.java:60)
+	at org.apache.coyote.http11.upgrade.AbstractServletOutputStream.writeInternal(AbstractServletOutputStream.java:125)
+	at org.apache.coyote.http11.upgrade.AbstractServletOutputStream.write(AbstractServletOutputStream.java:92)
+	at org.apache.tomcat.websocket.server.WsRemoteEndpointImplServer.onWritePossible(WsRemoteEndpointImplServer.java:94)
+	at org.apache.tomcat.websocket.server.WsRemoteEndpointImplServer.doWrite(WsRemoteEndpointImplServer.java:81)
+	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.writeMessagePart(WsRemoteEndpointImplBase.java:378)
+	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.startMessage(WsRemoteEndpointImplBase.java:279)
+	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.startMessageBlock(WsRemoteEndpointImplBase.java:233)
+	... 15 more
+TID: [-1] [CEP] [2015-01-29 15:20:30,219] ERROR {org.wso2.carbon.event.output.adaptor.core.internal.CarbonOutputEventAdaptorService} -  There is no any data-source found called : TRAFFIC_ANALYZER_MYSQL_DB 
+org.wso2.carbon.event.output.adaptor.core.exception.OutputEventAdaptorEventProcessingException: There is no any data-source found called : TRAFFIC_ANALYZER_MYSQL_DB
+	at org.wso2.carbon.event.output.adaptor.mysql.MysqlEventAdaptorType.initializeDatabaseTableInfo(MysqlEventAdaptorType.java:270)
+	at org.wso2.carbon.event.output.adaptor.mysql.MysqlEventAdaptorType.publish(MysqlEventAdaptorType.java:154)
+	at org.wso2.carbon.event.output.adaptor.core.AbstractOutputEventAdaptor.publishCall(AbstractOutputEventAdaptor.java:124)
+	at org.wso2.carbon.event.output.adaptor.core.internal.CarbonOutputEventAdaptorService.publish(CarbonOutputEventAdaptorService.java:91)
+	at org.wso2.carbon.event.formatter.core.config.EventFormatter.sendEventData(EventFormatter.java:158)
+	at org.wso2.carbon.event.formatter.core.config.EventFormatter.consumeEventData(EventFormatter.java:208)
+	at org.wso2.carbon.event.stream.manager.core.internal.stream.EventJunction.sendEventData(EventJunction.java:170)
+	at org.wso2.carbon.event.builder.core.internal.EventBuilder.sendEvent(EventBuilder.java:256)
+	at org.wso2.carbon.event.builder.core.internal.EventBuilder.processMappedEvent(EventBuilder.java:213)
+	at org.wso2.carbon.event.builder.core.internal.EventBuilder$MappedEventListenerImpl.onEvent(EventBuilder.java:317)
+	at org.wso2.carbon.event.input.adaptor.core.InputEventAdaptorListener.onEventCall(InputEventAdaptorListener.java:99)
+	at org.wso2.carbon.event.input.adaptor.websocket.local.WebsocketLocalInputService.invokeListener(WebsocketLocalInputService.java:37)
+	at SuperTenantDataReceiverEndpoint.onMessage(SuperTenantDataReceiverEndpoint.java:49)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.apache.tomcat.websocket.pojo.PojoMessageHandlerWholeBase.onMessage(PojoMessageHandlerWholeBase.java:80)
+	at org.apache.tomcat.websocket.WsFrameBase.sendMessageText(WsFrameBase.java:375)
+	at org.apache.tomcat.websocket.WsFrameBase.processDataText(WsFrameBase.java:472)
+	at org.apache.tomcat.websocket.WsFrameBase.processData(WsFrameBase.java:275)
+	at org.apache.tomcat.websocket.WsFrameBase.processInputBuffer(WsFrameBase.java:116)
+	at org.apache.tomcat.websocket.server.WsFrameServer.onDataAvailable(WsFrameServer.java:54)
+	at org.apache.tomcat.websocket.server.WsHttpUpgradeHandler$WsReadListener.onDataAvailable(WsHttpUpgradeHandler.java:194)
+	at org.apache.coyote.http11.upgrade.AbstractServletInputStream.onDataAvailable(AbstractServletInputStream.java:189)
+	at org.apache.coyote.http11.upgrade.AbstractProcessor.upgradeDispatch(AbstractProcessor.java:92)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:605)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1721)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
+	at java.lang.Thread.run(Thread.java:722)
+TID: [-1] [CEP] [2015-01-29 15:20:30,236] ERROR {org.wso2.carbon.event.stream.manager.core.internal.stream.EventJunction} -  Error while dispatching events: There is no any data-source found called : TRAFFIC_ANALYZER_MYSQL_DB 
+org.wso2.carbon.event.output.adaptor.core.exception.OutputEventAdaptorEventProcessingException: There is no any data-source found called : TRAFFIC_ANALYZER_MYSQL_DB
+	at org.wso2.carbon.event.output.adaptor.core.internal.CarbonOutputEventAdaptorService.publish(CarbonOutputEventAdaptorService.java:94)
+	at org.wso2.carbon.event.formatter.core.config.EventFormatter.sendEventData(EventFormatter.java:158)
+	at org.wso2.carbon.event.formatter.core.config.EventFormatter.consumeEventData(EventFormatter.java:208)
+	at org.wso2.carbon.event.stream.manager.core.internal.stream.EventJunction.sendEventData(EventJunction.java:170)
+	at org.wso2.carbon.event.builder.core.internal.EventBuilder.sendEvent(EventBuilder.java:256)
+	at org.wso2.carbon.event.builder.core.internal.EventBuilder.processMappedEvent(EventBuilder.java:213)
+	at org.wso2.carbon.event.builder.core.internal.EventBuilder$MappedEventListenerImpl.onEvent(EventBuilder.java:317)
+	at org.wso2.carbon.event.input.adaptor.core.InputEventAdaptorListener.onEventCall(InputEventAdaptorListener.java:99)
+	at org.wso2.carbon.event.input.adaptor.websocket.local.WebsocketLocalInputService.invokeListener(WebsocketLocalInputService.java:37)
+	at SuperTenantDataReceiverEndpoint.onMessage(SuperTenantDataReceiverEndpoint.java:49)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.apache.tomcat.websocket.pojo.PojoMessageHandlerWholeBase.onMessage(PojoMessageHandlerWholeBase.java:80)
+	at org.apache.tomcat.websocket.WsFrameBase.sendMessageText(WsFrameBase.java:375)
+	at org.apache.tomcat.websocket.WsFrameBase.processDataText(WsFrameBase.java:472)
+	at org.apache.tomcat.websocket.WsFrameBase.processData(WsFrameBase.java:275)
+	at org.apache.tomcat.websocket.WsFrameBase.processInputBuffer(WsFrameBase.java:116)
+	at org.apache.tomcat.websocket.server.WsFrameServer.onDataAvailable(WsFrameServer.java:54)
+	at org.apache.tomcat.websocket.server.WsHttpUpgradeHandler$WsReadListener.onDataAvailable(WsHttpUpgradeHandler.java:194)
+	at org.apache.coyote.http11.upgrade.AbstractServletInputStream.onDataAvailable(AbstractServletInputStream.java:189)
+	at org.apache.coyote.http11.upgrade.AbstractProcessor.upgradeDispatch(AbstractProcessor.java:92)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:605)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1721)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: org.wso2.carbon.event.output.adaptor.core.exception.OutputEventAdaptorEventProcessingException: There is no any data-source found called : TRAFFIC_ANALYZER_MYSQL_DB
+	at org.wso2.carbon.event.output.adaptor.mysql.MysqlEventAdaptorType.initializeDatabaseTableInfo(MysqlEventAdaptorType.java:270)
+	at org.wso2.carbon.event.output.adaptor.mysql.MysqlEventAdaptorType.publish(MysqlEventAdaptorType.java:154)
+	at org.wso2.carbon.event.output.adaptor.core.AbstractOutputEventAdaptor.publishCall(AbstractOutputEventAdaptor.java:124)
+	at org.wso2.carbon.event.output.adaptor.core.internal.CarbonOutputEventAdaptorService.publish(CarbonOutputEventAdaptorService.java:91)
+	... 28 more
+TID: [-1] [CEP] [2015-01-29 15:26:45,121] ERROR {TenantDataReceiverEndpoint} -  Error occurred in session ID: b, for request URI - /inputwebsocket/InitialLoadInputEventAdaptor/initialloadinputwebsocket, java.util.concurrent.ExecutionException: java.io.IOException: Broken pipe 
+java.io.IOException: java.util.concurrent.ExecutionException: java.io.IOException: Broken pipe
+	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.startMessageBlock(WsRemoteEndpointImplBase.java:243)
+	at org.apache.tomcat.websocket.WsSession.sendCloseMessage(WsSession.java:483)
+	at org.apache.tomcat.websocket.WsSession.onClose(WsSession.java:440)
+	at org.apache.tomcat.websocket.WsFrameBase.processDataControl(WsFrameBase.java:324)
+	at org.apache.tomcat.websocket.WsFrameBase.processData(WsFrameBase.java:270)
+	at org.apache.tomcat.websocket.WsFrameBase.processInputBuffer(WsFrameBase.java:116)
+	at org.apache.tomcat.websocket.server.WsFrameServer.onDataAvailable(WsFrameServer.java:54)
+	at org.apache.tomcat.websocket.server.WsHttpUpgradeHandler$WsReadListener.onDataAvailable(WsHttpUpgradeHandler.java:194)
+	at org.apache.coyote.http11.upgrade.AbstractServletInputStream.onDataAvailable(AbstractServletInputStream.java:189)
+	at org.apache.coyote.http11.upgrade.AbstractProcessor.upgradeDispatch(AbstractProcessor.java:92)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:605)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1721)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: java.util.concurrent.ExecutionException: java.io.IOException: Broken pipe
+	at org.apache.tomcat.websocket.FutureToSendHandler.get(FutureToSendHandler.java:102)
+	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.startMessageBlock(WsRemoteEndpointImplBase.java:238)
+	... 15 more
+Caused by: java.io.IOException: Broken pipe
+	at sun.nio.ch.FileDispatcherImpl.write0(Native Method)
+	at sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:47)
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:89)
+	at sun.nio.ch.IOUtil.write(IOUtil.java:60)
+	at sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:450)
+	at org.apache.tomcat.util.net.NioChannel.write(NioChannel.java:123)
+	at org.apache.tomcat.util.net.NioSelectorPool.write(NioSelectorPool.java:185)
+	at org.apache.coyote.http11.upgrade.NioServletOutputStream.doWriteInternal(NioServletOutputStream.java:93)
+	at org.apache.coyote.http11.upgrade.NioServletOutputStream.doWrite(NioServletOutputStream.java:60)
+	at org.apache.coyote.http11.upgrade.AbstractServletOutputStream.writeInternal(AbstractServletOutputStream.java:125)
+	at org.apache.coyote.http11.upgrade.AbstractServletOutputStream.write(AbstractServletOutputStream.java:92)
+	at org.apache.tomcat.websocket.server.WsRemoteEndpointImplServer.onWritePossible(WsRemoteEndpointImplServer.java:94)
+	at org.apache.tomcat.websocket.server.WsRemoteEndpointImplServer.doWrite(WsRemoteEndpointImplServer.java:81)
+	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.writeMessagePart(WsRemoteEndpointImplBase.java:378)
+	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.startMessage(WsRemoteEndpointImplBase.java:279)
+	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.startMessageBlock(WsRemoteEndpointImplBase.java:233)
+	... 15 more
+TID: [-1] [CEP] [2015-01-29 15:26:45,121] ERROR {TopicSubscriptionEndpoint} -  Error occurred in session ID: 9, for request URI - /outputwebsocket/UIOutputEventAdaptor/feedwebsocket, java.util.concurrent.ExecutionException: java.io.IOException: Broken pipe 
+java.io.IOException: java.util.concurrent.ExecutionException: java.io.IOException: Broken pipe
+	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.startMessageBlock(WsRemoteEndpointImplBase.java:243)
+	at org.apache.tomcat.websocket.WsSession.sendCloseMessage(WsSession.java:483)
+	at org.apache.tomcat.websocket.WsSession.onClose(WsSession.java:440)
+	at org.apache.tomcat.websocket.WsFrameBase.processDataControl(WsFrameBase.java:324)
+	at org.apache.tomcat.websocket.WsFrameBase.processData(WsFrameBase.java:270)
+	at org.apache.tomcat.websocket.WsFrameBase.processInputBuffer(WsFrameBase.java:116)
+	at org.apache.tomcat.websocket.server.WsFrameServer.onDataAvailable(WsFrameServer.java:54)
+	at org.apache.tomcat.websocket.server.WsHttpUpgradeHandler$WsReadListener.onDataAvailable(WsHttpUpgradeHandler.java:194)
+	at org.apache.coyote.http11.upgrade.AbstractServletInputStream.onDataAvailable(AbstractServletInputStream.java:189)
+	at org.apache.coyote.http11.upgrade.AbstractProcessor.upgradeDispatch(AbstractProcessor.java:92)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:605)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1721)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: java.util.concurrent.ExecutionException: java.io.IOException: Broken pipe
+	at org.apache.tomcat.websocket.FutureToSendHandler.get(FutureToSendHandler.java:102)
+	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.startMessageBlock(WsRemoteEndpointImplBase.java:238)
+	... 15 more
+Caused by: java.io.IOException: Broken pipe
+	at sun.nio.ch.FileDispatcherImpl.write0(Native Method)
+	at sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:47)
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:89)
+	at sun.nio.ch.IOUtil.write(IOUtil.java:60)
+	at sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:450)
+	at org.apache.tomcat.util.net.NioChannel.write(NioChannel.java:123)
+	at org.apache.tomcat.util.net.NioSelectorPool.write(NioSelectorPool.java:185)
+	at org.apache.coyote.http11.upgrade.NioServletOutputStream.doWriteInternal(NioServletOutputStream.java:93)
+	at org.apache.coyote.http11.upgrade.NioServletOutputStream.doWrite(NioServletOutputStream.java:60)
+	at org.apache.coyote.http11.upgrade.AbstractServletOutputStream.writeInternal(AbstractServletOutputStream.java:125)
+	at org.apache.coyote.http11.upgrade.AbstractServletOutputStream.write(AbstractServletOutputStream.java:92)
+	at org.apache.tomcat.websocket.server.WsRemoteEndpointImplServer.onWritePossible(WsRemoteEndpointImplServer.java:94)
+	at org.apache.tomcat.websocket.server.WsRemoteEndpointImplServer.doWrite(WsRemoteEndpointImplServer.java:81)
+	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.writeMessagePart(WsRemoteEndpointImplBase.java:378)
+	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.startMessage(WsRemoteEndpointImplBase.java:279)
+	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.startMessageBlock(WsRemoteEndpointImplBase.java:233)
+	... 15 more
+TID: [-1] [CEP] [2015-01-29 15:26:45,121] ERROR {TopicSubscriptionEndpoint} -  Error occurred in session ID: a, for request URI - /outputwebsocket/InitialLoadOutputEventAdaptor/initialloadoutputwebsocket, java.util.concurrent.ExecutionException: java.io.IOException: Broken pipe 
+java.io.IOException: java.util.concurrent.ExecutionException: java.io.IOException: Broken pipe
+	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.startMessageBlock(WsRemoteEndpointImplBase.java:243)
+	at org.apache.tomcat.websocket.WsSession.sendCloseMessage(WsSession.java:483)
+	at org.apache.tomcat.websocket.WsSession.onClose(WsSession.java:440)
+	at org.apache.tomcat.websocket.WsFrameBase.processDataControl(WsFrameBase.java:324)
+	at org.apache.tomcat.websocket.WsFrameBase.processData(WsFrameBase.java:270)
+	at org.apache.tomcat.websocket.WsFrameBase.processInputBuffer(WsFrameBase.java:116)
+	at org.apache.tomcat.websocket.server.WsFrameServer.onDataAvailable(WsFrameServer.java:54)
+	at org.apache.tomcat.websocket.server.WsHttpUpgradeHandler$WsReadListener.onDataAvailable(WsHttpUpgradeHandler.java:194)
+	at org.apache.coyote.http11.upgrade.AbstractServletInputStream.onDataAvailable(AbstractServletInputStream.java:189)
+	at org.apache.coyote.http11.upgrade.AbstractProcessor.upgradeDispatch(AbstractProcessor.java:92)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:605)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1721)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: java.util.concurrent.ExecutionException: java.io.IOException: Broken pipe
+	at org.apache.tomcat.websocket.FutureToSendHandler.get(FutureToSendHandler.java:102)
+	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.startMessageBlock(WsRemoteEndpointImplBase.java:238)
+	... 15 more
+Caused by: java.io.IOException: Broken pipe
+	at sun.nio.ch.FileDispatcherImpl.write0(Native Method)
+	at sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:47)
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:89)
+	at sun.nio.ch.IOUtil.write(IOUtil.java:60)
+	at sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:450)
+	at org.apache.tomcat.util.net.NioChannel.write(NioChannel.java:123)
+	at org.apache.tomcat.util.net.NioSelectorPool.write(NioSelectorPool.java:185)
+	at org.apache.coyote.http11.upgrade.NioServletOutputStream.doWriteInternal(NioServletOutputStream.java:93)
+	at org.apache.coyote.http11.upgrade.NioServletOutputStream.doWrite(NioServletOutputStream.java:60)
+	at org.apache.coyote.http11.upgrade.AbstractServletOutputStream.writeInternal(AbstractServletOutputStream.java:125)
+	at org.apache.coyote.http11.upgrade.AbstractServletOutputStream.write(AbstractServletOutputStream.java:92)
+	at org.apache.tomcat.websocket.server.WsRemoteEndpointImplServer.onWritePossible(WsRemoteEndpointImplServer.java:94)
+	at org.apache.tomcat.websocket.server.WsRemoteEndpointImplServer.doWrite(WsRemoteEndpointImplServer.java:81)
+	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.writeMessagePart(WsRemoteEndpointImplBase.java:378)
+	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.startMessage(WsRemoteEndpointImplBase.java:279)
+	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.startMessageBlock(WsRemoteEndpointImplBase.java:233)
+	... 15 more
+TID: [-1] [CEP] [2015-01-29 16:03:25,763] ERROR {TopicSubscriptionEndpoint} -  Error occurred in session ID: 1b, for request URI - /outputwebsocket/InitialLoadOutputEventAdaptor/initialloadoutputwebsocket, java.util.concurrent.ExecutionException: java.io.IOException: Broken pipe 
+java.io.IOException: java.util.concurrent.ExecutionException: java.io.IOException: Broken pipe
+	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.startMessageBlock(WsRemoteEndpointImplBase.java:243)
+	at org.apache.tomcat.websocket.WsSession.sendCloseMessage(WsSession.java:483)
+	at org.apache.tomcat.websocket.WsSession.onClose(WsSession.java:440)
+	at org.apache.tomcat.websocket.WsFrameBase.processDataControl(WsFrameBase.java:324)
+	at org.apache.tomcat.websocket.WsFrameBase.processData(WsFrameBase.java:270)
+	at org.apache.tomcat.websocket.WsFrameBase.processInputBuffer(WsFrameBase.java:116)
+	at org.apache.tomcat.websocket.server.WsFrameServer.onDataAvailable(WsFrameServer.java:54)
+	at org.apache.tomcat.websocket.server.WsHttpUpgradeHandler$WsReadListener.onDataAvailable(WsHttpUpgradeHandler.java:194)
+	at org.apache.coyote.http11.upgrade.AbstractServletInputStream.onDataAvailable(AbstractServletInputStream.java:189)
+	at org.apache.coyote.http11.upgrade.AbstractProcessor.upgradeDispatch(AbstractProcessor.java:92)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:605)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1721)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: java.util.concurrent.ExecutionException: java.io.IOException: Broken pipe
+	at org.apache.tomcat.websocket.FutureToSendHandler.get(FutureToSendHandler.java:102)
+	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.startMessageBlock(WsRemoteEndpointImplBase.java:238)
+	... 15 more
+Caused by: java.io.IOException: Broken pipe
+	at sun.nio.ch.FileDispatcherImpl.write0(Native Method)
+	at sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:47)
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:89)
+	at sun.nio.ch.IOUtil.write(IOUtil.java:60)
+	at sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:450)
+	at org.apache.tomcat.util.net.NioChannel.write(NioChannel.java:123)
+	at org.apache.tomcat.util.net.NioSelectorPool.write(NioSelectorPool.java:185)
+	at org.apache.coyote.http11.upgrade.NioServletOutputStream.doWriteInternal(NioServletOutputStream.java:93)
+	at org.apache.coyote.http11.upgrade.NioServletOutputStream.doWrite(NioServletOutputStream.java:60)
+	at org.apache.coyote.http11.upgrade.AbstractServletOutputStream.writeInternal(AbstractServletOutputStream.java:125)
+	at org.apache.coyote.http11.upgrade.AbstractServletOutputStream.write(AbstractServletOutputStream.java:92)
+	at org.apache.tomcat.websocket.server.WsRemoteEndpointImplServer.onWritePossible(WsRemoteEndpointImplServer.java:94)
+	at org.apache.tomcat.websocket.server.WsRemoteEndpointImplServer.doWrite(WsRemoteEndpointImplServer.java:81)
+	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.writeMessagePart(WsRemoteEndpointImplBase.java:378)
+	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.startMessage(WsRemoteEndpointImplBase.java:279)
+	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.startMessageBlock(WsRemoteEndpointImplBase.java:233)
+	... 15 more
+TID: [-1] [CEP] [2015-01-29 16:03:25,768] ERROR {TenantDataReceiverEndpoint} -  Error occurred in session ID: 1c, for request URI - /inputwebsocket/InitialLoadInputEventAdaptor/initialloadinputwebsocket, java.util.concurrent.ExecutionException: java.io.IOException: Broken pipe 
+java.io.IOException: java.util.concurrent.ExecutionException: java.io.IOException: Broken pipe
+	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.startMessageBlock(WsRemoteEndpointImplBase.java:243)
+	at org.apache.tomcat.websocket.WsSession.sendCloseMessage(WsSession.java:483)
+	at org.apache.tomcat.websocket.WsSession.onClose(WsSession.java:440)
+	at org.apache.tomcat.websocket.WsFrameBase.processDataControl(WsFrameBase.java:324)
+	at org.apache.tomcat.websocket.WsFrameBase.processData(WsFrameBase.java:270)
+	at org.apache.tomcat.websocket.WsFrameBase.processInputBuffer(WsFrameBase.java:116)
+	at org.apache.tomcat.websocket.server.WsFrameServer.onDataAvailable(WsFrameServer.java:54)
+	at org.apache.tomcat.websocket.server.WsHttpUpgradeHandler$WsReadListener.onDataAvailable(WsHttpUpgradeHandler.java:194)
+	at org.apache.coyote.http11.upgrade.AbstractServletInputStream.onDataAvailable(AbstractServletInputStream.java:189)
+	at org.apache.coyote.http11.upgrade.AbstractProcessor.upgradeDispatch(AbstractProcessor.java:92)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:605)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1721)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: java.util.concurrent.ExecutionException: java.io.IOException: Broken pipe
+	at org.apache.tomcat.websocket.FutureToSendHandler.get(FutureToSendHandler.java:102)
+	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.startMessageBlock(WsRemoteEndpointImplBase.java:238)
+	... 15 more
+Caused by: java.io.IOException: Broken pipe
+	at sun.nio.ch.FileDispatcherImpl.write0(Native Method)
+	at sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:47)
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:89)
+	at sun.nio.ch.IOUtil.write(IOUtil.java:60)
+	at sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:450)
+	at org.apache.tomcat.util.net.NioChannel.write(NioChannel.java:123)
+	at org.apache.tomcat.util.net.NioSelectorPool.write(NioSelectorPool.java:185)
+	at org.apache.coyote.http11.upgrade.NioServletOutputStream.doWriteInternal(NioServletOutputStream.java:93)
+	at org.apache.coyote.http11.upgrade.NioServletOutputStream.doWrite(NioServletOutputStream.java:60)
+	at org.apache.coyote.http11.upgrade.AbstractServletOutputStream.writeInternal(AbstractServletOutputStream.java:125)
+	at org.apache.coyote.http11.upgrade.AbstractServletOutputStream.write(AbstractServletOutputStream.java:92)
+	at org.apache.tomcat.websocket.server.WsRemoteEndpointImplServer.onWritePossible(WsRemoteEndpointImplServer.java:94)
+	at org.apache.tomcat.websocket.server.WsRemoteEndpointImplServer.doWrite(WsRemoteEndpointImplServer.java:81)
+	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.writeMessagePart(WsRemoteEndpointImplBase.java:378)
+	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.startMessage(WsRemoteEndpointImplBase.java:279)
+	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.startMessageBlock(WsRemoteEndpointImplBase.java:233)
+	... 15 more
+TID: [-1234] [CEP] [2015-01-29 16:03:25,765] ERROR {TopicSubscriptionEndpoint} -  Error occurred in session ID: 1a, for request URI - /outputwebsocket/UIOutputEventAdaptor/feedwebsocket, java.util.concurrent.ExecutionException: java.io.IOException: Broken pipe 
+java.io.IOException: java.util.concurrent.ExecutionException: java.io.IOException: Broken pipe
+	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.startMessageBlock(WsRemoteEndpointImplBase.java:243)
+	at org.apache.tomcat.websocket.WsSession.sendCloseMessage(WsSession.java:483)
+	at org.apache.tomcat.websocket.WsSession.onClose(WsSession.java:440)
+	at org.apache.tomcat.websocket.WsFrameBase.processDataControl(WsFrameBase.java:324)
+	at org.apache.tomcat.websocket.WsFrameBase.processData(WsFrameBase.java:270)
+	at org.apache.tomcat.websocket.WsFrameBase.processInputBuffer(WsFrameBase.java:116)
+	at org.apache.tomcat.websocket.server.WsFrameServer.onDataAvailable(WsFrameServer.java:54)
+	at org.apache.tomcat.websocket.server.WsHttpUpgradeHandler$WsReadListener.onDataAvailable(WsHttpUpgradeHandler.java:194)
+	at org.apache.coyote.http11.upgrade.AbstractServletInputStream.onDataAvailable(AbstractServletInputStream.java:189)
+	at org.apache.coyote.http11.upgrade.AbstractProcessor.upgradeDispatch(AbstractProcessor.java:92)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:605)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1721)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1679)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: java.util.concurrent.ExecutionException: java.io.IOException: Broken pipe
+	at org.apache.tomcat.websocket.FutureToSendHandler.get(FutureToSendHandler.java:102)
+	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.startMessageBlock(WsRemoteEndpointImplBase.java:238)
+	... 15 more
+Caused by: java.io.IOException: Broken pipe
+	at sun.nio.ch.FileDispatcherImpl.write0(Native Method)
+	at sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:47)
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:89)
+	at sun.nio.ch.IOUtil.write(IOUtil.java:60)
+	at sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:450)
+	at org.apache.tomcat.util.net.NioChannel.write(NioChannel.java:123)
+	at org.apache.tomcat.util.net.NioSelectorPool.write(NioSelectorPool.java:185)
+	at org.apache.coyote.http11.upgrade.NioServletOutputStream.doWriteInternal(NioServletOutputStream.java:93)
+	at org.apache.coyote.http11.upgrade.NioServletOutputStream.doWrite(NioServletOutputStream.java:60)
+	at org.apache.coyote.http11.upgrade.AbstractServletOutputStream.writeInternal(AbstractServletOutputStream.java:125)
+	at org.apache.coyote.http11.upgrade.AbstractServletOutputStream.write(AbstractServletOutputStream.java:92)
+	at org.apache.tomcat.websocket.server.WsRemoteEndpointImplServer.onWritePossible(WsRemoteEndpointImplServer.java:94)
+	at org.apache.tomcat.websocket.server.WsRemoteEndpointImplServer.doWrite(WsRemoteEndpointImplServer.java:81)
+	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.writeMessagePart(WsRemoteEndpointImplBase.java:378)
+	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.startMessage(WsRemoteEndpointImplBase.java:279)
+	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.startMessageBlock(WsRemoteEndpointImplBase.java:233)
+	... 15 more
+TID: [-1234] [CEP] [2015-01-29 17:30:11,839]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Shutdown hook triggered.... 
+TID: [-1234] [CEP] [2015-01-29 17:30:12,003]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Gracefully shutting down WSO2 Complex Event Processor... 
+TID: [-1234] [CEP] [2015-01-29 17:30:12,248]  INFO {org.wso2.carbon.core.ServerManagement} -  Starting to switch to maintenance mode... 
+TID: [-1234] [CEP] [2015-01-29 17:30:12,248]  INFO {org.wso2.carbon.core.ServerManagement} -  Stopped all transport listeners 
+TID: [-1234] [CEP] [2015-01-29 17:30:12,248]  INFO {org.wso2.carbon.core.ServerManagement} -  Waiting for request service completion... 
+TID: [-1234] [CEP] [2015-01-29 17:30:12,371]  INFO {org.wso2.carbon.core.ServerManagement} -  All requests have been served. 
+TID: [-1234] [CEP] [2015-01-29 17:30:12,371]  INFO {org.wso2.carbon.core.ServerManagement} -  Waiting for deployment completion... 
+TID: [-1234] [CEP] [2015-01-29 17:30:14,645]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} -  Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/shindig] 
+TID: [-1234] [CEP] [2015-01-29 17:30:14,662]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} -  Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/STRATOS_ROOT] 
+TID: [-1234] [CEP] [2015-01-29 17:30:14,736]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} -  Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/outputwebsocket] 
+TID: [-1234] [CEP] [2015-01-29 17:30:14,773]  INFO {org.wso2.carbon.webapp.mgt.WebApplication} -  Unloaded webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/inputwebsocket] 
+TID: [-1234] [CEP] [2015-01-29 17:30:14,774]  INFO {org.wso2.carbon.core.ServerManagement} -  All deployment tasks have been completed. 
+TID: [-1234] [CEP] [2015-01-29 17:30:14,784]  INFO {org.wso2.carbon.core.ServerManagement} -  Waiting for server task completion... 
+TID: [-1234] [CEP] [2015-01-29 17:30:14,784]  INFO {org.wso2.carbon.core.ServerManagement} -  All server tasks have been completed. 
+TID: [-1234] [CEP] [2015-01-29 17:30:14,785]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Shutting down WSO2 Complex Event Processor... 
+TID: [-1234] [CEP] [2015-01-29 17:30:14,785]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Shutting down OSGi framework... 
+TID: [-1234] [CEP] [2015-01-29 17:30:14,900]  INFO {org.wso2.carbon.databridge.receiver.thrift.internal.ThriftDataReceiverDS} -  Thrift server shutting down... 
+TID: [-1234] [CEP] [2015-01-29 17:30:14,948]  INFO {org.apache.cassandra.service.CassandraDaemon} -  Cassandra shutting down... 
+TID: [-1234] [CEP] [2015-01-29 17:30:14,948]  INFO {org.apache.cassandra.service.CassandraDaemon} -  Cassandra shutting down... 
+TID: [-1234] [CEP] [2015-01-29 17:30:17,082]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Stopping CarbonServerManager... 
+TID: [-1234] [CEP] [2015-01-29 17:30:17,104]  INFO {org.apache.axis2.transport.tcp.TCPTransportSender} -  TCP Sender Shutdown 
+TID: [-1234] [CEP] [2015-01-29 17:30:17,104]  INFO {org.apache.axis2.transport.tcp.TCPTransportSender} -  TCP Sender Shutdown 
+TID: [-1234] [CEP] [2015-01-29 17:30:17,415]  INFO {org.wso2.carbon.tomcat.ext.internal.CarbonTomcatServiceComponent} -  Stopping the carbon web-app registered under : / 
+TID: [-1234] [CEP] [2015-01-29 17:30:19,310]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Shutdown complete 
+TID: [-1234] [CEP] [2015-01-29 17:30:19,310]  INFO {org.wso2.carbon.core.init.CarbonServerManager} -  Halting JVM 

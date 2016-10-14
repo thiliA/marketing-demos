@@ -1,0 +1,11 @@
+<inboundEndpoint xmlns="http://ws.apache.org/ns/synapse" name="twitter_listener_ep" sequence="nlp_toolbox_seq"
+                 protocol="twitter"
+                 interval="1000" suspend="false">
+    <parameters>
+        <parameter name="connection.twitter.consumerkey">OLxKYv2XxfAwUCW4nui2xy6V9</parameter>
+        <parameter name="connection.twitter.consumersecret">jpJ1z84ix20vV97EcT3Q5KVrrn4PMEr8SXhJCBqGl8i7OPG4g0</parameter>
+        <parameter name="connection.twitter.accesstoken">2857575000-CdhvMvTsuErPlgu8U454cbCrsZhJDO1sULxym4c</parameter>
+        <parameter name="connection.twitter.accesssecret">HZTf71KfO0jI2pKOwE3FS9JOooD6SaBhpMurOl0IBZmDR</parameter>	
+        <parameter name="twitter.filter.tag">@TrafficAnalyse</parameter>	
+    </parameters>
+</inboundEndpoint>

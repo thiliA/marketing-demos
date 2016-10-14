@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eventFormatter name="UIEventFormatter" statistics="disable"
+  trace="disable" xmlns="http://wso2.org/carbon/eventformatter">
+  <from streamName="uiFeedStream" version="1.0.0"/>
+  <mapping customMapping="enable" type="json">
+    <inline>{"latitude": {{latitude}},"longitude": {{longitude}},"trafficlevel": {{level}},"location": "{{formattedAddress}}","time": "{{time}}"}</inline>
+  </mapping>
+  <to eventAdaptorName="UIOutputEventAdaptor" eventAdaptorType="websocket-local">
+    <property name="websocket.topic">feedwebsocket</property>
+  </to>
+</eventFormatter>

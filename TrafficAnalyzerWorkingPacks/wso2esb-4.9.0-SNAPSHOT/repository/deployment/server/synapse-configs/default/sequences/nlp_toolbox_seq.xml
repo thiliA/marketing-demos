@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence xmlns="http://ws.apache.org/ns/synapse" name="nlp_toolbox_seq">
+   <property name="OUT_ONLY" value="true" scope="default" type="BOOLEAN"/>
+   <property name="messageType"
+             value="application/xml"
+             scope="axis2"
+             type="STRING"/>
+   <log/>
+   <send receive="send_end">
+      <endpoint>
+         <http method="post"
+               uri-template="http://127.0.0.1:9763/endpoints/twitter_input_adaptor/live_tweet"/>
+      </endpoint>
+   </send>
+</sequence>

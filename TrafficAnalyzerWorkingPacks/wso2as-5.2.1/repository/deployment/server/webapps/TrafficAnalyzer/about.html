@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<!-- This UI is used only for demonstration purposes. Will be replaced by WSO2 CEP Geo-dashboard. -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<title>About | Traffic Analyzer</title>
+<style>
+html,body {
+	height: 100%;
+	margin: 0px;
+	padding: 0px
+}
+
+.labels {
+	color: red;
+	background-color: white;
+	font-family: "Lucida Grande", "Arial", sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	text-align: center;
+	width: 40px;
+	border: 2px solid black;
+	white-space: nowrap;
+}
+</style>
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet"
+	href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+</head>
+
+<body>
+	<nav class="navbar navbar-inverse navbar-static-top">
+		<div class="container">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="index.html">Traffic Analyzer</a>
+			</div>
+			<div>
+				<ul class="nav navbar-nav">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="search.html">Search Traffic</a></li>
+					<li><a href="subscribe.jsp">Subscribe</a></li>
+					<li class="active"><a href="about.html">About</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4">
+				<h2>Traffic Analyzer</h2>
+				<p class="text-justify">This project is concerned in extracting
+					useful information from a public Twitter feed using WSO2 CEP
+					(Complex Event Processor) and several other natural language
+					processing tools. Twitter feed is narrowed down to a particular
+					account, @road_lk which is popular for posting free crowd sourced
+					traffic alerts. Currently available @road_lk feed is used to train
+					NLP models which are utilized for entity recognition. In real time
+					scenario, users can view/search for road traffic from a web UI and
+					also can subscribe for a location to receive traffic alerts
+					regularly. As an overview, WSO2 ESB (Enterprise Service Bus)
+					receives the real-time Twitter feed via streaming API and it is
+					forwarded to WSO2 CEP to generate traffic information available in
+					feed alerts. Custom Siddhi extensions and queries process these
+					streams to generate traffic information according to user request
+					and publish them back to web UI or to alerts.</p>
+			</div>
+			<div class="col-md-8">
+				<img src="./resources/architecture.png" alt="..."
+					class="img-thumbnail">
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>

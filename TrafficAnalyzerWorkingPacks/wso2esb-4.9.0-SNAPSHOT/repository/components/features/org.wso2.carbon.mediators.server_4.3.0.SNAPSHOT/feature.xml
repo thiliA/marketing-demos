@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<feature id="org.wso2.carbon.mediators.server" label="WSO2 Carbon - All Mediators Server Feature" provider-name="%providerName" version="4.3.0.SNAPSHOT">
+  <description>This feature contains the bundles required for All mediator Back-ends</description>
+  <copyright>%copyright</copyright>
+  <license url="%licenseURL">%license</license>
+  <plugin id="org.wso2.carbon.mediator.fastXSLT" unpack="false" version="4.3.0.SNAPSHOT"/>
+  <plugin id="org.wso2.carbon.mediator.event" unpack="false" version="4.3.0.SNAPSHOT"/>
+  <plugin id="org.wso2.carbon.mediator.router.impl" unpack="false" version="4.3.0.SNAPSHOT"/>
+  <plugin id="org.wso2.carbon.mediator.command.services" unpack="false" version="4.3.0.SNAPSHOT"/>
+  <plugin id="org.wso2.carbon.mediator.clazz.services" unpack="false" version="4.3.0.SNAPSHOT"/>
+  <require>
+    <import match="equivalent" plugin="bsf-all" version="3.0.0.wso2v2"/>
+    <import match="equivalent" plugin="org.wso2.carbon.ec2-client" version="4.2.0"/>
+  </require>
+</feature>

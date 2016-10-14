@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<executionPlan name="uiFeedExecutionPlan" statistics="disable"
+  trace="disable" xmlns="http://wso2.org/carbon/eventprocessor">
+  <description/>
+  <siddhiConfiguration>
+    <property name="siddhi.persistence.snapshot.time.interval.minutes">0</property>
+    <property name="siddhi.enable.distributed.processing">false</property>
+  </siddhiConfiguration>
+  <importedStreams>
+    <stream as="geocodeOutStream" name="geocodeOutStream" version="1.0.0"/>
+  </importedStreams>
+  <queryExpressions><![CDATA[from geocodeOutStream[not (formattedAddress contains 'N/A')]
+select latitude,longitude,level,formattedAddress,time
+insert into uiFeedStream;
+
+from uiFeedStream
+select 0 as condition
+insert into initialLoadEventStream]]></queryExpressions>
+  <exportedStreams>
+    <stream name="uiFeedStream" valueOf="uiFeedStream" version="1.0.0"/>
+    <stream name="initialLoadEventStream"
+      valueOf="initialLoadEventStream" version="1.0.0"/>
+  </exportedStreams>
+</executionPlan>

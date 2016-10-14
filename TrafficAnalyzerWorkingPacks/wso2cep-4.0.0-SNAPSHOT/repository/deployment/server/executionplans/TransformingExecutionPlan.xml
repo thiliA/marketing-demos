@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<executionPlan name="TransformingExecutionPlan" statistics="disable"
+  trace="disable" xmlns="http://wso2.org/carbon/eventprocessor">
+  <description>This execution plan converts location into geocordinates</description>
+  <siddhiConfiguration>
+    <property name="siddhi.persistence.snapshot.time.interval.minutes">0</property>
+    <property name="siddhi.enable.distributed.processing">false</property>
+  </siddhiConfiguration>
+  <importedStreams>
+    <stream as="feed" name="feed" version="1.0.0"/>
+  </importedStreams>
+  <queryExpressions><![CDATA[from feed [not (location1 contains 'N/A')] 
+select location1 as locationName,level,time
+insert into transformedStream;
+
+from feed [not (location2 contains 'N/A')] 
+select location2 as locationName,level,time
+insert into transformedStream;
+
+from feed [not (location3 contains 'N/A')] 
+select location3 as locationName,level,time
+insert into transformedStream;
+
+from feed [not (location4 contains 'N/A')] 
+select location4 as locationName,level,time
+insert into transformedStream;]]></queryExpressions>
+  <exportedStreams>
+    <stream name="transformedStream" valueOf="transformedStream" version="1.0.0"/>
+  </exportedStreams>
+</executionPlan>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eventBuilder name="off_tweet_event_builder" statistics="disable"
+    trace="disable" xmlns="http://wso2.org/carbon/eventbuilder">
+    <from eventAdaptorName="twitter_input_adaptor" eventAdaptorType="http">
+        <property name="topic">off_tweet</property>
+    </from>
+    <mapping customMapping="enable" type="xml">
+        <xpathDefinition namespace="http://sample.tweet" prefix="tw"/>
+        <property>
+            <from xpath="//tw:tweet/tw:text"/>
+            <to name="text" type="string"/>
+        </property>
+        <property>
+            <from xpath="//tw:tweet/tw:createdAt"/>
+            <to name="createdAt" type="string"/>
+        </property>
+        <property>
+            <from xpath="//tw:tweet/tw:country"/>
+            <to name="country" type="string"/>
+        </property>
+        <property>
+            <from xpath="//tw:tweet/tw:countryCode"/>
+            <to name="countryCode" type="string"/>
+        </property>
+        <property>
+            <from xpath="//tw:tweet/tw:location"/>
+            <to name="location" type="string"/>
+        </property>
+        <property>
+            <from xpath="//tw:tweet/tw:hashTags"/>
+            <to name="hashTags" type="string"/>
+        </property>
+        <property>
+            <from xpath="//tw:tweet/tw:latitude"/>
+            <to name="latitude" type="string"/>
+        </property>
+        <property>
+            <from xpath="//tw:tweet/tw:longitude"/>
+            <to name="longitude" type="string"/>
+        </property>
+    </mapping>
+    <to streamName="twitter_input_stream" version="1.0.0"/>
+</eventBuilder>
